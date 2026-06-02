@@ -24,7 +24,6 @@
             --azul-inst: #19567C;
             --color-barrido: #1E5E3A; /* Color verde institucional para Barrido */
             --color-covelia: #10B981; /* Color verde de respaldo para Covelia Barrido */
-            --color-recoleccion: #15803D; /* Color verde esmeralda profundo para Covelia Recolección */
             --color-hidricas: #0D9488; /* Color verde esmeralda profundo hídrico para Asuntos Hídricos */
         }
 
@@ -145,49 +144,6 @@
                     </div>
                 </div>
 
-                <!-- SECCIÓN: COVELIA RECOLECCIÓN (Inicia desmarcado) -->
-                <div class="bg-[var(--color-recoleccion)]/10 p-3 rounded-lg border border-[var(--color-recoleccion)]/30">
-                    <h4 class="text-xs font-extrabold text-[var(--color-recoleccion)] uppercase mb-3 flex items-center gap-2">
-                        <i class="fa-solid fa-truck text-sm"></i> Covelia Recolección
-                    </h4>
-                    <div class="space-y-3">
-                        <label class="flex items-center gap-3 cursor-pointer">
-                            <input type="checkbox" id="cb-recoleccion" class="w-4 h-4 accent-[var(--color-recoleccion)]">
-                            <span class="text-sm text-[#0F172A] font-bold">Rutas Recoleccion Covelia</span>
-                        </label>
-
-                        <!-- SUB-CAPA: RECORRIDOS (Inicia desmarcado) -->
-                        <div class="pt-3 border-t border-[var(--color-recoleccion)]/20 mt-3 space-y-3">
-                            <label class="flex items-center gap-3 cursor-pointer">
-                                <input type="checkbox" id="cb-recorridos" class="w-4 h-4 accent-[var(--color-recoleccion)]">
-                                <span class="text-sm text-[#0F172A] font-bold">Recorridos Covelia</span>
-                            </label>
-                            <div class="flex flex-col gap-1 pl-7">
-                                <label class="text-xs font-semibold text-gray-600">Filtrar por Fecha:</label>
-                                <select id="filtro-recorridos-fecha" class="w-full text-xs p-1.5 border border-gray-300 rounded focus:outline-none focus:border-[var(--color-recoleccion)] font-semibold text-[#0F172A] cursor-pointer">
-                                    <option value="TODAS">TODAS LAS FECHAS</option>
-                                    <!-- Se llena dinámicamente -->
-                                </select>
-                            </div>
-                            <div class="flex flex-col gap-1 pl-7 mb-1">
-                                <label class="text-xs font-semibold text-gray-600">Filtrar por Dominio:</label>
-                                <select id="filtro-recorridos-dominio" class="w-full text-xs p-1.5 border border-gray-300 rounded focus:outline-none focus:border-[var(--color-recoleccion)] font-semibold text-[#0F172A] cursor-pointer">
-                                    <option value="TODOS">TODOS LOS DOMINIOS</option>
-                                    <!-- Se llena dinámicamente -->
-                                </select>
-                            </div>
-                            <!-- FILTRO RECORRIDOS: Ruta Covelia Replicado -->
-                            <div class="flex flex-col gap-1 pl-7">
-                                <label class="text-xs font-semibold text-gray-600">Filtrar por Ruta:</label>
-                                <select id="filtro-recorridos-ruta" class="w-full text-xs p-1.5 border border-gray-300 rounded focus:outline-none focus:border-[var(--color-recoleccion)] font-semibold text-[#0F172A] cursor-pointer">
-                                    <option value="TODAS">TODAS LAS RUTAS</option>
-                                    <!-- Se llena dinámicamente -->
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- SECCIÓN: ASUNTOS HÍDRICOS (Inicia desmarcado) -->
                 <div class="bg-[var(--color-hidricas)]/10 p-3 rounded-lg border border-[var(--color-hidricas)]/30">
                     <h4 class="text-xs font-extrabold text-[var(--color-hidricas)] uppercase mb-3 flex items-center gap-2">
@@ -248,8 +204,8 @@
                     <h4 class="text-xs font-extrabold text-amber-700 uppercase mb-2 flex items-center gap-2">
                         <i data-lucide="upload-cloud" class="h-4 w-4"></i> Cargar GeoJSON Local
                     </h4>
-                    <p class="text-[10px] text-gray-600 mb-2">Para ver el mapa offline o local sin servidor CORS, selecciona tus archivos manualmente (.geojson, .json, .gz):</p>
-                    <input type="file" id="input-geojson-local" accept=".geojson, .json, .gz" class="w-full text-xs text-[#0F172A] file:mr-2 file:py-1 file:px-2 file:rounded file:border-0 file:text-xs file:font-semibold file:bg-amber-600 file:text-white hover:file:bg-amber-700 cursor-pointer" multiple>
+                    <p class="text-[10px] text-gray-600 mb-2">Para ver el mapa offline o local sin servidor CORS, selecciona tus archivos manualmente (.geojson, .json):</p>
+                    <input type="file" id="input-geojson-local" accept=".geojson, .json" class="w-full text-xs text-[#0F172A] file:mr-2 file:py-1 file:px-2 file:rounded file:border-0 file:text-xs file:font-semibold file:bg-amber-600 file:text-white hover:file:bg-amber-700 cursor-pointer" multiple>
                 </div>
 
             </div>
@@ -270,22 +226,14 @@
         let cortesLayer;
         let barridoLayer;
         let coveliaLayer;
-        let recoleccionLayer;
-        let recorridosLayer; 
         let hidricasLayer; // Capa para Asuntos Hídricos
         let limiteElements = []; 
         const cgmMap = new Map(); // Mapa de CGM normalizado -> Nombre original para evitar duplicados en el select
         let barridoGeoJsonData = null; // Almacenamiento global para los datos de barrido y filtrado dinámico
-        let recoleccionGeoJsonData = null; // Almacenamiento global para recolección
         let hidricasGeoJsonData = null; // Almacenamiento global para Asuntos Hídricos
 
-        // --- SISTEMA DIAGNÓSTICO SILENCIOSO ---
-        function updateStatus(id, state, extraInfo = '') {
-            // Silenciado por solicitud
-        }
-
         // --- CARGADOR DE ARCHIVOS MULTI-RUTA / CASE-INSENSITIVE FALLBACKS ---
-        async function loadLayerData(paths, processor, statusId) {
+        async function loadLayerData(paths, processor) {
             const noCache = '?v=' + new Date().getTime();
             let success = false;
             let lastError = null;
@@ -358,38 +306,6 @@
             return "";
         }
 
-        // --- FUNCIÓN DE BÚSQUEDA DE PROPIEDAD TURNO INSENSIBLE A MAYÚSCULAS ---
-        function getFeatureTurnoProperty(feature) {
-            if (!feature) return "";
-            let turno = feature.getProperty('TURNO');
-            if (turno !== undefined && turno !== null) return String(turno).trim();
-            turno = feature.getProperty('turno');
-            if (turno !== undefined && turno !== null) return String(turno).trim();
-            turno = feature.getProperty('Turno');
-            if (turno !== undefined && turno !== null) return String(turno).trim();
-            return "";
-        }
-
-        // --- FUNCIÓN DE BÚSQUEDA DE PROPIEDAD RUTA INSENSIBLE A MAYÚSCULAS ---
-        function getFeatureRutaProperty(feature) {
-            if (!feature) return "";
-            let ruta = feature.getProperty('Ruta');
-            if (ruta !== undefined && ruta !== null) return String(ruta).trim();
-            ruta = feature.getProperty('ruta');
-            if (ruta !== undefined && ruta !== null) return String(ruta).trim();
-            ruta = feature.getProperty('RUTA');
-            if (ruta !== undefined && ruta !== null) return String(ruta).trim();
-            return "";
-        }
-
-        function getGeoJsonFeatureRuta(f) {
-            if (!f || !f.properties) return "";
-            if (f.properties.Ruta) return String(f.properties.Ruta).trim();
-            if (f.properties.ruta) return String(f.properties.ruta).trim();
-            if (f.properties.RUTA) return String(f.properties.RUTA).trim();
-            return "";
-        }
-
         // --- REGISTRAR CGM DE FORMA ÚNICA ---
         function registerCgm(cgmName) {
             if (!cgmName) return;
@@ -438,7 +354,7 @@
                 }
             }
 
-            // Caso 3: Formato extendido de zona horaria (ej: "Sat Feb 21 2026...")
+            // Caso 3: Formato extendido de zona horaria
             const parts = dateStr.split(/\s+/);
             if (parts.length >= 4) {
                 const yearIndex = parts.findIndex(p => /^\d{4}$/.test(p));
@@ -668,7 +584,7 @@
             }
         }
 
-        // --- LIMPIEZA DE GEOJSON DAÑADO Y RECONSTRUCCIÓN DEFENSIVA ---
+        // --- LIMPIEZA DE GEOJSON DAÑADO Y RECONSTRUCCIÓN DEFENSIVA (Optimizado para Líneas Hídricas) ---
         function sanitizeGeoJson(geoJson) {
             if (!geoJson || !geoJson.features) return geoJson;
             
@@ -688,35 +604,36 @@
                             const clean = coords.filter(c => Array.isArray(c) && c.length >= 2 && c[0] !== null && c[1] !== null && !isNaN(c[0]) && !isNaN(c[1]));
                             if (clean.length >= 2) {
                                 feature.geometry.coordinates = clean;
-                            } else if (clean.length === 1) {
-                                feature.geometry.type = 'Point';
-                                feature.geometry.coordinates = clean[0];
                             } else {
                                 feature.geometry = null;
                             }
                         } else {
                             feature.geometry = null;
                         }
-                    } else if (type === 'Polygon' || type === 'MultiLineString') {
+                    } else if (type === 'Polygon') {
                         if (Array.isArray(coords)) {
                             const cleanRings = coords.map(ring => {
                                 if (!Array.isArray(ring)) return [];
                                 return ring.filter(c => Array.isArray(c) && c.length >= 2 && c[0] !== null && c[1] !== null && !isNaN(c[0]) && !isNaN(c[1]));
-                            }).filter(ring => ring.length > 0);
+                            }).filter(ring => ring.length >= 3);
                             
                             if (cleanRings.length > 0) {
-                                const mainRing = cleanRings[0];
-                                if (mainRing.length >= 3 && type === 'Polygon') {
-                                    feature.geometry.coordinates = cleanRings;
-                                } else if (mainRing.length >= 2) {
-                                    feature.geometry.type = 'LineString';
-                                    feature.geometry.coordinates = mainRing;
-                                } else if (mainRing.length === 1) {
-                                    feature.geometry.type = 'Point';
-                                    feature.geometry.coordinates = mainRing[0];
-                                } else {
-                                    feature.geometry = null;
-                                }
+                                feature.geometry.coordinates = cleanRings;
+                            } else {
+                                feature.geometry = null;
+                            }
+                        } else {
+                            feature.geometry = null;
+                        }
+                    } else if (type === 'MultiLineString') {
+                        if (Array.isArray(coords)) {
+                            const cleanLines = coords.map(line => {
+                                if (!Array.isArray(line)) return [];
+                                return line.filter(c => Array.isArray(c) && c.length >= 2 && c[0] !== null && c[1] !== null && !isNaN(c[0]) && !isNaN(c[1]));
+                            }).filter(line => line.length >= 2);
+                            
+                            if (cleanLines.length > 0) {
+                                feature.geometry.coordinates = cleanLines;
                             } else {
                                 feature.geometry = null;
                             }
@@ -730,7 +647,7 @@
                                 return poly.map(ring => {
                                     if (!Array.isArray(ring)) return [];
                                     return ring.filter(c => Array.isArray(c) && c.length >= 2 && c[0] !== null && c[1] !== null && !isNaN(c[0]) && !isNaN(c[1]));
-                                }).filter(ring => ring.length > 0);
+                                }).filter(ring => ring.length >= 3);
                             }).filter(poly => poly.length > 0);
                             
                             if (cleanPolys.length > 0) {
@@ -814,8 +731,6 @@
                 updateBarrenderoDropdown(); 
                 updateBarridoStyles();
                 updateCoveliaStyles();
-                updateRecoleccionStyles();
-                updateRecorridosStyles();
                 updateHidricasStyles();
             });
 
@@ -828,28 +743,6 @@
             selectBarrendero.addEventListener('change', () => {
                 updateBarridoStyles();
             });
-
-            // Listeners para los filtros de Recorridos (Fecha, Dominio y Ruta)
-            const selectRecorridosFecha = document.getElementById('filtro-recorridos-fecha');
-            if (selectRecorridosFecha) {
-                selectRecorridosFecha.addEventListener('change', () => {
-                    updateRecorridosStyles();
-                });
-            }
-
-            const selectDominio = document.getElementById('filtro-recorridos-dominio');
-            if (selectDominio) {
-                selectDominio.addEventListener('change', () => {
-                    updateRecorridosStyles();
-                });
-            }
-
-            const selectRecorridosRuta = document.getElementById('filtro-recorridos-ruta');
-            if (selectRecorridosRuta) {
-                selectRecorridosRuta.addEventListener('change', () => {
-                    updateRecorridosStyles();
-                });
-            }
 
             // Listeners para los filtros de Asuntos Hídricos (Solucionados)
             const selectHidricasTipo = document.getElementById('filtro-hidricas-tipo');
@@ -1015,7 +908,6 @@
 
 
             // 5. Cargar Rutas Barrido Covelia (Zonificacion Barrido Covelia.geojson) (Inicia deseleccionado)
-            // Se restaura sin selectores dinámicos propios en el panel lateral, obedeciendo la corrección del usuario
             coveliaLayer = new google.maps.Data();
             const procesarCovelia = (geoJson) => {
                 const featuresToRemove = [];
@@ -1046,201 +938,7 @@
             coveliaLayer.setMap(document.getElementById('cb-covelia').checked ? map : null);
 
 
-            // 6. Cargar Covelia Recoleccion GeoJSON (Inicia deseleccionado)
-            recoleccionLayer = new google.maps.Data();
-            const procesarRecoleccion = (geoJson) => {
-                const featuresToRemove = [];
-                recoleccionLayer.forEach(feat => featuresToRemove.push(feat));
-                featuresToRemove.forEach(feat => recoleccionLayer.remove(feat));
-
-                const sanitized = sanitizeGeoJson(geoJson);
-                recoleccionLayer.addGeoJson(sanitized);
-
-                recoleccionGeoJsonData = geoJson;
-
-                geoJson.features.forEach(f => {
-                    const cgmValue = getGeoJsonFeatureCgm(f);
-                    if (cgmValue) {
-                        registerCgm(cgmValue);
-                    }
-                });
-
-                updateCgmDropdown();
-                updateRecoleccionStyles();
-            };
-            loadLayerData([
-                './Zonas%20Covelia%20Recoleccion.geojson',
-                './zonas%20covelia%20recoleccion.geojson',
-                './Zonas_Covelia_Recoleccion.geojson'
-            ], procesarRecoleccion, 'status-recoleccion');
-
-            // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
-            recoleccionLayer.setMap(document.getElementById('cb-recoleccion').checked ? map : null);
-
-
-            // 7. Cargar Recorridos Mensuales GeoJSON (Soporta covelia_mensual_polylines.geojson.gz)
-            // Se le asigna el dropdown dinámico "Filtrar por Ruta" extraído y replicado de la lógica de index.html
-            recorridosLayer = new google.maps.Data();
-            const procesarRecorridos = (geoJson) => {
-                const featuresToRemove = [];
-                recorridosLayer.forEach(feat => featuresToRemove.push(feat));
-                featuresToRemove.forEach(feat => recorridosLayer.remove(feat));
-
-                const sanitized = sanitizeGeoJson(geoJson);
-                recorridosLayer.addGeoJson(sanitized);
-
-                const fechasSet = new Set();
-                const dominiosSet = new Set();
-                const rutasSet = new Set();
-
-                geoJson.features.forEach(f => {
-                    if (f.properties) {
-                        if (f.properties.Fecha) {
-                            fechasSet.add(formatDateToShow(f.properties.Fecha));
-                        }
-                        if (f.properties.Dominio) {
-                            dominiosSet.add(f.properties.Dominio.trim());
-                        }
-                        // Escaneo dinámico y defensivo de propiedades de ruta
-                        const rVal = getGeoJsonFeatureRuta(f);
-                        if (rVal) {
-                            rutasSet.add(rVal);
-                        }
-                    }
-                });
-
-                // Llenar selector de Fecha para Recorridos
-                const selectFecha = document.getElementById('filtro-recorridos-fecha');
-                if (selectFecha) {
-                    const selectedVal = selectFecha.value;
-                    selectFecha.innerHTML = '<option value="TODAS">TODAS LAS FECHAS</option>';
-                    const sortedFechas = Array.from(fechasSet).sort((a, b) => {
-                        const d1 = parseDateCustom(a);
-                        const d2 = parseDateCustom(b);
-                        if (!d1) return 1;
-                        if (!d2) return -1;
-                        return d1 - d2;
-                    });
-                    sortedFechas.forEach(fecha => {
-                        const opt = document.createElement('option');
-                        opt.value = fecha;
-                        opt.textContent = fecha;
-                        selectFecha.appendChild(opt);
-                    });
-                    if (fechasSet.has(selectedVal)) {
-                        selectFecha.value = selectedVal;
-                    } else {
-                        selectFecha.value = "TODAS";
-                    }
-                }
-
-                // Llenar selector de Dominio para Recorridos
-                const selectDominio = document.getElementById('filtro-recorridos-dominio');
-                if (selectDominio) {
-                    const selectedVal = selectDominio.value;
-                    selectDominio.innerHTML = '<option value="TODOS">TODOS LOS DOMINIOS</option>';
-                    const sortedDominios = Array.from(dominiosSet).sort();
-                    sortedDominios.forEach(dom => {
-                        const opt = document.createElement('option');
-                        opt.value = dom;
-                        opt.textContent = dom;
-                        selectDominio.appendChild(opt); 
-                    });
-                    if (dominiosSet.has(selectedVal)) {
-                        selectDominio.value = selectedVal;
-                    } else {
-                        selectDominio.value = "TODOS";
-                    }
-                }
-
-                // Llenar selector de Rutas para Recorridos de forma dinámica (Proceso replicado de index.html)
-                const selectRuta = document.getElementById('filtro-recorridos-ruta');
-                if (selectRuta) {
-                    const selectedVal = selectRuta.value;
-                    selectRuta.innerHTML = '<option value="TODAS">TODAS LAS RUTAS</option>';
-                    const sortedRutas = Array.from(rutasSet).sort((a, b) => {
-                        return a.localeCompare(b, undefined, {numeric: true, sensitivity: 'base'});
-                    });
-                    sortedRutas.forEach(ruta => {
-                        const opt = document.createElement('option');
-                        opt.value = ruta;
-                        opt.textContent = `Ruta ${ruta}`;
-                        selectRuta.appendChild(opt);
-                    });
-                    if (rutasSet.has(selectedVal)) {
-                        selectRuta.value = selectedVal;
-                    } else {
-                        selectRuta.value = "TODAS";
-                    }
-                }
-
-                updateRecorridosStyles();
-            };
-
-            // Intentar cargar primero el archivo comprimido .gz utilizando la librería pako con autodetección
-            async function loadRecorridosData() {
-                const paths = [
-                    { path: './covelia_mensual_polylines.geojson.gz', isGz: true },
-                    { path: './covelia_mensual_polylines.geojson', isGz: false }
-                ];
-                let success = false;
-                let lastError = null;
-
-                for (let item of paths) {
-                    try {
-                        const res = await fetch(item.path + noCache);
-                        if (!res.ok) {
-                            lastError = `HTTP ${res.status}`;
-                            continue;
-                        }
-
-                        if (item.isGz) {
-                            const buffer = await res.arrayBuffer();
-                            const decoder = new TextDecoder('utf-8');
-                            let geoJson = null;
-                            try {
-                                const text = decoder.decode(buffer);
-                                if (text.trim().startsWith('{')) {
-                                    geoJson = JSON.parse(text);
-                                }
-                            } catch (e) {
-                                // Es un binario GZIP real
-                            }
-
-                            if (!geoJson) {
-                                if (typeof pako !== 'undefined') {
-                                    const decompressed = pako.ungzip(new Uint8Array(buffer), { to: 'string' });
-                                    geoJson = JSON.parse(decompressed);
-                                } else {
-                                    throw new Error("Librería Pako ausente");
-                                }
-                            }
-                            procesarRecorridos(geoJson);
-                            success = true;
-                            break;
-                        } else {
-                            const geoJson = await res.json();
-                            procesarRecorridos(geoJson);
-                            success = true;
-                            break;
-                        }
-                    } catch (err) {
-                        lastError = err.message;
-                    }
-                }
-
-                if (!success) {
-                    console.error("Fallo total al cargar recorridos:", lastError);
-                    document.getElementById('seccion-local-uploader').classList.remove('hidden');
-                }
-            }
-            loadRecorridosData();
-
-            // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
-            recorridosLayer.setMap(document.getElementById('cb-recorridos').checked ? map : null);
-
-
-            // 8. Cargar Asuntos Hídricos GeoJSON (Inicia deseleccionado)
+            // 6. Cargar Asuntos Hídricos GeoJSON (Inicia deseleccionado)
             hidricasLayer = new google.maps.Data();
             const procesarHidricas = (geoJson) => {
                 const featuresToRemove = [];
@@ -1360,8 +1058,6 @@
                 const isCgm = name.includes("cgm") || geoJson.features.some(f => f.geometry && (f.geometry.type === 'Polygon' || f.geometry.type === 'MultiPolygon') && !f.properties.Fecha_str && !f.properties.BARRENDERO && !f.properties.Ruta && !f.properties.RUTA && !f.properties.Dominio);
                 const isBarrido = name.includes("barrendero") || name.includes("barrido.geojson") || geoJson.features.some(f => f.properties && f.properties.BARRENDERO);
                 const isCovelia = name.includes("covelia") || name.includes("barrido") || geoJson.features.some(f => f.properties && f.properties.Ruta && !f.properties.Dominio);
-                const isRecoleccion = name.includes("recoleccion") || geoJson.features.some(f => f.properties && f.properties.RUTA);
-                const isRecorridos = name.includes("recorridos") || name.includes("polylines") || geoJson.features.some(f => f.properties && f.properties.Dominio);
                 const isHidricas = name.includes("hidrica") || name.includes("acuatico") || geoJson.features.some(f => f.properties && (f.properties.tipo || f.properties.tarea) && !f.properties.BARRENDERO && !f.properties.Dominio);
                 
                 if (isCgm) {
@@ -1380,10 +1076,6 @@
                     procesarBarrido(geoJson);
                 } else if (isCovelia) {
                     procesarCovelia(geoJson);
-                } else if (isRecoleccion) {
-                    procesarRecoleccion(geoJson);
-                } else if (isRecorridos) {
-                    procesarRecorridos(geoJson);
                 } else if (isHidricas) {
                     procesarHidricas(geoJson);
                 } else {
@@ -1397,37 +1089,16 @@
                 
                 Array.from(files).forEach(file => {
                     const reader = new FileReader();
-                    const lowerName = file.name.toLowerCase();
-                    
-                    if (lowerName.endsWith('.gz')) {
-                        reader.onload = function(evt) {
-                            try {
-                                if (typeof pako !== 'undefined') {
-                                    const arrayBuffer = evt.target.result;
-                                    const decompressed = pako.ungzip(new Uint8Array(arrayBuffer), { to: 'string' });
-                                    const geoJson = JSON.parse(decompressed);
-                                    loadGeoJsonData(geoJson);
-                                    console.log("Archivo comprimido .gz local cargado y descomprimido con éxito.");
-                                } else {
-                                    console.error("Librería Pako no está cargada. No se pudo descomprimir el archivo GZ local.");
-                                }
-                            } catch(err) {
-                                console.error("Error al descomprimir el archivo .gz cargado localmente:", err);
-                            }
-                        };
-                        reader.readAsArrayBuffer(file);
-                    } else {
-                        reader.onload = function(evt) {
-                            try {
-                                const rawText = evt.target.result;
-                                const geoJson = JSON.parse(rawText);
-                                loadGeoJsonData(geoJson);
-                            } catch(err) {
-                                console.error("Error al parsear el archivo cargado:", err);
-                            }
-                        };
-                        reader.readAsText(file);
-                    }
+                    reader.onload = function(evt) {
+                        try {
+                            const rawText = evt.target.result;
+                            const geoJson = JSON.parse(rawText);
+                            loadGeoJsonData(geoJson);
+                        } catch(err) {
+                            console.error("Error al parsear el archivo cargado:", err);
+                        }
+                    };
+                    reader.readAsText(file);
                 });
             });
 
@@ -1559,7 +1230,6 @@
             }
 
             // Estilos para Barrido Covelia (Zonificacion Barrido Covelia.geojson)
-            // Se restaura al comportamiento de filtrado simple por CGM, removiendo el filtrado de rutas que correspondía a Recorridos
             function updateCoveliaStyles() {
                 const globalCgmSelect = document.getElementById('filtro-global-cgm');
                 const globalCgm = globalCgmSelect ? globalCgmSelect.value : "TODOS";
@@ -1584,85 +1254,6 @@
                         strokeWeight: 4,
                         strokeOpacity: 0.9,
                         zIndex: 3,
-                        visible: isVisible
-                    };
-                });
-            }
-
-            // Estilos para Recolección Covelia
-            function updateRecoleccionStyles() {
-                const globalCgmSelect = document.getElementById('filtro-global-cgm');
-                const globalCgm = globalCgmSelect ? globalCgmSelect.value : "TODOS";
-
-                recoleccionLayer.setStyle((feature) => {
-                    const featCgm = getFeatureCgmProperty(feature);
-                    const cleanFeatCgm = normalizeCgmName(featCgm);
-                    const featTurno = getFeatureTurnoProperty(feature);
-                    let isVisible = true;
-
-                    if (globalCgm !== "TODOS" && cleanFeatCgm) {
-                        if (cleanFeatCgm !== globalCgm) {
-                            isVisible = false;
-                        }
-                    }
-
-                    const dynamicTurnoColor = getRecoleccionColor(featTurno);
-
-                    return {
-                        fillColor: dynamicTurnoColor,
-                        fillOpacity: 0.35, 
-                        strokeColor: dynamicTurnoColor,
-                        strokeWeight: 2,
-                        strokeOpacity: 0.85,
-                        zIndex: 3,
-                        visible: isVisible
-                    };
-                });
-            }
-
-            // Estilos para Recorridos GPS Mensuales Covelia (Proceso replicado de rutas de index.html)
-            function updateRecorridosStyles() {
-                const fechaSelect = document.getElementById('filtro-recorridos-fecha');
-                const fechaFiltro = fechaSelect ? fechaSelect.value : "TODAS";
-
-                const dominioSelect = document.getElementById('filtro-recorridos-dominio');
-                const dominioFiltro = dominioSelect ? dominioSelect.value : "TODOS";
-
-                const rutaSelect = document.getElementById('filtro-recorridos-ruta');
-                const rutaFiltro = rutaSelect ? rutaSelect.value : "TODAS";
-
-                recorridosLayer.setStyle((feature) => {
-                    const featFechaOriginal = feature.getProperty('Fecha');
-                    const featFechaClean = formatDateToShow(featFechaOriginal);
-                    const featDominio = feature.getProperty('Dominio') ? feature.getProperty('Dominio').trim() : "";
-                    const featRuta = getFeatureRutaProperty(feature);
-                    let isVisible = true;
-
-                    if (fechaFiltro !== "TODAS") {
-                        if (featFechaClean !== fechaFiltro) {
-                            isVisible = false;
-                        }
-                    }
-
-                    if (dominioFiltro !== "TODOS") {
-                        if (featDominio !== dominioFiltro) {
-                            isVisible = false;
-                        }
-                    }
-
-                    if (rutaFiltro !== "TODAS") {
-                        if (featRuta !== rutaFiltro) {
-                            isVisible = false;
-                        }
-                    }
-
-                    const dynamicGreen = getColorForRoute(featDominio || "");
-
-                    return {
-                        strokeColor: dynamicGreen,
-                        strokeWeight: 5,
-                        strokeOpacity: 0.9,
-                        zIndex: 4,
                         visible: isVisible
                     };
                 });
@@ -1742,7 +1333,7 @@
                 });
             }
 
-            // Ventanas Emergentes base para CGM, Cortes, Barrido, Covelia, Recoleccion, Recorridos e Hídricas
+            // Ventanas Emergentes base para CGM, Cortes, Barrido, Covelia, e Hídricas
             function bindPopup(layer, colorTitle, layerType = 'cgm') {
                 layer.addListener('click', function(event) {
                     let content = `<div style="font-family: 'Montserrat', sans-serif; min-width: 200px; position: relative;">`;
@@ -1831,36 +1422,6 @@
                         if (metros) {
                             content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Extensión:</b> ${metros} m</p>`;
                         }
-                    } else if (layerType === 'recoleccion') {
-                        const ruta = event.feature.getProperty('RUTA') || '-';
-                        const featTurno = getFeatureTurnoProperty(event.feature);
-                        const dynamicTurnoColor = getRecoleccionColor(featTurno);
-                        
-                        content += `<h3 style="font-weight: 800; font-size: 14px; color: ${dynamicTurnoColor}; border-bottom: 1px solid #E6EDF3; padding-bottom: 4px; margin-bottom: 8px; padding-right: 20px;">Recolección Covelia - Ruta ${ruta}</h3>`;
-                        content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Frecuencia semanal:</b> ${event.feature.getProperty('FRECUENCIA') || '-'}</p>`;
-                        content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Turno:</b> ${featTurno || '-'}</p>`;
-                        content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Horario:</b> ${event.feature.getProperty('INICIO_T') || '-'}</p>`;
-                        content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Días:</b> ${event.feature.getProperty('DIAS') || '-'}</p>`;
-                        content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Zona interna:</b> ${event.feature.getProperty('ZONA') || '-'}</p>`;
-                        const cgmVal = getFeatureCgmProperty(event.feature);
-                        if (cgmVal) {
-                            content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>CGM:</b> ${cgmVal}</p>`;
-                        }
-                    } else if (layerType === 'recorridos') {
-                        const dominio = event.feature.getProperty('Dominio') || '-';
-                        const dynamicColor = getColorForRoute(dominio);
-                        const fechaOriginal = event.feature.getProperty('Fecha');
-                        const fechaClean = formatDateToShow(fechaOriginal);
-                        const puntos = event.feature.getProperty('n_puntos') || '-';
-                        const ruta = getFeatureRutaProperty(event.feature);
-
-                        content += `<h3 style="font-weight: 800; font-size: 14px; color: ${dynamicColor}; border-bottom: 1px solid #E6EDF3; padding-bottom: 4px; margin-bottom: 8px; padding-right: 20px;">Recorrido Covelia</h3>`;
-                        content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Dominio:</b> ${dominio}</p>`;
-                        content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Fecha:</b> ${fechaClean}</p>`;
-                        if (ruta) {
-                            content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Ruta:</b> ${ruta}</p>`;
-                        }
-                        content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Puntos Registrados:</b> ${puntos}</p>`;
                     } else if (layerType === 'hidricas') {
                         const tipo = event.feature.getProperty('tipo') || 'Elemento Hídrico';
                         const tarea = event.feature.getProperty('tarea') || '-';
@@ -1911,8 +1472,6 @@
             bindPopup(cortesLayer, '#19567C', 'corte');
             bindPopup(barridoLayer, 'var(--color-barrido)', 'barrido');
             bindPopup(coveliaLayer, 'var(--color-covelia)', 'covelia');
-            bindPopup(recoleccionLayer, 'var(--color-recoleccion)', 'recoleccion');
-            bindPopup(recorridosLayer, 'var(--color-covelia)', 'recorridos');
             bindPopup(hidricasLayer, 'var(--color-hidricas)', 'hidricas');
 
             // Toggles de Capas
@@ -1935,14 +1494,6 @@
 
             document.getElementById('cb-covelia').addEventListener('change', (e) => {
                 e.target.checked ? coveliaLayer.setMap(map) : coveliaLayer.setMap(null);
-            });
-
-            document.getElementById('cb-recoleccion').addEventListener('change', (e) => {
-                e.target.checked ? recoleccionLayer.setMap(map) : recoleccionLayer.setMap(null);
-            });
-
-            document.getElementById('cb-recorridos').addEventListener('change', (e) => {
-                e.target.checked ? recorridosLayer.setMap(map) : recorridosLayer.setMap(null);
             });
 
             document.getElementById('cb-hidricas').addEventListener('change', (e) => {
