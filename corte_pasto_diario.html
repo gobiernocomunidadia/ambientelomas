@@ -24,7 +24,7 @@
             --azul-inst: #19567C;
             --color-barrido: #1E5E3A; /* Color verde institucional para Barrido */
             --color-covelia: #10B981; /* Color verde de respaldo para Covelia Barrido */
-            --color-hidricas: #0D9488; /* Color verde esmeralda profundo hídrico para Asuntos Hídricos */
+            --color-hidricas: #0D9488; /* Color institucional para Asuntos Hídricos (UI) */
         }
 
         body { font-family: 'Montserrat', sans-serif; background-color: var(--bg-main); color: var(--blanco); margin: 0; min-height: 100vh; }
@@ -90,7 +90,7 @@
             
             <div class="p-5 overflow-y-auto custom-scrollbar flex-1 space-y-6">
                 
-                <!-- SECCIÓN: FILTRO GLOBAL (Título y controles de rango de fechas añadidos) -->
+                <!-- SECCIÓN: FILTRO GLOBAL -->
                 <div class="bg-[var(--bg-main)]/10 p-3 rounded-lg border border-[var(--bg-main)]/30 shadow-sm space-y-3">
                     <h4 class="text-xs font-extrabold text-[var(--bg-main)] uppercase flex items-center gap-2">
                         <i data-lucide="sliders" class="h-4 w-4"></i> Filtro Global
@@ -137,7 +137,7 @@
                     </div>
                 </div>
 
-                <!-- SECCIÓN: BARRIDO (Inicia desmarcado) -->
+                <!-- SECCIÓN: BARRIDO -->
                 <div class="bg-[var(--color-barrido)]/10 p-3 rounded-lg border border-[var(--color-barrido)]/30">
                     <h4 class="text-xs font-extrabold text-[var(--color-barrido)] uppercase mb-3 flex items-center gap-2">
                         <i class="fa-solid fa-broom text-sm"></i> Barrido
@@ -155,7 +155,7 @@
                             </select>
                         </div>
                         
-                        <!-- CAPA: RUTAS BARRIDO COVELIA (Inicia desmarcado) -->
+                        <!-- CAPA: RUTAS BARRIDO COVELIA -->
                         <label class="flex items-center gap-3 cursor-pointer pt-3 border-t border-[var(--color-barrido)]/20">
                             <input type="checkbox" id="cb-covelia" class="w-4 h-4 accent-[var(--color-barrido)]">
                             <span class="text-sm text-[#0F172A] font-bold">Rutas Barrido Covelia</span>
@@ -163,7 +163,7 @@
                     </div>
                 </div>
 
-                <!-- SECCIÓN: ASUNTOS HÍDRICOS (Inicia desmarcado) -->
+                <!-- SECCIÓN: ASUNTOS HÍDRICOS -->
                 <div class="bg-[var(--color-hidricas)]/10 p-3 rounded-lg border border-[var(--color-hidricas)]/30">
                     <h4 class="text-xs font-extrabold text-[var(--color-hidricas)] uppercase mb-3 flex items-center gap-2">
                         <i class="fa-solid fa-droplet text-sm"></i> Asuntos Hídricos
@@ -187,7 +187,6 @@
                                 <!-- Se llena dinámicamente -->
                             </select>
                         </div>
-                        <!-- FILTRO: FECHA para Asuntos Hídricos -->
                         <div class="flex flex-col gap-1 pl-7">
                             <label class="text-xs font-semibold text-gray-600">Filtrar por Fecha:</label>
                             <select id="filtro-hidricas-fecha" class="w-full text-xs p-1.5 border border-gray-300 rounded focus:outline-none focus:border-[var(--color-hidricas)] font-semibold text-[#0F172A] cursor-pointer">
@@ -198,7 +197,7 @@
                     </div>
                 </div>
 
-                <!-- SECCIÓN: CORTES DE PASTO (Inicia desmarcado) -->
+                <!-- SECCIÓN: CORTES DE PASTO -->
                 <div class="bg-[var(--bg-main)]/10 p-3 rounded-lg border border-[var(--bg-main)]/30">
                     <h4 class="text-xs font-extrabold text-[var(--bg-main)] uppercase mb-3 flex items-center gap-2">
                         <i data-lucide="scissors" class="h-4 w-4"></i> Corte de Pasto
@@ -489,24 +488,9 @@
             return hslToHex(h, s, l);
         }
 
-        // --- GAMA DE VERDES CORPORATIVOS POR TIPO DE TURNO PARA RECOLECCIÓN (MAÑANA, NOCHE, FERIAS) ---
-        function getRecoleccionColor(turno) {
-            if (!turno) return '#15803D'; // Verde esmeralda por defecto
-            const cleanTurno = turno.trim().toUpperCase();
-            
-            if (cleanTurno.includes('MAÑANA') || cleanTurno.includes('DIA')) {
-                return '#22C55E'; // Verde diurno
-            } else if (cleanTurno.includes('NOCHE')) {
-                return '#166534'; // Verde nocturno
-            } else if (cleanTurno.includes('FERIA')) {
-                return '#84CC16'; // Verde Ferias
-            }
-            return '#15803D'; 
-        }
-
         // --- GENERADOR DE ICONOS INTELIGENTE PARA ASUNTOS HÍDRICOS (Puntos) ---
         function getHidricasIcon(type, strokeColor = '#FFFFFF') {
-            let bgColor = '#0D9488'; // Color hídrico base (Teal-600)
+            let bgColor = '#0D9488'; // Color hídrico base
             let letter = 'H'; // Letra Hídrica por defecto
             const cleanType = String(type).trim().toUpperCase();
             
@@ -626,7 +610,7 @@
             }
         }
 
-        // --- LIMPIEZA DE GEOJSON DAÑADO Y RECONSTRUCCIÓN DEFENSIVA (Estabilizado para LineStrings y MultiLineStrings) ---
+        // --- LIMPIEZA DE GEOJSON DAÑADO Y RECONSTRUCCIÓN DEFENSIVA ---
         function sanitizeGeoJson(geoJson) {
             if (!geoJson || !geoJson.features) return geoJson;
             
@@ -782,14 +766,18 @@
             }
 
             const selectFecha = document.getElementById('filtro-fecha');
-            selectFecha.addEventListener('change', () => {
-                updateCortesStyles();
-            });
+            if (selectFecha) {
+                selectFecha.addEventListener('change', () => {
+                    updateCortesStyles();
+                });
+            }
 
             const selectBarrendero = document.getElementById('filtro-barrendero');
-            selectBarrendero.addEventListener('change', () => {
-                updateBarridoStyles();
-            });
+            if (selectBarrendero) {
+                selectBarrendero.addEventListener('change', () => {
+                    updateBarridoStyles();
+                });
+            }
 
             // Listeners para los filtros de Asuntos Hídricos
             const selectHidricasTipo = document.getElementById('filtro-hidricas-tipo');
@@ -815,7 +803,7 @@
 
             const noCache = '?v=' + new Date().getTime();
 
-            // 1. Límite Lomas (Soporte multiruta/case-insensitive)
+            // 1. Límite Lomas
             const limiteProcessor = async (geoJson) => {
                 geoJson.features.forEach(feature => {
                     if (feature.geometry.type === 'MultiPolygon' || feature.geometry.type === 'Polygon') {
@@ -856,7 +844,6 @@
                 './cgm.geojson'
             ], cgmProcessor);
 
-            // Se sincroniza con el estado inicial del checkbox (checked por defecto)
             cgmLayer.setMap(document.getElementById('cb-cgm').checked ? map : null);
 
             // 3. Cargar Cortes de Pasto GeoJSON (Inicia deseleccionado)
@@ -883,30 +870,32 @@
                 updateCgmDropdown();
 
                 const selectFecha = document.getElementById('filtro-fecha');
-                const selectedVal = selectFecha.value;
-                selectFecha.innerHTML = '<option value="TODAS">TODAS LAS FECHAS</option>';
-                
-                const sortedFechas = Array.from(fechasSet).sort((a, b) => {
-                    const d1 = parseDateCustom(a);
-                    const d2 = parseDateCustom(b);
-                    if (!d1) return 1;
-                    if (!d2) return -1;
-                    return d1 - d2;
-                });
+                if (selectFecha) {
+                    const selectedVal = selectFecha.value;
+                    selectFecha.innerHTML = '<option value="TODAS">TODAS LAS FECHAS</option>';
+                    
+                    const sortedFechas = Array.from(fechasSet).sort((a, b) => {
+                        const d1 = parseDateCustom(a);
+                        const d2 = parseDateCustom(b);
+                        if (!d1) return 1;
+                        if (!d2) return -1;
+                        return d1 - d2;
+                    });
 
-                sortedFechas.forEach(fecha => {
-                    if(fecha !== '-') {
-                        const opt = document.createElement('option');
-                        opt.value = fecha; 
-                        opt.textContent = fecha;
-                        selectFecha.appendChild(opt);
+                    sortedFechas.forEach(fecha => {
+                        if(fecha !== '-') {
+                            const opt = document.createElement('option');
+                            opt.value = fecha; 
+                            opt.textContent = fecha;
+                            selectFecha.appendChild(opt);
+                        }
+                    });
+                    
+                    if (fechasSet.has(selectedVal)) {
+                        selectFecha.value = selectedVal;
+                    } else {
+                        selectFecha.value = "TODAS";
                     }
-                });
-                
-                if (fechasSet.has(selectedVal)) {
-                    selectFecha.value = selectedVal;
-                } else {
-                    selectFecha.value = "TODAS";
                 }
 
                 updateCortesStyles(); 
@@ -917,8 +906,7 @@
                 './CorteDePasto.geojson'
             ], procesarCortes);
 
-            // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
-            cortesLayer.setMap(document.getElementById('cb-cortes').checked ? map : null);
+            cortesLayer.setMap(document.getElementById('cb-cortes')?.checked ? map : null);
 
 
             // 4. Cargar Barrido GeoJSON (Inicia deseleccionado)
@@ -950,11 +938,10 @@
                 './ZONAS_BARRENDEROS_MAYO_2026.geojson'
             ], procesarBarrido);
 
-            // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
-            barridoLayer.setMap(document.getElementById('cb-barrido').checked ? map : null);
+            barridoLayer.setMap(document.getElementById('cb-barrido')?.checked ? map : null);
 
 
-            // 5. Cargar Rutas Barrido Covelia en formato GeoJSON (Zonificacion Barrido Covelia.geojson) (Inicia deseleccionado)
+            // 5. Cargar Rutas Barrido Covelia
             coveliaLayer = new google.maps.Data();
             const procesarCovelia = (geoJson) => {
                 const featuresToRemove = [];
@@ -981,11 +968,10 @@
                 './Zonificacion_Barrido_Covelia.geojson'
             ], procesarCovelia);
 
-            // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
-            coveliaLayer.setMap(document.getElementById('cb-covelia').checked ? map : null);
+            coveliaLayer.setMap(document.getElementById('cb-covelia')?.checked ? map : null);
 
 
-            // 6. Cargar Asuntos Hídricos GeoJSON (Inicia deseleccionado)
+            // 6. Cargar Asuntos Hídricos GeoJSON
             hidricasLayer = new google.maps.Data();
             const procesarHidricas = (geoJson) => {
                 const featuresToRemove = [];
@@ -1024,7 +1010,7 @@
 
                 updateCgmDropdown();
 
-                // Llenar selector de Tipo de infraestructura hídrica
+                // Llenar selector de Tipo de infraestructura
                 const selectTipo = document.getElementById('filtro-hidricas-tipo');
                 if (selectTipo) {
                     const selectedVal = selectTipo.value;
@@ -1043,7 +1029,7 @@
                     }
                 }
 
-                // Llenar selector de Tarea de Asuntos Hídricos
+                // Llenar selector de Tarea
                 const selectTarea = document.getElementById('filtro-hidricas-tarea');
                 if (selectTarea) {
                     const selectedVal = selectTarea.value;
@@ -1062,7 +1048,7 @@
                     }
                 }
 
-                // Llenar selector de Fecha de Asuntos Hídricos
+                // Llenar selector de Fecha
                 const selectFechaHidricas = document.getElementById('filtro-hidricas-fecha');
                 if (selectFechaHidricas) {
                     const selectedVal = selectFechaHidricas.value;
@@ -1095,11 +1081,10 @@
                 './Hidricas.geojson'
             ], procesarHidricas);
 
-            // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
-            hidricasLayer.setMap(document.getElementById('cb-hidricas').checked ? map : null);
+            hidricasLayer.setMap(document.getElementById('cb-hidricas')?.checked ? map : null);
 
 
-            // --- EVENTO DE CARGA DE ARCHIVO MANUAL INTELIGENTE ---
+            // --- CARGA DE ARCHIVO MANUAL ---
             const loadGeoJsonData = (geoJson) => {
                 const name = (geoJson.name || "").toLowerCase();
                 const isCgm = name.includes("cgm") || geoJson.features.some(f => f.geometry && (f.geometry.type === 'Polygon' || f.geometry.type === 'MultiPolygon') && !f.properties.Fecha_str && !f.properties.BARRENDERO && !f.properties.Ruta && !f.properties.RUTA && !f.properties.Dominio);
@@ -1130,24 +1115,47 @@
                 }
             };
 
-            document.getElementById('input-geojson-local').addEventListener('change', function(e) {
-                const files = e.target.files;
-                if (!files || files.length === 0) return;
-                
-                Array.from(files).forEach(file => {
-                    const reader = new FileReader();
-                    reader.onload = function(evt) {
-                        try {
-                            const rawText = evt.target.result;
-                            const geoJson = JSON.parse(rawText);
-                            loadGeoJsonData(geoJson);
-                        } catch(err) {
-                            console.error("Error al parsear el archivo cargado:", err);
+            const localUploader = document.getElementById('input-geojson-local');
+            if (localUploader) {
+                localUploader.addEventListener('change', function(e) {
+                    const files = e.target.files;
+                    if (!files || files.length === 0) return;
+                    
+                    Array.from(files).forEach(file => {
+                        const reader = new FileReader();
+                        const lowerName = file.name.toLowerCase();
+                        
+                        if (lowerName.endsWith('.gz')) {
+                            reader.onload = function(evt) {
+                                try {
+                                    if (typeof pako !== 'undefined') {
+                                        const arrayBuffer = evt.target.result;
+                                        const decompressed = pako.ungzip(new Uint8Array(arrayBuffer), { to: 'string' });
+                                        const geoJson = JSON.parse(decompressed);
+                                        loadGeoJsonData(geoJson);
+                                    } else {
+                                        console.error("Librería Pako no está cargada.");
+                                    }
+                                } catch(err) {
+                                    console.error("Error al descomprimir el .gz local:", err);
+                                }
+                            };
+                            reader.readAsArrayBuffer(file);
+                        } else {
+                            reader.onload = function(evt) {
+                                try {
+                                    const rawText = evt.target.result;
+                                    const geoJson = JSON.parse(rawText);
+                                    loadGeoJsonData(geoJson);
+                                } catch(err) {
+                                    console.error("Error al parsear el archivo cargado:", err);
+                                }
+                            };
+                            reader.readAsText(file);
                         }
-                    };
-                    reader.readAsText(file);
+                    });
                 });
-            });
+            }
 
             // --- FUNCIONES DE ESTILOS Y FILTROS ---
             function updateStyles() {
@@ -1245,7 +1253,6 @@
                 });
             }
 
-            // Estilos para Barrido Municipal (Solucionado usando color Hex literal #1E5E3A)
             function updateBarridoStyles() {
                 const globalCgmSelect = document.getElementById('filtro-global-cgm');
                 const globalCgm = globalCgmSelect ? globalCgmSelect.value : "TODOS";
@@ -1272,7 +1279,7 @@
                     }
 
                     return {
-                        strokeColor: '#1E5E3A', // Hexagonal absoluto directo
+                        strokeColor: '#1E5E3A', // Color institucional
                         strokeWeight: 5,
                         strokeOpacity: 0.85,
                         zIndex: 4,
@@ -1281,7 +1288,6 @@
                 });
             }
 
-            // Estilos para Barrido Covelia (Zonificacion Barrido Covelia.geojson)
             function updateCoveliaStyles() {
                 const globalCgmSelect = document.getElementById('filtro-global-cgm');
                 const globalCgm = globalCgmSelect ? globalCgmSelect.value : "TODOS";
@@ -1291,7 +1297,6 @@
                     const cleanFeatCgm = normalizeCgmName(featCgm);
                     let isVisible = true;
 
-                    // Filtro Global CGM aplicado a Covelia
                     if (globalCgm !== "TODOS") {
                         if (cleanFeatCgm !== globalCgm) {
                             isVisible = false;
@@ -1311,7 +1316,6 @@
                 });
             }
 
-            // Estilos para Asuntos Hídricos (hidricas.geojson) (Solucionado usando color Hex real #0D9488)
             function updateHidricasStyles() {
                 const globalCgmSelect = document.getElementById('filtro-global-cgm');
                 const globalCgm = globalCgmSelect ? globalCgmSelect.value : "TODOS";
@@ -1334,54 +1338,53 @@
                     const featFechaClean = formatDateToShow(featFecha);
                     let isVisible = true;
 
-                    // Filtro Global CGM
                     if (globalCgm !== "TODOS") {
                         if (cleanFeatCgm !== globalCgm) {
                             isVisible = false;
                         }
                     }
 
-                    // Filtro específico Tipo
                     if (tipoFiltro !== "TODOS") {
                         if (featTipo !== tipoFiltro) {
                             isVisible = false;
                         }
                     }
 
-                    // Filtro específico Tarea
                     if (tareaFiltro !== "TODAS") {
                         if (featTarea !== tareaFiltro) {
                             isVisible = false;
                         }
                     }
 
-                    // Filtro específico de Fecha para Hídricas
                     if (fechaFiltro !== "TODAS") {
                         if (featFechaClean !== fechaFiltro) {
                             isVisible = false;
                         }
                     }
 
-                    // Filtro de Rango de Fechas Global (Desde / Hasta) aplicado a Hídricas
+                    // Filtro de Rango de Fechas Global (Desde / Hasta) aplicado a Asuntos Hídricos
                     if (!isDateInGlobalRange(featFecha)) {
                         isVisible = false;
                     }
 
                     const geomType = feature.getGeometry() ? feature.getGeometry().getType() : '';
+                    
+                    // Calculamos el color azul institucional en base al día de la semana para Hídricas
+                    const dynamicDayColor = getColorPorDiaSemana(featFecha);
 
                     if (geomType === 'Point') {
                         return {
-                            icon: getHidricasIcon(featTipo, '#1E5E3A'), // Borde verde institucional
+                            icon: getHidricasIcon(featTipo, dynamicDayColor),
                             zIndex: 6,
                             visible: isVisible
                         };
                     } else {
-                        // Líneas y MultiLineStrings (Conductos / Zanjas / Canales)
+                        // Líneas y Polígonos - Soporte objetos espaciales y lineales
                         return {
-                            strokeColor: '#0D9488', // Hexagonal absoluto directo funcional
+                            strokeColor: dynamicDayColor, // Color azul institucional según el día
                             strokeWeight: 4,
                             strokeOpacity: 0.9,
-                            fillColor: '#0D9488', 
+                            fillColor: dynamicDayColor, 
                             fillOpacity: 0.3,
                             zIndex: 4,
                             visible: isVisible
@@ -1390,7 +1393,7 @@
                 });
             }
 
-            // Ventanas Emergentes base para CGM, Cortes, Barrido, Covelia, e Hídricas
+            // Ventanas Emergentes base para CGM, Cortes de Pasto, Barrido, Covelia y Asuntos Hídricos
             function bindPopup(layer, colorTitle, layerType = 'cgm') {
                 layer.addListener('click', function(event) {
                     let content = `<div style="font-family: 'Montserrat', sans-serif; min-width: 200px; position: relative;">`;
@@ -1429,7 +1432,7 @@
                             }
                             const ubicacion = event.feature.getProperty('UBICACION') || event.feature.getProperty('DIRECCION');
                             if (ubicacion) {
-                                content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Ubicación:</b> ${ubicacion}</p>`;
+                                content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Dirección:</b> ${ubicacion}</p>`;
                             }
                         } else {
                             content += `<h3 style="font-weight: 800; font-size: 14px; color: ${dynamicDayColor}; border-bottom: 1px solid #E6EDF3; padding-bottom: 4px; margin-bottom: 8px; padding-right: 20px;">Recorrido de Corte</h3>`;
@@ -1470,22 +1473,23 @@
                     } else if (layerType === 'covelia') {
                         const ruta = event.feature.getProperty('Ruta') || event.feature.getProperty('ruta') || event.feature.getProperty('RUTA') || '-';
                         const dynamicGreen = getColorForRoute(ruta);
-                        content += `<h3 style="font-weight: 800; font-size: 14px; color: ${dynamicGreen}; border-bottom: 1px solid #E6EDF3; padding-bottom: 4px; margin-bottom: 8px; padding-right: 20px;">Barrido Covelia - Ruta ${ruta}</h3>`;
+                        content += `<h3 style="font-weight: 800; font-size: 14px; color: ${dynamicGreen}; border-bottom: 1px solid #E6EDF3; padding-bottom: 4px; margin-bottom: 8px; padding-right: 20px;">Ruta Covelia ${ruta}</h3>`;
                         content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>CGM:</b> ${getFeatureCgmProperty(event.feature) || '-'}</p>`;
                         content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Turno:</b> ${event.feature.getProperty('Turno') || event.feature.getProperty('turno') || event.feature.getProperty('TURNO') || '-'}</p>`;
                         content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Frecuencia:</b> ${event.feature.getProperty('Frecuencia') || event.feature.getProperty('frecuencia') || event.feature.getProperty('FRECUENCIA') || '-'}</p>`;
                         content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Horario:</b> ${event.feature.getProperty('Horario') || event.feature.getProperty('horario') || event.feature.getProperty('HORARIO') || '-'}</p>`;
                         const metros = event.feature.getProperty('Metros') || event.feature.getProperty('metros') || event.feature.getProperty('METROS');
                         if (metros) {
-                            content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Extensión:</b> ${metros} m</p>`;
+                            content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Distancia:</b> ${metros} m</p>`;
                         }
                     } else if (layerType === 'hidricas') {
                         const tipo = event.feature.getProperty('tipo') || 'Elemento Hídrico';
                         const tarea = event.feature.getProperty('tarea') || '-';
                         const fechaRaw = event.feature.getProperty('fecha');
                         const fechaClean = formatDateToShow(fechaRaw);
+                        const dynamicDayColor = getColorPorDiaSemana(fechaRaw);
 
-                        content += `<h3 style="font-weight: 800; font-size: 14px; color: var(--color-hidricas); border-bottom: 1px solid #E6EDF3; padding-bottom: 4px; margin-bottom: 8px; padding-right: 20px;">Asuntos Hídricos</h3>`;
+                        content += `<h3 style="font-weight: 800; font-size: 14px; color: ${dynamicDayColor}; border-bottom: 1px solid #E6EDF3; padding-bottom: 4px; margin-bottom: 8px; padding-right: 20px;">Asuntos Hídricos</h3>`;
                         content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Tipo:</b> ${tipo}</p>`;
                         content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Tarea:</b> ${tarea}</p>`;
                         content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Fecha:</b> ${fechaClean}</p>`;
@@ -1504,7 +1508,7 @@
 
                         const obs = event.feature.getProperty('observaciones');
                         if (obs) {
-                            content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Obs:</b> ${obs}</p>`;
+                            content += `<p style="margin: 4px 0; font-size: 12px; color: #333;"><b>Observaciones:</b> ${obs}</p>`;
                         }
                     } else { // CGM
                         content += `<h3 style="font-weight: 800; font-size: 14px; color: ${colorTitle}; border-bottom: 1px solid #E6EDF3; padding-bottom: 4px; margin-bottom: 8px; padding-right: 20px;">CGM: ${getFeatureCgmProperty(event.feature)}</h3>`;
@@ -1541,21 +1545,33 @@
                 e.target.checked ? cgmLayer.setMap(map) : cgmLayer.setMap(null);
             });
 
-            document.getElementById('cb-cortes').addEventListener('change', (e) => {
-                e.target.checked ? cortesLayer.setMap(map) : cortesLayer.setMap(null);
-            });
+            const cbCortes = document.getElementById('cb-cortes');
+            if (cbCortes) {
+                cbCortes.addEventListener('change', (e) => {
+                    e.target.checked ? cortesLayer.setMap(map) : cortesLayer.setMap(null);
+                });
+            }
 
-            document.getElementById('cb-barrido').addEventListener('change', (e) => {
-                e.target.checked ? barridoLayer.setMap(map) : barridoLayer.setMap(null);
-            });
+            const cbBarrido = document.getElementById('cb-barrido');
+            if (cbBarrido) {
+                cbBarrido.addEventListener('change', (e) => {
+                    e.target.checked ? barridoLayer.setMap(map) : barridoLayer.setMap(null);
+                });
+            }
 
-            document.getElementById('cb-covelia').addEventListener('change', (e) => {
-                e.target.checked ? coveliaLayer.setMap(map) : coveliaLayer.setMap(null);
-            });
+            const cbCovelia = document.getElementById('cb-covelia');
+            if (cbCovelia) {
+                cbCovelia.addEventListener('change', (e) => {
+                    e.target.checked ? coveliaLayer.setMap(map) : coveliaLayer.setMap(null);
+                });
+            }
 
-            document.getElementById('cb-hidricas').addEventListener('change', (e) => {
-                e.target.checked ? hidricasLayer.setMap(map) : hidricasLayer.setMap(null);
-            });
+            const cbHidricas = document.getElementById('cb-hidricas');
+            if (cbHidricas) {
+                cbHidricas.addEventListener('change', (e) => {
+                    e.target.checked ? hidricasLayer.setMap(map) : hidricasLayer.setMap(null);
+                });
+            }
         }
     </script>
 </body>
