@@ -90,15 +90,34 @@
             
             <div class="p-5 overflow-y-auto custom-scrollbar flex-1 space-y-6">
                 
-                <!-- SECCIÓN: FILTRO GLOBAL -->
-                <div class="bg-[var(--bg-main)]/10 p-3 rounded-lg border border-[var(--bg-main)]/30 shadow-sm">
-                    <h4 class="text-xs font-extrabold text-[var(--bg-main)] uppercase mb-2 flex items-center gap-2">
-                        <i data-lucide="crosshair" class="h-4 w-4"></i> Filtro Global de Zona
+                <!-- SECCIÓN: FILTRO GLOBAL (Título y controles de rango de fechas añadidos) -->
+                <div class="bg-[var(--bg-main)]/10 p-3 rounded-lg border border-[var(--bg-main)]/30 shadow-sm space-y-3">
+                    <h4 class="text-xs font-extrabold text-[var(--bg-main)] uppercase flex items-center gap-2">
+                        <i data-lucide="sliders" class="h-4 w-4"></i> Filtro Global
                     </h4>
-                    <select id="filtro-global-cgm" class="w-full text-xs p-2 border border-[var(--bg-main)]/30 rounded focus:outline-none focus:border-[var(--bg-main)] font-semibold text-[#0F172A] cursor-pointer">
-                        <option value="TODOS">TODOS LOS CGM</option>
-                        <!-- Se llena dinámicamente -->
-                    </select>
+                    
+                    <div>
+                        <label class="text-[10px] font-bold text-gray-500 block mb-1 uppercase">Filtrar por CGM:</label>
+                        <select id="filtro-global-cgm" class="w-full text-xs p-2 border border-[var(--bg-main)]/30 rounded focus:outline-none focus:border-[var(--bg-main)] font-semibold text-[#0F172A] cursor-pointer">
+                            <option value="TODOS">TODOS LOS CGM</option>
+                            <!-- Se llena dinámicamente -->
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2">
+                        <div>
+                            <label class="text-[10px] font-bold text-gray-500 block mb-1 uppercase">Fecha Desde:</label>
+                            <input type="date" id="filtro-global-desde" class="w-full text-xs p-2 border border-gray-300 rounded focus:outline-none focus:border-[var(--bg-main)] font-semibold text-[#0F172A] cursor-pointer">
+                        </div>
+                        <div>
+                            <label class="text-[10px] font-bold text-gray-500 block mb-1 uppercase">Fecha Hasta:</label>
+                            <input type="date" id="filtro-global-hasta" class="w-full text-xs p-2 border border-gray-300 rounded focus:outline-none focus:border-[var(--bg-main)] font-semibold text-[#0F172A] cursor-pointer">
+                        </div>
+                    </div>
+
+                    <button id="btn-limpiar-fechas" class="w-full text-[10px] font-bold bg-gray-200 hover:bg-gray-300 text-gray-700 py-1.5 rounded transition duration-150">
+                        Limpiar Filtro de Fechas
+                    </button>
                 </div>
 
                 <!-- SECCIÓN: DIVISIÓN TERRITORIAL -->
@@ -400,6 +419,29 @@
             return `${day}/${month}/${year}`;
         }
         
+        // --- FUNCIÓN DE EVALUACIÓN DE FECHA SEGÚN FILTRO GLOBAL (DESDE / HASTA) ---
+        function isDateInGlobalRange(dateStr) {
+            if (!dateStr) return true; // Si no hay fecha, no se filtra (permanece visible)
+            const featDate = parseDateCustom(dateStr);
+            if (!featDate) return true;
+
+            const desdeVal = document.getElementById('filtro-global-desde').value;
+            const hastaVal = document.getElementById('filtro-global-hasta').value;
+            const dateMs = featDate.getTime();
+
+            if (desdeVal) {
+                const parts = desdeVal.split('-'); // [YYYY, MM, DD]
+                const desdeDate = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10), 0, 0, 0);
+                if (dateMs < desdeDate.getTime()) return false;
+            }
+            if (hastaVal) {
+                const parts = hastaVal.split('-'); // [YYYY, MM, DD]
+                const hastaDate = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10), 23, 59, 59);
+                if (dateMs > hastaDate.getTime()) return false;
+            }
+            return true;
+        }
+        
         // --- FUNCIÓN DE COLORES POR DÍA (GAMA AZULES CORPORATIVOS) ---
         function getColorPorDiaSemana(fechaStr) {
             const parsed = parseDateCustom(fechaStr);
@@ -453,13 +495,13 @@
             const cleanTurno = turno.trim().toUpperCase();
             
             if (cleanTurno.includes('MAÑANA') || cleanTurno.includes('DIA')) {
-                return '#22C55E'; // Verde Brillante / Mañana (Green-500)
+                return '#22C55E'; // Verde diurno
             } else if (cleanTurno.includes('NOCHE')) {
-                return '#166534'; // Verde Bosque Profundo / Noche (Green-800)
+                return '#166534'; // Verde nocturno
             } else if (cleanTurno.includes('FERIA')) {
-                return '#84CC16'; // Verde Limón Ecológico / Ferias (Lime-500)
+                return '#84CC16'; // Verde Ferias
             }
-            return '#15803D'; // Verde corporativo estándar
+            return '#15803D'; 
         }
 
         // --- GENERADOR DE ICONOS INTELIGENTE PARA ASUNTOS HÍDRICOS (Puntos) ---
@@ -557,8 +599,8 @@
             const barrenderosSet = new Set();
             barridoGeoJsonData.features.forEach(f => {
                 if (f.properties && f.properties.BARRENDERO) {
-                    const featCgm = getGeoJsonFeatureCgm(f);
-                    const cleanFeatCgm = normalizeCgmName(featCgm);
+                    const geoCgm = getGeoJsonFeatureCgm(f);
+                    const cleanFeatCgm = normalizeCgmName(geoCgm);
 
                     if (globalCgm === "TODOS" || cleanFeatCgm === globalCgm) {
                         barrenderosSet.add(f.properties.BARRENDERO.trim());
@@ -584,7 +626,7 @@
             }
         }
 
-        // --- LIMPIEZA DE GEOJSON DAÑADO Y RECONSTRUCCIÓN DEFENSIVA (Optimizado para Líneas Hídricas) ---
+        // --- LIMPIEZA DE GEOJSON DAÑADO Y RECONSTRUCCIÓN DEFENSIVA (Estabilizado para LineStrings y MultiLineStrings) ---
         function sanitizeGeoJson(geoJson) {
             if (!geoJson || !geoJson.features) return geoJson;
             
@@ -595,66 +637,52 @@
                 const coords = feature.geometry.coordinates;
                 
                 try {
+                    if (!Array.isArray(coords)) {
+                        feature.geometry = null;
+                        return feature;
+                    }
+
                     if (type === 'Point') {
-                        if (!Array.isArray(coords) || coords.length < 2 || coords[0] === null || coords[1] === null || isNaN(coords[0]) || isNaN(coords[1])) {
+                        if (coords.length < 2 || isNaN(coords[0]) || isNaN(coords[1]) || coords[0] === null || coords[1] === null) {
                             feature.geometry = null;
                         }
-                    } else if (type === 'LineString' || type === 'MultiPoint') {
-                        if (Array.isArray(coords)) {
-                            const clean = coords.filter(c => Array.isArray(c) && c.length >= 2 && c[0] !== null && c[1] !== null && !isNaN(c[0]) && !isNaN(c[1]));
-                            if (clean.length >= 2) {
-                                feature.geometry.coordinates = clean;
-                            } else {
-                                feature.geometry = null;
-                            }
-                        } else {
-                            feature.geometry = null;
-                        }
-                    } else if (type === 'Polygon') {
-                        if (Array.isArray(coords)) {
-                            const cleanRings = coords.map(ring => {
-                                if (!Array.isArray(ring)) return [];
-                                return ring.filter(c => Array.isArray(c) && c.length >= 2 && c[0] !== null && c[1] !== null && !isNaN(c[0]) && !isNaN(c[1]));
-                            }).filter(ring => ring.length >= 3);
-                            
-                            if (cleanRings.length > 0) {
-                                feature.geometry.coordinates = cleanRings;
-                            } else {
-                                feature.geometry = null;
-                            }
+                    } else if (type === 'LineString') {
+                        const clean = coords.filter(c => Array.isArray(c) && c.length >= 2 && !isNaN(c[0]) && !isNaN(c[1]) && c[0] !== null && c[1] !== null);
+                        if (clean.length >= 2) {
+                            feature.geometry.coordinates = clean;
                         } else {
                             feature.geometry = null;
                         }
                     } else if (type === 'MultiLineString') {
-                        if (Array.isArray(coords)) {
-                            const cleanLines = coords.map(line => {
-                                if (!Array.isArray(line)) return [];
-                                return line.filter(c => Array.isArray(c) && c.length >= 2 && c[0] !== null && c[1] !== null && !isNaN(c[0]) && !isNaN(c[1]));
-                            }).filter(line => line.length >= 2);
-                            
-                            if (cleanLines.length > 0) {
-                                feature.geometry.coordinates = cleanLines;
-                            } else {
-                                feature.geometry = null;
-                            }
+                        const clean = coords.map(line => {
+                            if (!Array.isArray(line)) return [];
+                            return line.filter(c => Array.isArray(c) && c.length >= 2 && !isNaN(c[0]) && !isNaN(c[1]) && c[0] !== null && c[1] !== null);
+                        }).filter(line => line.length >= 2);
+                        if (clean.length > 0) {
+                            feature.geometry.coordinates = clean;
+                        } else {
+                            feature.geometry = null;
+                        }
+                    } else if (type === 'Polygon') {
+                        const clean = coords.map(ring => {
+                            if (!Array.isArray(ring)) return [];
+                            return ring.filter(c => Array.isArray(c) && c.length >= 2 && !isNaN(c[0]) && !isNaN(c[1]) && c[0] !== null && c[1] !== null);
+                        }).filter(ring => ring.length >= 3);
+                        if (clean.length > 0) {
+                            feature.geometry.coordinates = clean;
                         } else {
                             feature.geometry = null;
                         }
                     } else if (type === 'MultiPolygon') {
-                        if (Array.isArray(coords)) {
-                            const cleanPolys = coords.map(poly => {
-                                if (!Array.isArray(poly)) return [];
-                                return poly.map(ring => {
-                                    if (!Array.isArray(ring)) return [];
-                                    return ring.filter(c => Array.isArray(c) && c.length >= 2 && c[0] !== null && c[1] !== null && !isNaN(c[0]) && !isNaN(c[1]));
-                                }).filter(ring => ring.length >= 3);
-                            }).filter(poly => poly.length > 0);
-                            
-                            if (cleanPolys.length > 0) {
-                                feature.geometry.coordinates = cleanPolys;
-                            } else {
-                                feature.geometry = null;
-                            }
+                        const clean = coords.map(poly => {
+                            if (!Array.isArray(poly)) return [];
+                            return poly.map(ring => {
+                                if (!Array.isArray(ring)) return [];
+                                return ring.filter(c => Array.isArray(c) && c.length >= 2 && !isNaN(c[0]) && !isNaN(c[1]) && c[0] !== null && c[1] !== null);
+                            }).filter(ring => ring.length >= 3);
+                        }).filter(poly => poly.length > 0);
+                        if (clean.length > 0) {
+                            feature.geometry.coordinates = clean;
                         } else {
                             feature.geometry = null;
                         }
@@ -723,7 +751,7 @@
                 streetViewControl: true // Habilitamos la visualización y drag del Pegman para Street View
             });
 
-            // --- REGISTRAR LOS LISTENERS DE CAMBIOS GLOBALES ---
+            // --- REGISTRAR LOS LISTENERS DE CAMBIOS GLOBALES Y FECHAS ---
             const selectGlobalCgm = document.getElementById('filtro-global-cgm');
             selectGlobalCgm.addEventListener('change', () => {
                 updateStyles();
@@ -733,6 +761,25 @@
                 updateCoveliaStyles();
                 updateHidricasStyles();
             });
+
+            const inputGlobalDesde = document.getElementById('filtro-global-desde');
+            const inputGlobalHasta = document.getElementById('filtro-global-hasta');
+            const btnLimpiarFechas = document.getElementById('btn-limpiar-fechas');
+
+            const onGlobalDateChange = () => {
+                updateCortesStyles();
+                updateHidricasStyles();
+            };
+
+            if (inputGlobalDesde) inputGlobalDesde.addEventListener('change', onGlobalDateChange);
+            if (inputGlobalHasta) inputGlobalHasta.addEventListener('change', onGlobalDateChange);
+            if (btnLimpiarFechas) {
+                btnLimpiarFechas.addEventListener('click', () => {
+                    if (inputGlobalDesde) inputGlobalDesde.value = '';
+                    if (inputGlobalHasta) inputGlobalHasta.value = '';
+                    onGlobalDateChange();
+                });
+            }
 
             const selectFecha = document.getElementById('filtro-fecha');
             selectFecha.addEventListener('change', () => {
@@ -744,7 +791,7 @@
                 updateBarridoStyles();
             });
 
-            // Listeners para los filtros de Asuntos Hídricos (Solucionados)
+            // Listeners para los filtros de Asuntos Hídricos
             const selectHidricasTipo = document.getElementById('filtro-hidricas-tipo');
             if (selectHidricasTipo) {
                 selectHidricasTipo.addEventListener('change', () => {
@@ -789,7 +836,7 @@
                 './municipios_Lomas%20de%20Zamora.geojson',
                 './municipios_lomas%20de%20zamora.geojson',
                 './municipios_Lomas_de_Zamora.geojson'
-            ], limiteProcessor, 'status-limite');
+            ], limiteProcessor);
 
             // 2. Cargar CGM GeoJSON
             cgmLayer = new google.maps.Data();
@@ -807,7 +854,7 @@
             loadLayerData([
                 './CGM.geojson',
                 './cgm.geojson'
-            ], cgmProcessor, 'status-cgm');
+            ], cgmProcessor);
 
             // Se sincroniza con el estado inicial del checkbox (checked por defecto)
             cgmLayer.setMap(document.getElementById('cb-cgm').checked ? map : null);
@@ -868,7 +915,7 @@
                 './cortedepasto.geojson',
                 './corte_de_pasto.geojson',
                 './CorteDePasto.geojson'
-            ], procesarCortes, 'status-cortes');
+            ], procesarCortes);
 
             // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
             cortesLayer.setMap(document.getElementById('cb-cortes').checked ? map : null);
@@ -901,13 +948,13 @@
                 './ZONAS%20BARRENDEROS%20MAYO%202026.geojson',
                 './zonas%20barrenderos%20mayo%202026.geojson',
                 './ZONAS_BARRENDEROS_MAYO_2026.geojson'
-            ], procesarBarrido, 'status-barrido');
+            ], procesarBarrido);
 
             // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
             barridoLayer.setMap(document.getElementById('cb-barrido').checked ? map : null);
 
 
-            // 5. Cargar Rutas Barrido Covelia (Zonificacion Barrido Covelia.geojson) (Inicia deseleccionado)
+            // 5. Cargar Rutas Barrido Covelia en formato GeoJSON (Zonificacion Barrido Covelia.geojson) (Inicia deseleccionado)
             coveliaLayer = new google.maps.Data();
             const procesarCovelia = (geoJson) => {
                 const featuresToRemove = [];
@@ -932,7 +979,7 @@
                 './zonificacion%20barrido%20covelia.geojson',
                 './barrido.geojson',
                 './Zonificacion_Barrido_Covelia.geojson'
-            ], procesarCovelia, 'status-covelia');
+            ], procesarCovelia);
 
             // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
             coveliaLayer.setMap(document.getElementById('cb-covelia').checked ? map : null);
@@ -1046,7 +1093,7 @@
                 './hidricas.geojson',
                 './hidricas.json',
                 './Hidricas.geojson'
-            ], procesarHidricas, 'status-hidricas');
+            ], procesarHidricas);
 
             // Se sincroniza con el estado inicial del checkbox (desmarcado por defecto)
             hidricasLayer.setMap(document.getElementById('cb-hidricas').checked ? map : null);
@@ -1162,6 +1209,11 @@
                         }
                     }
 
+                    // Filtro de Rango de Fechas Global (Desde / Hasta)
+                    if (!isDateInGlobalRange(featFechaOriginal)) {
+                        isVisible = false;
+                    }
+
                     const geomType = feature.getGeometry() ? feature.getGeometry().getType() : '';
 
                     if (geomType === 'Point') {
@@ -1220,7 +1272,7 @@
                     }
 
                     return {
-                        strokeColor: '#1E5E3A', // Reemplazado variable CSS por Hex real
+                        strokeColor: '#1E5E3A', // Hexagonal absoluto directo
                         strokeWeight: 5,
                         strokeOpacity: 0.85,
                         zIndex: 4,
@@ -1310,6 +1362,11 @@
                         }
                     }
 
+                    // Filtro de Rango de Fechas Global (Desde / Hasta) aplicado a Hídricas
+                    if (!isDateInGlobalRange(featFecha)) {
+                        isVisible = false;
+                    }
+
                     const geomType = feature.getGeometry() ? feature.getGeometry().getType() : '';
 
                     if (geomType === 'Point') {
@@ -1319,12 +1376,12 @@
                             visible: isVisible
                         };
                     } else {
-                        // Línea o Polígono - Usar un color hídrico distintivo real (Teal Hex)
+                        // Líneas y MultiLineStrings (Conductos / Zanjas / Canales)
                         return {
-                            strokeColor: '#0D9488', // Solucionado: Reemplazado variable CSS por Hex real
+                            strokeColor: '#0D9488', // Hexagonal absoluto directo funcional
                             strokeWeight: 4,
                             strokeOpacity: 0.9,
-                            fillColor: '#0D9488', // Solucionado: Reemplazado variable CSS por Hex real
+                            fillColor: '#0D9488', 
                             fillOpacity: 0.3,
                             zIndex: 4,
                             visible: isVisible
