@@ -244,11 +244,11 @@
         let cortesLayer;
         let barridoLayer;
         let coveliaLayer;
-        let hidricasLayer; // Capa para Asuntos Hídricos
+        let hidricasLayer; 
         let limiteElements = []; 
-        const cgmMap = new Map(); // Mapa de CGM normalizado -> Nombre original para evitar duplicados en el select
-        let barridoGeoJsonData = null; // Almacenamiento global para los datos de barrido y filtrado dinámico
-        let hidricasGeoJsonData = null; // Almacenamiento global para Asuntos Hídricos
+        const cgmMap = new Map(); 
+        let barridoGeoJsonData = null; 
+        let hidricasGeoJsonData = null; 
 
         // --- CARGADOR DE ARCHIVOS MULTI-RUTA / CASE-INSENSITIVE FALLBACKS ---
         async function loadLayerData(paths, processor) {
@@ -289,7 +289,7 @@
                 .toUpperCase();
         }
 
-        // --- FUNCIÓN DE BÚSQUEDA DE PROPIEDAD CGM INSENSIBLE A MAYÚSCULAS/MINÚSCULAS ---
+        // --- BÚSQUEDA DE PROPIEDAD CGM INSENSIBLE A MAYÚSCULAS/MINÚSCULAS ---
         function getFeatureCgmProperty(feature) {
             if (!feature) return "";
             let cgm = feature.getProperty('CGM');
@@ -400,7 +400,7 @@
                 }
             }
             
-            // Fallback robusto garantizado a Date
+            // Fallback robusto
             const d = new Date(dateStr);
             if (!isNaN(d.getTime())) {
                 return new Date(d.getFullYear(), d.getMonth(), d.getDate());
@@ -420,7 +420,7 @@
         
         // --- FUNCIÓN DE EVALUACIÓN DE FECHA SEGÚN FILTRO GLOBAL (DESDE / HASTA) ---
         function isDateInGlobalRange(dateStr) {
-            if (!dateStr) return true; // Si no hay fecha, no se filtra (permanece visible)
+            if (!dateStr) return true; // Si no hay fecha, permanece visible
             const featDate = parseDateCustom(dateStr);
             if (!featDate) return true;
 
@@ -489,29 +489,35 @@
         }
 
         // --- GENERADOR DE ICONOS INTELIGENTE PARA ASUNTOS HÍDRICOS (Puntos) ---
-        function getHidricasIcon(type, strokeColor = '#FFFFFF') {
+        function getHidricasIcon(type, strokeColor = '#FFFFFF', isBlinking = false) {
             let bgColor = '#0D9488'; // Color hídrico base
-            let letter = 'H'; // Letra Hídrica por defecto
+            let letter = 'H'; 
             const cleanType = String(type).trim().toUpperCase();
             
             if (cleanType.includes('SUMIDERO')) {
-                bgColor = '#06B6D4'; // Cyan-500
+                bgColor = '#06B6D4'; 
                 letter = 'S';
             } else if (cleanType.includes('CONDUCTO') || cleanType.includes('CANAL')) {
-                bgColor = '#0F766E'; // Teal-700
+                bgColor = '#0F766E'; 
                 letter = 'C';
             } else if (cleanType.includes('ZANJA') || cleanType.includes('ZANJEO')) {
-                bgColor = '#14B8A6'; // Teal-500
+                bgColor = '#14B8A6'; 
                 letter = 'Z';
             } else if (cleanType.includes('PUENTE')) {
-                bgColor = '#0284C7'; // Sky-600
+                bgColor = '#0284C7'; 
                 letter = 'P';
             }
+
+            // Animación de Titileo/Parpadeo para elementos repetidos
+            const animation = isBlinking ? `<animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>` : '';
             
             const svg = `
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <circle cx="12" cy="12" r="10" fill="${bgColor}" stroke="${strokeColor}" stroke-width="3"/>
-                    <text x="12" y="16" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11" fill="#FFFFFF" text-anchor="middle">${letter}</text>
+                    <g>
+                        ${animation}
+                        <circle cx="12" cy="12" r="10" fill="${bgColor}" stroke="${strokeColor}" stroke-width="3"/>
+                        <text x="12" y="16" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11" fill="#FFFFFF" text-anchor="middle">${letter}</text>
+                    </g>
                 </svg>
             `;
             return {
@@ -522,7 +528,7 @@
         }
 
         // --- GENERADOR DE ICONOS INTELIGENTE (PLAZAS/ESCUELAS/PREDIOS) ---
-        function getCustomIcon(type, strokeColor = '#FFFFFF') {
+        function getCustomIcon(type, strokeColor = '#FFFFFF', isBlinking = false) {
             let bgColor, letter;
             if (type === 'ESCUELA') {
                 bgColor = '#F59E0B'; 
@@ -535,10 +541,16 @@
                 letter = 'P'; 
             }
             
+            // Animación de Titileo/Parpadeo para elementos repetidos
+            const animation = isBlinking ? `<animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>` : '';
+
             const svg = `
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <circle cx="12" cy="12" r="10" fill="${bgColor}" stroke="${strokeColor}" stroke-width="3"/>
-                    <text x="12" y="16" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11" fill="#FFFFFF" text-anchor="middle">${letter}</text>
+                    <g>
+                        ${animation}
+                        <circle cx="12" cy="12" r="10" fill="${bgColor}" stroke="${strokeColor}" stroke-width="3"/>
+                        <text x="12" y="16" font-family="Montserrat, sans-serif" font-weight="bold" font-size="11" fill="#FFFFFF" text-anchor="middle">${letter}</text>
+                    </g>
                 </svg>
             `;
             return {
@@ -570,7 +582,7 @@
             selectGlobalCgm.value = selectedVal;
         }
 
-        // --- ACTUALIZACIÓN DINÁMICA DEL SELECTOR DE BARRENDEROS BASADO EN EL CGM ---
+        // --- ACTUALIZACIÓN DINÁMICA DEL SELECTOR DE BARRENDEROS ---
         function updateBarrenderoDropdown() {
             if (!barridoGeoJsonData) return;
 
@@ -732,7 +744,7 @@
                 zoom: 13,
                 styles: mapStyle,
                 mapTypeControl: false,
-                streetViewControl: true // Habilitamos la visualización y drag del Pegman para Street View
+                streetViewControl: true 
             });
 
             // --- REGISTRAR LOS LISTENERS DE CAMBIOS GLOBALES Y FECHAS ---
@@ -913,7 +925,7 @@
             barridoLayer = new google.maps.Data();
             const procesarBarrido = (geoJson) => {
                 const featuresToRemove = [];
-                barridoLayer.forEach(feat => featuresToRemove.push(feat));
+                barridoLayer.forEach(feat => featuresToRemovepush(feat));
                 featuresToRemove.forEach(feat => barridoLayer.remove(feat));
 
                 const sanitized = sanitizeGeoJson(geoJson);
@@ -1193,10 +1205,34 @@
             function updateCortesStyles() {
                 const globalCgmSelect = document.getElementById('filtro-global-cgm');
                 const globalCgm = globalCgmSelect ? globalCgmSelect.value : "TODOS";
-                
                 const fechaSelect = document.getElementById('filtro-fecha');
                 const fechaFiltro = fechaSelect ? fechaSelect.value : "TODAS";
 
+                // Map para detectar puntos duplicados (titilantes) en la visualización actual
+                const freqMap = new Map();
+
+                // 1. Contar ocurrencias válidas bajo los filtros actuales
+                cortesLayer.forEach((feature) => {
+                    const featCgm = getFeatureCgmProperty(feature);
+                    const cleanFeatCgm = normalizeCgmName(featCgm);
+                    const featFechaOriginal = feature.getProperty('Fecha_str'); 
+                    const featFechaClean = formatDateToShow(featFechaOriginal);
+                    let isVisible = true;
+
+                    if (globalCgm !== "TODOS" && cleanFeatCgm !== globalCgm) isVisible = false;
+                    if (fechaFiltro !== "TODAS" && featFechaClean !== fechaFiltro) isVisible = false;
+                    if (!isDateInGlobalRange(featFechaOriginal)) isVisible = false;
+
+                    if (isVisible) {
+                        const geom = feature.getGeometry();
+                        if (geom && geom.getType() === 'Point') {
+                            const coordKey = geom.get().lat().toFixed(5) + ',' + geom.get().lng().toFixed(5);
+                            freqMap.set(coordKey, (freqMap.get(coordKey) || 0) + 1);
+                        }
+                    }
+                });
+
+                // 2. Aplicar estilos con animación a duplicados
                 cortesLayer.setStyle((feature) => {
                     const featCgm = getFeatureCgmProperty(feature);
                     const cleanFeatCgm = normalizeCgmName(featCgm);
@@ -1205,26 +1241,17 @@
                     const dynamicDayColor = getColorPorDiaSemana(featFechaOriginal); 
                     let isVisible = true;
 
-                    if (globalCgm !== "TODOS") {
-                        if (cleanFeatCgm !== globalCgm) {
-                            isVisible = false;
-                        }
-                    }
-
-                    if (fechaFiltro !== "TODAS") {
-                        if (featFechaClean !== fechaFiltro) {
-                            isVisible = false;
-                        }
-                    }
-
-                    // Filtro de Rango de Fechas Global (Desde / Hasta)
-                    if (!isDateInGlobalRange(featFechaOriginal)) {
-                        isVisible = false;
-                    }
+                    if (globalCgm !== "TODOS" && cleanFeatCgm !== globalCgm) isVisible = false;
+                    if (fechaFiltro !== "TODAS" && featFechaClean !== fechaFiltro) isVisible = false;
+                    if (!isDateInGlobalRange(featFechaOriginal)) isVisible = false;
 
                     const geomType = feature.getGeometry() ? feature.getGeometry().getType() : '';
 
                     if (geomType === 'Point') {
+                        const geom = feature.getGeometry();
+                        const coordKey = geom.get().lat().toFixed(5) + ',' + geom.get().lng().toFixed(5);
+                        const isBlinking = (freqMap.get(coordKey) > 1);
+
                         const nombreRaw = feature.getProperty('Inicio Recorrido') || feature.getProperty('PLAZA') || feature.getProperty('NOMBRE') || '';
                         const nombreUpper = nombreRaw.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
                         
@@ -1236,8 +1263,8 @@
                         }
 
                         return {
-                            icon: getCustomIcon(type, dynamicDayColor),
-                            zIndex: 6,
+                            icon: getCustomIcon(type, dynamicDayColor, isBlinking),
+                            zIndex: isBlinking ? 8 : 6,
                             visible: isVisible
                         };
                     } else {
@@ -1279,7 +1306,7 @@
                     }
 
                     return {
-                        strokeColor: '#1E5E3A', // Color institucional
+                        strokeColor: '#1E5E3A', 
                         strokeWeight: 5,
                         strokeOpacity: 0.85,
                         zIndex: 4,
@@ -1319,16 +1346,42 @@
             function updateHidricasStyles() {
                 const globalCgmSelect = document.getElementById('filtro-global-cgm');
                 const globalCgm = globalCgmSelect ? globalCgmSelect.value : "TODOS";
-
                 const tipoSelect = document.getElementById('filtro-hidricas-tipo');
                 const tipoFiltro = tipoSelect ? tipoSelect.value : "TODOS";
-
                 const tareaSelect = document.getElementById('filtro-hidricas-tarea');
                 const tareaFiltro = tareaSelect ? tareaSelect.value : "TODAS";
-
                 const fechaSelect = document.getElementById('filtro-hidricas-fecha');
                 const fechaFiltro = fechaSelect ? fechaSelect.value : "TODAS";
 
+                // Map para detectar puntos de obras duplicadas (titilantes)
+                const freqMap = new Map();
+
+                // 1. Contar ocurrencias
+                hidricasLayer.forEach((feature) => {
+                    const featCgm = getFeatureCgmProperty(feature);
+                    const cleanFeatCgm = normalizeCgmName(featCgm);
+                    const featTipo = feature.getProperty('tipo') ? String(feature.getProperty('tipo')).trim() : "";
+                    const featTarea = feature.getProperty('tarea') ? String(feature.getProperty('tarea')).trim() : "";
+                    const featFecha = feature.getProperty('fecha');
+                    const featFechaClean = formatDateToShow(featFecha);
+                    let isVisible = true;
+
+                    if (globalCgm !== "TODOS" && cleanFeatCgm !== globalCgm) isVisible = false;
+                    if (tipoFiltro !== "TODOS" && featTipo !== tipoFiltro) isVisible = false;
+                    if (tareaFiltro !== "TODAS" && featTarea !== tareaFiltro) isVisible = false;
+                    if (fechaFiltro !== "TODAS" && featFechaClean !== fechaFiltro) isVisible = false;
+                    if (!isDateInGlobalRange(featFecha)) isVisible = false;
+
+                    if (isVisible) {
+                        const geom = feature.getGeometry();
+                        if (geom && geom.getType() === 'Point') {
+                            const coordKey = geom.get().lat().toFixed(5) + ',' + geom.get().lng().toFixed(5);
+                            freqMap.set(coordKey, (freqMap.get(coordKey) || 0) + 1);
+                        }
+                    }
+                });
+
+                // 2. Asignar estilos y animación
                 hidricasLayer.setStyle((feature) => {
                     const featCgm = getFeatureCgmProperty(feature);
                     const cleanFeatCgm = normalizeCgmName(featCgm);
@@ -1338,50 +1391,28 @@
                     const featFechaClean = formatDateToShow(featFecha);
                     let isVisible = true;
 
-                    if (globalCgm !== "TODOS") {
-                        if (cleanFeatCgm !== globalCgm) {
-                            isVisible = false;
-                        }
-                    }
-
-                    if (tipoFiltro !== "TODOS") {
-                        if (featTipo !== tipoFiltro) {
-                            isVisible = false;
-                        }
-                    }
-
-                    if (tareaFiltro !== "TODAS") {
-                        if (featTarea !== tareaFiltro) {
-                            isVisible = false;
-                        }
-                    }
-
-                    if (fechaFiltro !== "TODAS") {
-                        if (featFechaClean !== fechaFiltro) {
-                            isVisible = false;
-                        }
-                    }
-
-                    // Filtro de Rango de Fechas Global (Desde / Hasta) aplicado a Asuntos Hídricos
-                    if (!isDateInGlobalRange(featFecha)) {
-                        isVisible = false;
-                    }
+                    if (globalCgm !== "TODOS" && cleanFeatCgm !== globalCgm) isVisible = false;
+                    if (tipoFiltro !== "TODOS" && featTipo !== tipoFiltro) isVisible = false;
+                    if (tareaFiltro !== "TODAS" && featTarea !== tareaFiltro) isVisible = false;
+                    if (fechaFiltro !== "TODAS" && featFechaClean !== fechaFiltro) isVisible = false;
+                    if (!isDateInGlobalRange(featFecha)) isVisible = false;
 
                     const geomType = feature.getGeometry() ? feature.getGeometry().getType() : '';
-                    
-                    // Calculamos el color azul institucional en base al día de la semana para Hídricas
                     const dynamicDayColor = getColorPorDiaSemana(featFecha);
 
                     if (geomType === 'Point') {
+                        const geom = feature.getGeometry();
+                        const coordKey = geom.get().lat().toFixed(5) + ',' + geom.get().lng().toFixed(5);
+                        const isBlinking = (freqMap.get(coordKey) > 1);
+
                         return {
-                            icon: getHidricasIcon(featTipo, dynamicDayColor),
-                            zIndex: 6,
+                            icon: getHidricasIcon(featTipo, dynamicDayColor, isBlinking),
+                            zIndex: isBlinking ? 8 : 6,
                             visible: isVisible
                         };
                     } else {
-                        // Líneas y Polígonos - Soporte objetos espaciales y lineales
                         return {
-                            strokeColor: dynamicDayColor, // Color azul institucional según el día
+                            strokeColor: dynamicDayColor,
                             strokeWeight: 4,
                             strokeOpacity: 0.9,
                             fillColor: dynamicDayColor, 
