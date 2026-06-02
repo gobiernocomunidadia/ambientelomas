@@ -38662,6 +38662,126 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4537503258817,
+            -34.7343075971169
+          ],
+          [
+            -58.4550043616151,
+            -34.7349637490029
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-05-19T03:00:00.000Z",
+        "cgm": "Albertina",
+        "tarea": "Zanjeo y Limpieza",
+        "cant": 1,
+        "mts.": "",
+        "tipo": "Puente Vecinal",
+        "direccion_desde": "Napoles entre Carriego & Andres Bello",
+        "direccion_hasta": "Napoles  & Andres Bello",
+        "": "HST169",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4537503258817,
+            -34.7343075971169
+          ],
+          [
+            -58.4550043616151,
+            -34.7349637490029
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-05-20T03:00:00.000Z",
+        "cgm": "Albertina",
+        "tarea": "Limpieza y Desobstruccion",
+        "cant": 9,
+        "mts.": "",
+        "tipo": "Puente Vecinal",
+        "direccion_desde": "Napoles entre Carriego & Andres Bello",
+        "direccion_hasta": "Napoles  & Andres Bello",
+        "": "AF262DV- CONTRATADO",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4537503258817,
+            -34.7343075971169
+          ],
+          [
+            -58.4550043616151,
+            -34.7349637490029
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-05-22T03:00:00.000Z",
+        "cgm": "Albertina",
+        "tarea": "Limpieza y Desobstruccion",
+        "cant": 16,
+        "mts.": "",
+        "tipo": "Puente Vecinal",
+        "direccion_desde": "Napoles entre Carriego & Andres Bello",
+        "direccion_hasta": "Napoles  & Andres Bello",
+        "": "AA065BR",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4537503258817,
+            -34.7343075971169
+          ],
+          [
+            -58.4550043616151,
+            -34.7349637490029
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-05-22T03:00:00.000Z",
+        "cgm": "Albertina",
+        "tarea": "Limpieza y Desobstruccion",
+        "cant": 2,
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Napoles entre Carriego & Andres Bello",
+        "direccion_hasta": "Napoles  & Andres Bello",
+        "": "AA065BR",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Point",
         "coordinates": [
           -58.4309838,
@@ -40117,6 +40237,66 @@
         "tipo": "Camara",
         "direccion_desde": "Pasco & Picaflor",
         "direccion_hasta": "",
+        "": "AA065BR",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.3536258097074,
+            -34.7575550778985
+          ],
+          [
+            -58.3521720524412,
+            -34.7568014339594
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-05-28T03:00:00.000Z",
+        "cgm": "San Jose ",
+        "tarea": "Limpieza y Desobstruccion",
+        "cant": 8,
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Pasco entre Benteveo & Picaflor",
+        "direccion_hasta": "Pasco & Picaflor",
+        "": "AA065BR",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.3536258097074,
+            -34.7575550778985
+          ],
+          [
+            -58.3521720524412,
+            -34.7568014339594
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-05-28T03:00:00.000Z",
+        "cgm": "San Jose ",
+        "tarea": "Limpieza y Desobstruccion",
+        "cant": 6,
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pasco entre Benteveo & Picaflor",
+        "direccion_hasta": "Pasco & Picaflor",
         "": "AA065BR",
         "distancia": "",
         "nro._reporte": "",
