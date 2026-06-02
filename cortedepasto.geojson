@@ -44889,7 +44889,7 @@
         "CGM": "Lamadrid",
         "Localidad": "Ingeniero Budge",
         "Color_Generado": "#3cb44b",
-        "Distancia": 2294.47,
+        "Distancia": 1996.66,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -44902,8 +44902,8 @@
             -34.73282
           ],
           [
-            -58.4701692398937,
-            -34.7233704033485
+            -58.4708390298079,
+            -34.7251653906428
           ]
         ]
       }
@@ -44945,7 +44945,7 @@
         "CGM": "Lomas",
         "Localidad": "Lomas de Zamora",
         "Color_Generado": "#3cb44b",
-        "Distancia": 2818.88,
+        "Distancia": 2812.71,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -45029,7 +45029,7 @@
         "CGM": "Santa Catalina",
         "Localidad": "Ingeniero Budge",
         "Color_Generado": "#3cb44b",
-        "Distancia": 559.17,
+        "Distancia": 544.16,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
