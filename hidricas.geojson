@@ -35202,7 +35202,7 @@
       },
       "properties": {
         "fecha": "2026-03-29T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35226,7 +35226,7 @@
       },
       "properties": {
         "fecha": "2026-03-29T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -35250,7 +35250,7 @@
       },
       "properties": {
         "fecha": "2026-04-17T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35274,7 +35274,7 @@
       },
       "properties": {
         "fecha": "2026-04-17T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35298,7 +35298,7 @@
       },
       "properties": {
         "fecha": "2026-03-30T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 3,
         "mts.": "",
@@ -35322,7 +35322,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35346,7 +35346,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -35370,7 +35370,7 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -35394,7 +35394,7 @@
       },
       "properties": {
         "fecha": "2026-03-29T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35466,7 +35466,7 @@
       },
       "properties": {
         "fecha": "2026-05-09T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "parque Baron",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -35490,7 +35490,7 @@
       },
       "properties": {
         "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35514,7 +35514,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35538,7 +35538,7 @@
       },
       "properties": {
         "fecha": "2026-05-11T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35562,7 +35562,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35586,7 +35586,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -35610,7 +35610,7 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -35634,7 +35634,7 @@
       },
       "properties": {
         "fecha": "2026-05-02T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -35682,7 +35682,7 @@
       },
       "properties": {
         "fecha": "2026-05-02T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -35712,7 +35712,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Santa Catalina ",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": 150,
@@ -35736,7 +35736,7 @@
       },
       "properties": {
         "fecha": "2026-03-25T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "parque baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35766,7 +35766,7 @@
       },
       "properties": {
         "fecha": "2026-04-17T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Santa Catalina ",
         "tarea": "Zanjeo",
         "cant": 1,
         "mts.": 100,
@@ -35790,7 +35790,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza",
         "cant": 1,
         "mts.": 200,
@@ -35814,7 +35814,7 @@
       },
       "properties": {
         "fecha": "2026-03-27T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -35838,7 +35838,7 @@
       },
       "properties": {
         "fecha": "2026-04-23T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -35868,7 +35868,7 @@
       },
       "properties": {
         "fecha": "2026-05-11T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Santa Catalina ",
         "tarea": "Corte de Pasto y Zanjeo",
         "cant": 1,
         "mts.": 100,
@@ -35898,7 +35898,7 @@
       },
       "properties": {
         "fecha": "2026-04-23T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina ",
         "tarea": "Corte de Pasto y Limpieza de Zanja",
         "cant": 1,
         "mts.": 100,
@@ -35922,7 +35922,7 @@
       },
       "properties": {
         "fecha": "2026-05-14T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "banfield",
         "tarea": "Limpieza a Mano",
         "cant": 1,
         "mts.": "",
@@ -35946,7 +35946,7 @@
       },
       "properties": {
         "fecha": "2026-05-14T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "banfield",
         "tarea": "Limpieza a Mano",
         "cant": 4,
         "mts.": "",
@@ -35970,7 +35970,7 @@
       },
       "properties": {
         "fecha": "2026-05-16T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36018,7 +36018,7 @@
       },
       "properties": {
         "fecha": "2026-05-08T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina",
         "tarea": "Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -36042,7 +36042,7 @@
       },
       "properties": {
         "fecha": "2026-05-08T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina",
         "tarea": "Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -36066,7 +36066,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36090,7 +36090,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -36114,7 +36114,7 @@
       },
       "properties": {
         "fecha": "2026-03-27T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36138,7 +36138,7 @@
       },
       "properties": {
         "fecha": "2026-04-21T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -36162,7 +36162,7 @@
       },
       "properties": {
         "fecha": "2026-04-21T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -36186,7 +36186,7 @@
       },
       "properties": {
         "fecha": "2026-01-23T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": "",
         "mts.": "",
@@ -36210,7 +36210,7 @@
       },
       "properties": {
         "fecha": "2026-02-24T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -36234,7 +36234,7 @@
       },
       "properties": {
         "fecha": "2026-01-23T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": "",
         "mts.": "",
@@ -36258,7 +36258,7 @@
       },
       "properties": {
         "fecha": "2026-01-16T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": "",
         "mts.": "",
@@ -36282,7 +36282,7 @@
       },
       "properties": {
         "fecha": "2026-05-13T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Santa Marta ",
         "tarea": "Limpieza a Mano",
         "cant": 1,
         "mts.": "",
@@ -36306,7 +36306,7 @@
       },
       "properties": {
         "fecha": "2026-05-22T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -36330,7 +36330,7 @@
       },
       "properties": {
         "fecha": "2026-05-22T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -36354,7 +36354,7 @@
       },
       "properties": {
         "fecha": "2026-05-01T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -36378,7 +36378,7 @@
       },
       "properties": {
         "fecha": "2026-05-01T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -36402,7 +36402,7 @@
       },
       "properties": {
         "fecha": "2026-04-11T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -36426,7 +36426,7 @@
       },
       "properties": {
         "fecha": "2026-03-24T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -36450,7 +36450,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36474,7 +36474,7 @@
       },
       "properties": {
         "fecha": "2026-05-16T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36498,7 +36498,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -36522,7 +36522,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 11,
         "mts.": "",
@@ -36552,7 +36552,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Santa Catalina ",
         "tarea": "Zanjeo",
         "cant": 1,
         "mts.": 100,
@@ -36582,7 +36582,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Santa Catalina ",
         "tarea": "Zanjeo",
         "cant": 1,
         "mts.": 100,
@@ -36606,7 +36606,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36630,7 +36630,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36654,7 +36654,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36678,7 +36678,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36702,7 +36702,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36726,7 +36726,7 @@
       },
       "properties": {
         "fecha": "2026-04-30T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza a Mano",
         "cant": 4,
         "mts.": "",
@@ -36750,7 +36750,7 @@
       },
       "properties": {
         "fecha": "2026-05-27T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Rotura de puente de Hormigon",
         "cant": 1,
         "mts.": "",
@@ -36774,7 +36774,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36798,7 +36798,7 @@
       },
       "properties": {
         "fecha": "2026-05-24T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36822,7 +36822,7 @@
       },
       "properties": {
         "fecha": "2026-05-24T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -36846,7 +36846,7 @@
       },
       "properties": {
         "fecha": "2026-05-23T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -36870,7 +36870,7 @@
       },
       "properties": {
         "fecha": "2026-05-12T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Lomas ",
         "tarea": "Reconstruccion y Colocacion",
         "cant": 2,
         "mts.": "",
@@ -36894,7 +36894,7 @@
       },
       "properties": {
         "fecha": "2026-04-22T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 3,
         "mts.": "",
@@ -36918,7 +36918,7 @@
       },
       "properties": {
         "fecha": "2026-05-09T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Temperley",
         "tarea": "Desobstruccion",
         "cant": 8,
         "mts.": "",
@@ -36942,7 +36942,7 @@
       },
       "properties": {
         "fecha": "2026-05-09T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 10,
         "mts.": "",
@@ -36966,7 +36966,7 @@
       },
       "properties": {
         "fecha": "2026-04-06T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -36990,7 +36990,7 @@
       },
       "properties": {
         "fecha": "2026-04-06T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37014,7 +37014,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 10,
         "mts.": "",
@@ -37038,7 +37038,7 @@
       },
       "properties": {
         "fecha": "2026-05-07T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 10,
         "mts.": "",
@@ -37062,7 +37062,7 @@
       },
       "properties": {
         "fecha": "2026-04-05T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37086,7 +37086,7 @@
       },
       "properties": {
         "fecha": "2026-04-19T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37110,7 +37110,7 @@
       },
       "properties": {
         "fecha": "2026-04-06T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37134,7 +37134,7 @@
       },
       "properties": {
         "fecha": "2026-04-06T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37158,7 +37158,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37182,7 +37182,7 @@
       },
       "properties": {
         "fecha": "2026-04-06T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37206,7 +37206,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -37230,7 +37230,7 @@
       },
       "properties": {
         "fecha": "2026-05-12T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37254,7 +37254,7 @@
       },
       "properties": {
         "fecha": "2026-05-12T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37278,7 +37278,7 @@
       },
       "properties": {
         "fecha": "2026-05-07T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37308,7 +37308,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Santa Catalina",
         "tarea": "Nivelado de Suelo",
         "cant": 1,
         "mts.": 100,
@@ -37332,7 +37332,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina",
         "tarea": "Corte de Pasto y Zanjeo",
         "cant": 1,
         "mts.": "",
@@ -37356,7 +37356,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina",
         "tarea": "Colocacion",
         "cant": 1,
         "mts.": "",
@@ -37380,7 +37380,7 @@
       },
       "properties": {
         "fecha": "2026-03-21T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37404,7 +37404,7 @@
       },
       "properties": {
         "fecha": "2026-03-27T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37428,7 +37428,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37452,7 +37452,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37482,7 +37482,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina ",
         "tarea": "Corte de Pasto y Zanjeo",
         "cant": 1,
         "mts.": 50,
@@ -37506,7 +37506,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37530,7 +37530,7 @@
       },
       "properties": {
         "fecha": "2026-03-23T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37554,7 +37554,7 @@
       },
       "properties": {
         "fecha": "2026-03-30T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37578,7 +37578,7 @@
       },
       "properties": {
         "fecha": "2026-04-02T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37602,7 +37602,7 @@
       },
       "properties": {
         "fecha": "2026-04-07T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37626,7 +37626,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37650,7 +37650,7 @@
       },
       "properties": {
         "fecha": "2026-05-03T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37674,7 +37674,7 @@
       },
       "properties": {
         "fecha": "2026-03-23T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37698,7 +37698,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37722,7 +37722,7 @@
       },
       "properties": {
         "fecha": "2026-04-30T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37746,7 +37746,7 @@
       },
       "properties": {
         "fecha": "2026-03-26T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 27,
         "mts.": "",
@@ -37770,7 +37770,7 @@
       },
       "properties": {
         "fecha": "2026-02-14T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": "",
         "mts.": "",
@@ -37794,7 +37794,7 @@
       },
       "properties": {
         "fecha": "2026-01-13T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": "",
         "mts.": "",
@@ -37818,7 +37818,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37842,7 +37842,7 @@
       },
       "properties": {
         "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -37872,7 +37872,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Budge",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": 300,
@@ -37896,7 +37896,7 @@
       },
       "properties": {
         "fecha": "2026-04-14T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -37920,7 +37920,7 @@
       },
       "properties": {
         "fecha": "2026-04-18T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 9,
         "mts.": "",
@@ -37944,7 +37944,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "centenario",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
@@ -37968,7 +37968,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "centenario",
         "tarea": "Colocacion",
         "cant": 6,
         "mts.": 400,
@@ -37992,7 +37992,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -38016,7 +38016,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "centenario",
         "tarea": "Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -38040,7 +38040,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "centenario",
         "tarea": "Desobstruccion",
         "cant": 12,
         "mts.": "",
@@ -38064,7 +38064,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -38088,7 +38088,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "centenario",
         "tarea": "Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -38112,7 +38112,7 @@
       },
       "properties": {
         "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -38136,7 +38136,7 @@
       },
       "properties": {
         "fecha": "2026-04-14T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -38160,7 +38160,7 @@
       },
       "properties": {
         "fecha": "2026-03-31T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -38184,7 +38184,7 @@
       },
       "properties": {
         "fecha": "2026-03-31T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -38208,7 +38208,7 @@
       },
       "properties": {
         "fecha": "2026-05-01T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -38232,7 +38232,7 @@
       },
       "properties": {
         "fecha": "2026-05-01T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -38256,7 +38256,7 @@
       },
       "properties": {
         "fecha": "2026-04-14T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38280,7 +38280,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38304,7 +38304,7 @@
       },
       "properties": {
         "fecha": "2026-05-22T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38328,7 +38328,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38352,7 +38352,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38376,7 +38376,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38400,7 +38400,7 @@
       },
       "properties": {
         "fecha": "2026-04-14T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38424,7 +38424,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38448,7 +38448,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38472,7 +38472,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38496,7 +38496,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38520,7 +38520,7 @@
       },
       "properties": {
         "fecha": "2026-04-22T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Catalina ",
         "tarea": "Colocacion",
         "cant": 6,
         "mts.": "",
@@ -38544,7 +38544,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 12,
         "mts.": "",
@@ -38568,7 +38568,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -38592,7 +38592,7 @@
       },
       "properties": {
         "fecha": "2026-04-18T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 8,
         "mts.": "",
@@ -38646,7 +38646,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Centenario",
         "tarea": "Zanjeo y Limpieza",
         "cant": "",
         "mts.": 100,
@@ -38670,7 +38670,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Albertina",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
@@ -38694,7 +38694,7 @@
       },
       "properties": {
         "fecha": "2026-05-22T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -38718,7 +38718,7 @@
       },
       "properties": {
         "fecha": "2026-05-22T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -38742,7 +38742,7 @@
       },
       "properties": {
         "fecha": "2026-05-23T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Budge",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -38766,7 +38766,7 @@
       },
       "properties": {
         "fecha": "2026-03-27T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Budge",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -38790,7 +38790,7 @@
       },
       "properties": {
         "fecha": "2026-04-17T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -38814,7 +38814,7 @@
       },
       "properties": {
         "fecha": "2026-04-17T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38838,7 +38838,7 @@
       },
       "properties": {
         "fecha": "2026-04-17T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -38862,7 +38862,7 @@
       },
       "properties": {
         "fecha": "2026-04-17T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38886,7 +38886,7 @@
       },
       "properties": {
         "fecha": "2026-03-27T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -38910,7 +38910,7 @@
       },
       "properties": {
         "fecha": "2026-04-22T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -38958,7 +38958,7 @@
       },
       "properties": {
         "fecha": "2026-05-20T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -38982,7 +38982,7 @@
       },
       "properties": {
         "fecha": "2026-05-20T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -39006,7 +39006,7 @@
       },
       "properties": {
         "fecha": "2026-05-18T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Centenario",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
@@ -39030,7 +39030,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Centenario",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
@@ -39054,7 +39054,7 @@
       },
       "properties": {
         "fecha": "2026-04-30T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Centenario",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
@@ -39102,7 +39102,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Centenario",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
@@ -39126,7 +39126,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -39150,7 +39150,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -39174,7 +39174,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Santa catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -39198,7 +39198,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Santa catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -39222,7 +39222,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Parque Baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -39246,7 +39246,7 @@
       },
       "properties": {
         "fecha": "2026-05-13T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Parque Baron ",
         "tarea": "Reacondicionamiento",
         "cant": 1,
         "mts.": "",
@@ -39270,7 +39270,7 @@
       },
       "properties": {
         "fecha": "2026-05-13T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Parque Baron ",
         "tarea": "Limpieza a Mano",
         "cant": 1,
         "mts.": "",
@@ -39294,7 +39294,7 @@
       },
       "properties": {
         "fecha": "2026-05-15T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Parque Baron ",
         "tarea": "Relleno y Nivelado",
         "cant": 1,
         "mts.": "",
@@ -39318,7 +39318,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Parque Baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 3,
         "mts.": "",
@@ -39342,7 +39342,7 @@
       },
       "properties": {
         "fecha": "2026-05-07T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Parque Baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -39366,7 +39366,7 @@
       },
       "properties": {
         "fecha": "2026-05-07T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Parque Baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 10,
         "mts.": "",
@@ -39390,7 +39390,7 @@
       },
       "properties": {
         "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Parque Baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -39414,7 +39414,7 @@
       },
       "properties": {
         "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Parque Baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 8,
         "mts.": "",
@@ -39438,7 +39438,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Parque Baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -39462,7 +39462,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Parque Baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -39486,7 +39486,7 @@
       },
       "properties": {
         "fecha": "2026-04-27T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Parque Baron ",
         "tarea": "Reconstruccion",
         "cant": 1,
         "mts.": "",
@@ -39510,7 +39510,7 @@
       },
       "properties": {
         "fecha": "2026-04-11T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -39534,7 +39534,7 @@
       },
       "properties": {
         "fecha": "2026-03-25T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -39558,7 +39558,7 @@
       },
       "properties": {
         "fecha": "2026-04-14T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -39582,7 +39582,7 @@
       },
       "properties": {
         "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Parque baron",
         "tarea": "Limpieza y Colocacion",
         "cant": 1,
         "mts.": "",
@@ -39606,7 +39606,7 @@
       },
       "properties": {
         "fecha": "2026-05-15T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -39630,7 +39630,7 @@
       },
       "properties": {
         "fecha": "2026-05-27T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "parque Baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -39654,7 +39654,7 @@
       },
       "properties": {
         "fecha": "2026-04-11T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -39678,7 +39678,7 @@
       },
       "properties": {
         "fecha": "2026-04-07T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 8,
         "mts.": "",
@@ -39702,7 +39702,7 @@
       },
       "properties": {
         "fecha": "2026-04-07T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -39726,7 +39726,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -39750,7 +39750,7 @@
       },
       "properties": {
         "fecha": "2026-04-28T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Santa marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -39774,7 +39774,7 @@
       },
       "properties": {
         "fecha": "2026-05-11T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "parque baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -39798,7 +39798,7 @@
       },
       "properties": {
         "fecha": "2026-05-09T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "parque baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -39822,7 +39822,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "parque baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -39846,7 +39846,7 @@
       },
       "properties": {
         "fecha": "2026-05-16T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "parque baron ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 8,
         "mts.": "",
@@ -39870,7 +39870,7 @@
       },
       "properties": {
         "fecha": "2026-03-20T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -39894,7 +39894,7 @@
       },
       "properties": {
         "fecha": "2026-04-01T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 17,
         "mts.": "",
@@ -39918,7 +39918,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -39942,7 +39942,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Fiorito",
         "tarea": "Limpieza",
         "cant": 1,
         "mts.": 40,
@@ -39966,7 +39966,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Fiorito",
         "tarea": "Colocacion",
         "cant": 1,
         "mts.": "",
@@ -39990,7 +39990,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -40014,7 +40014,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -40038,7 +40038,7 @@
       },
       "properties": {
         "fecha": "2026-05-27T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -40062,7 +40062,7 @@
       },
       "properties": {
         "fecha": "2026-05-27T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40086,7 +40086,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -40110,7 +40110,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -40134,7 +40134,7 @@
       },
       "properties": {
         "fecha": "2026-03-21T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -40158,7 +40158,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40182,7 +40182,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "San Jose ",
         "tarea": "Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40206,7 +40206,7 @@
       },
       "properties": {
         "fecha": "2026-05-15T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -40230,7 +40230,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40254,7 +40254,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "San Jose ",
         "tarea": "Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -40278,7 +40278,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -40302,7 +40302,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "San Jose ",
         "tarea": "Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -40326,7 +40326,7 @@
       },
       "properties": {
         "fecha": "2026-05-15T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -40350,7 +40350,7 @@
       },
       "properties": {
         "fecha": "2026-04-25T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40374,7 +40374,7 @@
       },
       "properties": {
         "fecha": "2026-05-11T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -40398,7 +40398,7 @@
       },
       "properties": {
         "fecha": "2026-04-04T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -40422,7 +40422,7 @@
       },
       "properties": {
         "fecha": "2026-04-22T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40446,7 +40446,7 @@
       },
       "properties": {
         "fecha": "2026-04-25T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -40470,7 +40470,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40494,7 +40494,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40518,7 +40518,7 @@
       },
       "properties": {
         "fecha": "2026-05-19T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -40542,7 +40542,7 @@
       },
       "properties": {
         "fecha": "2026-04-30T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "banfield",
         "tarea": "Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40566,7 +40566,7 @@
       },
       "properties": {
         "fecha": "2026-05-02T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -40590,7 +40590,7 @@
       },
       "properties": {
         "fecha": "2026-03-28T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -40614,7 +40614,7 @@
       },
       "properties": {
         "fecha": "2026-04-28T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lomas ",
         "tarea": "Limpieza a Mano",
         "cant": 4,
         "mts.": "",
@@ -40638,7 +40638,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion de Conducto",
         "cant": 1,
         "mts.": "",
@@ -40662,7 +40662,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion de Conducto",
         "cant": 1,
         "mts.": "",
@@ -40686,7 +40686,7 @@
       },
       "properties": {
         "fecha": "2026-05-07T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lomas ",
         "tarea": "Limpieza a Mano",
         "cant": 4,
         "mts.": "",
@@ -40734,7 +40734,7 @@
       },
       "properties": {
         "fecha": "2026-03-26T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -40758,7 +40758,7 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -40782,7 +40782,7 @@
       },
       "properties": {
         "fecha": "2026-04-09T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40812,7 +40812,7 @@
       },
       "properties": {
         "fecha": "2026-04-09T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Fiorito",
         "tarea": "Zanjeo",
         "cant": 1,
         "mts.": 50,
@@ -40836,7 +40836,7 @@
       },
       "properties": {
         "fecha": "2026-03-30T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Fiorito",
         "tarea": "Limpieza",
         "cant": 4,
         "mts.": "",
@@ -40860,7 +40860,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40884,7 +40884,7 @@
       },
       "properties": {
         "fecha": "2026-04-14T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -40908,7 +40908,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40932,7 +40932,7 @@
       },
       "properties": {
         "fecha": "2026-01-30T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": "",
         "mts.": "",
@@ -40956,7 +40956,7 @@
       },
       "properties": {
         "fecha": "2026-03-28T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -40980,7 +40980,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41004,7 +41004,7 @@
       },
       "properties": {
         "fecha": "2026-03-21T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41028,7 +41028,7 @@
       },
       "properties": {
         "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41076,7 +41076,7 @@
       },
       "properties": {
         "fecha": "2026-05-07T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41100,7 +41100,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41124,7 +41124,7 @@
       },
       "properties": {
         "fecha": "2026-05-14T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41148,7 +41148,7 @@
       },
       "properties": {
         "fecha": "2026-05-19T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41172,7 +41172,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41196,7 +41196,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41220,7 +41220,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41244,7 +41244,7 @@
       },
       "properties": {
         "fecha": "2026-04-23T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41268,7 +41268,7 @@
       },
       "properties": {
         "fecha": "2026-03-26T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 16,
         "mts.": "",
@@ -41292,7 +41292,7 @@
       },
       "properties": {
         "fecha": "2026-05-13T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41316,7 +41316,7 @@
       },
       "properties": {
         "fecha": "2026-05-13T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Lomas ",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -41340,7 +41340,7 @@
       },
       "properties": {
         "fecha": "2026-05-18T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Lomas ",
         "tarea": "Limpieza a Mano",
         "cant": 4,
         "mts.": "",
@@ -41364,7 +41364,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41388,7 +41388,7 @@
       },
       "properties": {
         "fecha": "2026-04-21T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -41412,7 +41412,7 @@
       },
       "properties": {
         "fecha": "2026-04-21T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -41436,7 +41436,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41460,7 +41460,7 @@
       },
       "properties": {
         "fecha": "2026-05-27T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Parque baron",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41484,7 +41484,7 @@
       },
       "properties": {
         "fecha": "2026-01-30T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": "",
         "mts.": "",
@@ -41508,7 +41508,7 @@
       },
       "properties": {
         "fecha": "2026-04-08T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41556,7 +41556,7 @@
       },
       "properties": {
         "fecha": "2026-04-23T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -41580,7 +41580,7 @@
       },
       "properties": {
         "fecha": "2026-04-27T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41604,7 +41604,7 @@
       },
       "properties": {
         "fecha": "2026-04-27T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 12,
         "mts.": "",
@@ -41628,7 +41628,7 @@
       },
       "properties": {
         "fecha": "2026-04-04T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 8,
         "mts.": "",
@@ -41652,7 +41652,7 @@
       },
       "properties": {
         "fecha": "2026-05-09T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Budge",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41676,7 +41676,7 @@
       },
       "properties": {
         "fecha": "2026-05-19T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41700,7 +41700,7 @@
       },
       "properties": {
         "fecha": "2026-05-19T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 3,
         "mts.": "",
@@ -41724,7 +41724,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -41748,7 +41748,7 @@
       },
       "properties": {
         "fecha": "2026-05-27T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41772,7 +41772,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -41796,7 +41796,7 @@
       },
       "properties": {
         "fecha": "2026-04-22T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Santa Catalina ",
         "tarea": "Corte de Pasto y Limpieza de Zanja",
         "cant": 1,
         "mts.": "",
@@ -41826,7 +41826,7 @@
       },
       "properties": {
         "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Santa Catalina ",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": 100,
@@ -41850,7 +41850,7 @@
       },
       "properties": {
         "fecha": "2026-03-24T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41874,7 +41874,7 @@
       },
       "properties": {
         "fecha": "2026-04-03T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Centenario",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -41898,7 +41898,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Centenario",
         "tarea": "Colocacion",
         "cant": 2,
         "mts.": 500,
@@ -41922,7 +41922,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Centenario",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
@@ -41946,7 +41946,7 @@
       },
       "properties": {
         "fecha": "2026-03-23T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -41970,7 +41970,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 7,
         "mts.": "",
@@ -41994,7 +41994,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42018,7 +42018,7 @@
       },
       "properties": {
         "fecha": "2026-05-16T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -42042,7 +42042,7 @@
       },
       "properties": {
         "fecha": "2026-05-09T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -42066,7 +42066,7 @@
       },
       "properties": {
         "fecha": "2026-04-26T03:00:00.000Z",
-        "cgm": "Fiorito",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42090,7 +42090,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 19,
         "mts.": 300,
@@ -42120,7 +42120,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 7,
         "mts.": 300,
@@ -42144,7 +42144,7 @@
       },
       "properties": {
         "fecha": "2026-05-13T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -42168,7 +42168,7 @@
       },
       "properties": {
         "fecha": "2026-05-13T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42192,7 +42192,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 19,
         "mts.": "",
@@ -42216,7 +42216,7 @@
       },
       "properties": {
         "fecha": "2026-04-20T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San Jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 7,
         "mts.": "",
@@ -42240,7 +42240,7 @@
       },
       "properties": {
         "fecha": "2026-03-30T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Reconstruccion",
         "cant": 1,
         "mts.": "",
@@ -42264,7 +42264,7 @@
       },
       "properties": {
         "fecha": "2026-04-21T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42288,7 +42288,7 @@
       },
       "properties": {
         "fecha": "2026-05-08T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42312,7 +42312,7 @@
       },
       "properties": {
         "fecha": "2026-04-07T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "San jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -42336,7 +42336,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -42360,7 +42360,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42384,7 +42384,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42408,7 +42408,7 @@
       },
       "properties": {
         "fecha": "2026-04-04T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42432,7 +42432,7 @@
       },
       "properties": {
         "fecha": "2026-04-28T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Lomas",
         "tarea": "Limpieza a Mano",
         "cant": 1,
         "mts.": "",
@@ -42456,7 +42456,7 @@
       },
       "properties": {
         "fecha": "2026-05-10T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42480,7 +42480,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42504,7 +42504,7 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42528,7 +42528,7 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Fiorito",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -42552,7 +42552,7 @@
       },
       "properties": {
         "fecha": "2026-05-19T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -42576,7 +42576,7 @@
       },
       "properties": {
         "fecha": "2026-05-19T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -42600,7 +42600,7 @@
       },
       "properties": {
         "fecha": "2026-05-20T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -42624,7 +42624,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Fiorito",
         "tarea": "Reconstruccion",
         "cant": 1,
         "mts.": "",
@@ -42648,7 +42648,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Fiorito",
         "tarea": "Colocacion",
         "cant": 1,
         "mts.": 400,
@@ -42672,7 +42672,7 @@
       },
       "properties": {
         "fecha": "2026-05-14T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "banfield",
         "tarea": "Limpieza a Mano",
         "cant": 4,
         "mts.": "",
@@ -42720,7 +42720,7 @@
       },
       "properties": {
         "fecha": "2026-05-12T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -42744,7 +42744,7 @@
       },
       "properties": {
         "fecha": "2026-05-18T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa Catalina ",
         "tarea": "Colocacion",
         "cant": 3,
         "mts.": 500,
@@ -42768,7 +42768,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -42792,7 +42792,7 @@
       },
       "properties": {
         "fecha": "2026-05-28T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -42816,7 +42816,7 @@
       },
       "properties": {
         "fecha": "2026-05-08T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -42846,7 +42846,7 @@
       },
       "properties": {
         "fecha": "2026-05-23T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Santa Catalina ",
         "tarea": "Nivelado de Suelo",
         "cant": 1,
         "mts.": 200,
@@ -42876,7 +42876,7 @@
       },
       "properties": {
         "fecha": "2026-05-28T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Santa Catalina ",
         "tarea": "Corte de Pasto y Zanjeo",
         "cant": "",
         "mts.": 150,
@@ -42900,7 +42900,7 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -42924,7 +42924,7 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina ",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -42948,7 +42948,7 @@
       },
       "properties": {
         "fecha": "2026-04-23T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -42972,7 +42972,7 @@
       },
       "properties": {
         "fecha": "2026-05-22T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -42996,7 +42996,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -43020,7 +43020,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43044,7 +43044,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -43068,7 +43068,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43116,7 +43116,7 @@
       },
       "properties": {
         "fecha": "2026-05-18T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Temperley",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43140,7 +43140,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43164,7 +43164,7 @@
       },
       "properties": {
         "fecha": "2026-04-01T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Parque baron",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43188,7 +43188,7 @@
       },
       "properties": {
         "fecha": "2026-04-01T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Parque baron",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43212,7 +43212,7 @@
       },
       "properties": {
         "fecha": "2026-04-09T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 12,
         "mts.": "",
@@ -43236,7 +43236,7 @@
       },
       "properties": {
         "fecha": "2026-05-05T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43308,7 +43308,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 7,
         "mts.": "",
@@ -43332,7 +43332,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -43356,7 +43356,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43380,7 +43380,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -43404,7 +43404,7 @@
       },
       "properties": {
         "fecha": "2026-04-09T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Turdera",
         "tarea": "Limpieza",
         "cant": 4,
         "mts.": "",
@@ -43428,7 +43428,7 @@
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -43452,7 +43452,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 7,
         "mts.": "",
@@ -43524,7 +43524,7 @@
       },
       "properties": {
         "fecha": "2026-04-12T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -43548,7 +43548,7 @@
       },
       "properties": {
         "fecha": "2026-05-10T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -43572,7 +43572,7 @@
       },
       "properties": {
         "fecha": "2026-05-17T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43596,7 +43596,7 @@
       },
       "properties": {
         "fecha": "2026-03-31T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43620,7 +43620,7 @@
       },
       "properties": {
         "fecha": "2026-03-31T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -43644,7 +43644,7 @@
       },
       "properties": {
         "fecha": "2026-04-02T03:00:00.000Z",
-        "cgm": "Lamadrid",
+        "cgm": "Santa Catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43668,7 +43668,7 @@
       },
       "properties": {
         "fecha": "2026-04-09T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Turdera",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -43692,7 +43692,7 @@
       },
       "properties": {
         "fecha": "2026-04-02T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43716,7 +43716,7 @@
       },
       "properties": {
         "fecha": "2026-04-02T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -43740,7 +43740,7 @@
       },
       "properties": {
         "fecha": "2026-04-06T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -43764,7 +43764,7 @@
       },
       "properties": {
         "fecha": "2026-04-02T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -43788,7 +43788,7 @@
       },
       "properties": {
         "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lomas ",
         "tarea": "Zanjeo",
         "cant": 1,
         "mts.": "",
@@ -43812,7 +43812,7 @@
       },
       "properties": {
         "fecha": "2026-04-23T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Colocacion",
         "cant": 7,
         "mts.": "",
@@ -43836,7 +43836,7 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -43986,7 +43986,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Santa Marta",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -44010,7 +44010,7 @@
       },
       "properties": {
         "fecha": "2026-05-20T03:00:00.000Z",
-        "cgm": "Temperley",
+        "cgm": "Santa Catalina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -44034,7 +44034,7 @@
       },
       "properties": {
         "fecha": "2026-05-20T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Santa Catalina",
         "tarea": "Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -44058,7 +44058,7 @@
       },
       "properties": {
         "fecha": "2026-03-28T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -44082,7 +44082,7 @@
       },
       "properties": {
         "fecha": "2026-03-28T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lomas ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -44106,7 +44106,7 @@
       },
       "properties": {
         "fecha": "2026-03-27T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": "",
         "mts.": "",
@@ -44154,7 +44154,7 @@
       },
       "properties": {
         "fecha": "2026-05-08T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44178,7 +44178,7 @@
       },
       "properties": {
         "fecha": "2026-05-08T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44202,7 +44202,7 @@
       },
       "properties": {
         "fecha": "2026-05-08T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Lamadrid",
         "tarea": "Desobstruccion",
         "cant": 2,
         "mts.": "",
@@ -44226,7 +44226,7 @@
       },
       "properties": {
         "fecha": "2026-05-14T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -44250,7 +44250,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 16,
         "mts.": "",
@@ -44274,7 +44274,7 @@
       },
       "properties": {
         "fecha": "2026-05-25T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -44298,7 +44298,7 @@
       },
       "properties": {
         "fecha": "2026-04-27T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Albertina",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
@@ -44322,7 +44322,7 @@
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 18,
         "mts.": "",
@@ -44346,7 +44346,7 @@
       },
       "properties": {
         "fecha": "2026-04-28T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Albertina",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
@@ -44370,7 +44370,7 @@
       },
       "properties": {
         "fecha": "2026-04-03T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44394,7 +44394,7 @@
       },
       "properties": {
         "fecha": "2026-05-26T03:00:00.000Z",
-        "cgm": "San Jose",
+        "cgm": "Santa catalina ",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": 800,
@@ -44418,7 +44418,7 @@
       },
       "properties": {
         "fecha": "2026-05-27T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa catalina ",
         "tarea": "Nivelado de Suelo",
         "cant": "",
         "mts.": 90,
@@ -44448,7 +44448,7 @@
       },
       "properties": {
         "fecha": "2026-05-27T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Santa catalina ",
         "tarea": "Nivelado de Suelo",
         "cant": "",
         "mts.": 300,
@@ -44478,7 +44478,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa catalina ",
         "tarea": "Nivelado de Suelo",
         "cant": 1,
         "mts.": 600,
@@ -44502,7 +44502,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -44526,7 +44526,7 @@
       },
       "properties": {
         "fecha": "2026-04-15T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa catalina ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -44556,7 +44556,7 @@
       },
       "properties": {
         "fecha": "2026-05-11T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa catalina ",
         "tarea": "Corte de Pasto y Zanjeo",
         "cant": 1,
         "mts.": 100,
@@ -44580,7 +44580,7 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44628,7 +44628,7 @@
       },
       "properties": {
         "fecha": "2026-04-28T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Santa Marta",
         "tarea": "Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -44652,7 +44652,7 @@
       },
       "properties": {
         "fecha": "2026-04-28T03:00:00.000Z",
-        "cgm": "Turdera",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44700,7 +44700,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44724,7 +44724,7 @@
       },
       "properties": {
         "fecha": "2026-04-21T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44748,7 +44748,7 @@
       },
       "properties": {
         "fecha": "2026-04-09T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Llavallol",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44778,7 +44778,7 @@
       },
       "properties": {
         "fecha": "2026-04-14T03:00:00.000Z",
-        "cgm": "Lomas",
+        "cgm": "Budge ",
         "tarea": "Zanjeo",
         "cant": 1,
         "mts.": 150,
@@ -44808,7 +44808,7 @@
       },
       "properties": {
         "fecha": "2026-04-13T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Budge ",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": 100,
@@ -44832,7 +44832,7 @@
       },
       "properties": {
         "fecha": "2026-04-25T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Budge ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44856,7 +44856,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Llavallol",
+        "cgm": "Parque baron",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44880,7 +44880,7 @@
       },
       "properties": {
         "fecha": "2026-04-25T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Parque baron",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44904,7 +44904,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Santa Catalina",
+        "cgm": "Parque baron",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44928,7 +44928,7 @@
       },
       "properties": {
         "fecha": "2026-04-02T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Parque baron",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44952,7 +44952,7 @@
       },
       "properties": {
         "fecha": "2026-03-21T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "San jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44976,7 +44976,7 @@
       },
       "properties": {
         "fecha": "2026-03-21T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "San jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -45000,7 +45000,7 @@
       },
       "properties": {
         "fecha": "2026-03-21T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "San jose ",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
@@ -45024,7 +45024,7 @@
       },
       "properties": {
         "fecha": "2026-05-12T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -45048,7 +45048,7 @@
       },
       "properties": {
         "fecha": "2026-05-12T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lomas",
         "tarea": "Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -45072,7 +45072,7 @@
       },
       "properties": {
         "fecha": "2026-05-18T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -45096,7 +45096,7 @@
       },
       "properties": {
         "fecha": "2026-04-22T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -45120,7 +45120,7 @@
       },
       "properties": {
         "fecha": "2026-04-22T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lomas",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -45144,7 +45144,7 @@
       },
       "properties": {
         "fecha": "2026-04-29T03:00:00.000Z",
-        "cgm": "Centenario",
+        "cgm": "Banfield",
         "tarea": "Limpieza a Mano",
         "cant": 8,
         "mts.": "",
