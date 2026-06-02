@@ -222,8 +222,8 @@
                     <h4 class="text-xs font-extrabold text-amber-700 uppercase mb-2 flex items-center gap-2">
                         <i data-lucide="upload-cloud" class="h-4 w-4"></i> Cargar GeoJSON Local
                     </h4>
-                    <p class="text-[10px] text-gray-600 mb-2">Para ver el mapa offline o local sin servidor CORS, selecciona tus archivos manualmente (.geojson, .json):</p>
-                    <input type="file" id="input-geojson-local" accept=".geojson, .json" class="w-full text-xs text-[#0F172A] file:mr-2 file:py-1 file:px-2 file:rounded file:border-0 file:text-xs file:font-semibold file:bg-amber-600 file:text-white hover:file:bg-amber-700 cursor-pointer" multiple>
+                    <p class="text-[10px] text-gray-600 mb-2">Para ver el mapa offline o local sin servidor CORS, selecciona tus archivos manualmente (.geojson, .json, .gz):</p>
+                    <input type="file" id="input-geojson-local" accept=".geojson, .json, .gz" class="w-full text-xs text-[#0F172A] file:mr-2 file:py-1 file:px-2 file:rounded file:border-0 file:text-xs file:font-semibold file:bg-amber-600 file:text-white hover:file:bg-amber-700 cursor-pointer" multiple>
                 </div>
 
             </div>
@@ -249,6 +249,10 @@
         const cgmMap = new Map(); 
         let barridoGeoJsonData = null; 
         let hidricasGeoJsonData = null; 
+
+        // Variables Globales para animar líneas (Polylines y Polygons)
+        window.cortesBlinkingFeatures = [];
+        window.hidricasBlinkingFeatures = [];
 
         // --- CARGADOR DE ARCHIVOS MULTI-RUTA / CASE-INSENSITIVE FALLBACKS ---
         async function loadLayerData(paths, processor) {
@@ -277,6 +281,34 @@
                 console.error(`Error crítico cargando de rutas:`, paths, lastError);
                 document.getElementById('seccion-local-uploader').classList.remove('hidden');
             }
+        }
+
+        // --- FUNCIÓN PARA EXTRAER LA HUELLA ESPACIAL (HASH) DE UNA GEOMETRÍA ---
+        // Permite identificar matemáticamente si una línea o polígono es "exactamente igual" a otro
+        function getGeometryHash(geom) {
+            if (!geom) return null;
+            const type = geom.getType();
+            let pathStr = type + ':';
+            if (type === 'Point') {
+                pathStr += geom.get().lat().toFixed(5) + ',' + geom.get().lng().toFixed(5);
+            } else if (type === 'LineString') {
+                geom.getArray().forEach(ll => pathStr += ll.toUrlValue(5) + '|');
+            } else if (type === 'Polygon') {
+                geom.getArray().forEach(ring => {
+                    ring.getArray().forEach(ll => pathStr += ll.toUrlValue(5) + '|');
+                });
+            } else if (type === 'MultiLineString') {
+                geom.getArray().forEach(ls => {
+                    ls.getArray().forEach(ll => pathStr += ll.toUrlValue(5) + '|');
+                });
+            } else if (type === 'MultiPolygon') {
+                geom.getArray().forEach(poly => {
+                    poly.getArray().forEach(ring => {
+                        ring.getArray().forEach(ll => pathStr += ll.toUrlValue(5) + '|');
+                    });
+                });
+            }
+            return pathStr;
         }
 
         // --- FUNCIÓN DE NORMALIZACIÓN DE CGMs ---
@@ -582,7 +614,7 @@
             selectGlobalCgm.value = selectedVal;
         }
 
-        // --- ACTUALIZACIÓN DINÁMICA DEL SELECTOR DE BARRENDEROS ---
+        // --- ACTUALIZACIÓN DINÁMICA DEL SELECTOR DE BARRENDEROS BASADO EN EL CGM ---
         function updateBarrenderoDropdown() {
             if (!barridoGeoJsonData) return;
 
@@ -744,8 +776,28 @@
                 zoom: 13,
                 styles: mapStyle,
                 mapTypeControl: false,
-                streetViewControl: true 
+                streetViewControl: true // Habilitamos la visualización y drag del Pegman para Street View
             });
+
+            // Lógica de Animación Visual de Líneas Duplicadas (Blinking)
+            let isBlinkHigh = true;
+            setInterval(() => {
+                isBlinkHigh = !isBlinkHigh;
+                const opacityStroke = isBlinkHigh ? 0.9 : 0.2;
+                const opacityFill = isBlinkHigh ? 0.6 : 0.1;
+                
+                if (window.cortesBlinkingFeatures && window.cortesBlinkingFeatures.length > 0 && cortesLayer) {
+                    window.cortesBlinkingFeatures.forEach(f => {
+                        cortesLayer.overrideStyle(f, { strokeOpacity: opacityStroke, fillOpacity: opacityFill });
+                    });
+                }
+                
+                if (window.hidricasBlinkingFeatures && window.hidricasBlinkingFeatures.length > 0 && hidricasLayer) {
+                    window.hidricasBlinkingFeatures.forEach(f => {
+                        hidricasLayer.overrideStyle(f, { strokeOpacity: opacityStroke, fillOpacity: opacityFill });
+                    });
+                }
+            }, 600);
 
             // --- REGISTRAR LOS LISTENERS DE CAMBIOS GLOBALES Y FECHAS ---
             const selectGlobalCgm = document.getElementById('filtro-global-cgm');
@@ -925,7 +977,7 @@
             barridoLayer = new google.maps.Data();
             const procesarBarrido = (geoJson) => {
                 const featuresToRemove = [];
-                barridoLayer.forEach(feat => featuresToRemovepush(feat));
+                barridoLayer.forEach(feat => featuresToRemove.push(feat));
                 featuresToRemove.forEach(feat => barridoLayer.remove(feat));
 
                 const sanitized = sanitizeGeoJson(geoJson);
@@ -1208,7 +1260,8 @@
                 const fechaSelect = document.getElementById('filtro-fecha');
                 const fechaFiltro = fechaSelect ? fechaSelect.value : "TODAS";
 
-                // Map para detectar puntos duplicados (titilantes) en la visualización actual
+                cortesLayer.revertStyle();
+                window.cortesBlinkingFeatures = [];
                 const freqMap = new Map();
 
                 // 1. Contar ocurrencias válidas bajo los filtros actuales
@@ -1225,9 +1278,9 @@
 
                     if (isVisible) {
                         const geom = feature.getGeometry();
-                        if (geom && geom.getType() === 'Point') {
-                            const coordKey = geom.get().lat().toFixed(5) + ',' + geom.get().lng().toFixed(5);
-                            freqMap.set(coordKey, (freqMap.get(coordKey) || 0) + 1);
+                        const hash = getGeometryHash(geom);
+                        if (hash) {
+                            freqMap.set(hash, (freqMap.get(hash) || 0) + 1);
                         }
                     }
                 });
@@ -1246,12 +1299,10 @@
                     if (!isDateInGlobalRange(featFechaOriginal)) isVisible = false;
 
                     const geomType = feature.getGeometry() ? feature.getGeometry().getType() : '';
+                    const hash = getGeometryHash(feature.getGeometry());
+                    const isBlinking = (hash && freqMap.get(hash) > 1);
 
                     if (geomType === 'Point') {
-                        const geom = feature.getGeometry();
-                        const coordKey = geom.get().lat().toFixed(5) + ',' + geom.get().lng().toFixed(5);
-                        const isBlinking = (freqMap.get(coordKey) > 1);
-
                         const nombreRaw = feature.getProperty('Inicio Recorrido') || feature.getProperty('PLAZA') || feature.getProperty('NOMBRE') || '';
                         const nombreUpper = nombreRaw.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase();
                         
@@ -1268,12 +1319,16 @@
                             visible: isVisible
                         };
                     } else {
+                        // Resguardo de la característica a animar localmente
+                        if (isBlinking && isVisible) {
+                            window.cortesBlinkingFeatures.push(feature);
+                        }
                         return {
                             fillColor: dynamicDayColor,
                             fillOpacity: 0.6,
                             strokeColor: dynamicDayColor,
                             strokeWeight: 4, 
-                            zIndex: 5,
+                            zIndex: isBlinking ? 8 : 5,
                             visible: isVisible
                         };
                     }
@@ -1353,7 +1408,8 @@
                 const fechaSelect = document.getElementById('filtro-hidricas-fecha');
                 const fechaFiltro = fechaSelect ? fechaSelect.value : "TODAS";
 
-                // Map para detectar puntos de obras duplicadas (titilantes)
+                hidricasLayer.revertStyle();
+                window.hidricasBlinkingFeatures = [];
                 const freqMap = new Map();
 
                 // 1. Contar ocurrencias
@@ -1374,9 +1430,9 @@
 
                     if (isVisible) {
                         const geom = feature.getGeometry();
-                        if (geom && geom.getType() === 'Point') {
-                            const coordKey = geom.get().lat().toFixed(5) + ',' + geom.get().lng().toFixed(5);
-                            freqMap.set(coordKey, (freqMap.get(coordKey) || 0) + 1);
+                        const hash = getGeometryHash(geom);
+                        if (hash) {
+                            freqMap.set(hash, (freqMap.get(hash) || 0) + 1);
                         }
                     }
                 });
@@ -1399,25 +1455,28 @@
 
                     const geomType = feature.getGeometry() ? feature.getGeometry().getType() : '';
                     const dynamicDayColor = getColorPorDiaSemana(featFecha);
+                    
+                    const hash = getGeometryHash(feature.getGeometry());
+                    const isBlinking = (hash && freqMap.get(hash) > 1);
 
                     if (geomType === 'Point') {
-                        const geom = feature.getGeometry();
-                        const coordKey = geom.get().lat().toFixed(5) + ',' + geom.get().lng().toFixed(5);
-                        const isBlinking = (freqMap.get(coordKey) > 1);
-
                         return {
                             icon: getHidricasIcon(featTipo, dynamicDayColor, isBlinking),
                             zIndex: isBlinking ? 8 : 6,
                             visible: isVisible
                         };
                     } else {
+                        // Guardar referencia si es línea/polígono y necesita titilar
+                        if (isBlinking && isVisible) {
+                            window.hidricasBlinkingFeatures.push(feature);
+                        }
                         return {
                             strokeColor: dynamicDayColor,
                             strokeWeight: 4,
                             strokeOpacity: 0.9,
                             fillColor: dynamicDayColor, 
                             fillOpacity: 0.3,
-                            zIndex: 4,
+                            zIndex: isBlinking ? 8 : 4,
                             visible: isVisible
                         };
                     }
