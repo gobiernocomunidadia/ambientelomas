@@ -5808,8 +5808,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.3419234,
-          -34.6655686
+          -58.3413628739837,
+          -34.7563979912644
         ]
       },
       "properties": {
@@ -5819,7 +5819,7 @@
         "cant": 1,
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "Caaguazzu entre Garay & L a golondrina",
+        "direccion_desde": "Caaguazzu entre Garay & La golondrina",
         "direccion_hasta": "",
         "": "HST169",
         "distancia": "",
@@ -5966,30 +5966,6 @@
         "direccion_desde": "Cabo Correa & Macacha Guemes",
         "direccion_hasta": "",
         "": "OLL491",
-        "distancia": "",
-        "nro._reporte": "",
-        "observaciones": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.37403399999999,
-          -34.5994864
-        ]
-      },
-      "properties": {
-        "fecha": "2026-04-06T03:00:00.000Z",
-        "cgm": "Santa Catalina",
-        "tarea": "Limpieza y Desobstruccion",
-        "cant": 6,
-        "mts.": "",
-        "tipo": "Conducto",
-        "direccion_desde": "Cabo correa desde Grigera hasta Corsini",
-        "direccion_hasta": "",
-        "": "",
         "distancia": "",
         "nro._reporte": "",
         "observaciones": ""
@@ -8136,8 +8112,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4636805917551,
-          -34.7488434141211
+          -58.4636311295252,
+          -34.748812631506
         ]
       },
       "properties": {
@@ -8160,8 +8136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4636805917551,
-          -34.7488434141211
+          -58.4636311295252,
+          -34.748812631506
         ]
       },
       "properties": {
@@ -8184,8 +8160,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4636805917551,
-          -34.7488434141211
+          -58.4636311295252,
+          -34.748812631506
         ]
       },
       "properties": {
@@ -8232,8 +8208,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4340072,
-          -34.614265
+          -58.4636311295252,
+          -34.748812631506
         ]
       },
       "properties": {
@@ -8256,8 +8232,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.463563,
-          -34.748826
+          -58.4636311295252,
+          -34.748812631506
         ]
       },
       "properties": {
@@ -8280,8 +8256,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.39173160000001,
-          -34.74461120000001
+          -58.4636311295252,
+          -34.748812631506
         ]
       },
       "properties": {
@@ -37128,8 +37104,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.398233,
-          -34.768702
+          -58.3981900314899,
+          -34.7687377261683
         ]
       },
       "properties": {
@@ -37152,8 +37128,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.398372,
-          34.768879
+          -58.3981900314899,
+          -34.7687377261683
         ]
       },
       "properties": {
