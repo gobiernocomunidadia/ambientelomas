@@ -318,30 +318,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.5725397,
-          -34.6446997
-        ]
-      },
-      "properties": {
-        "fecha": "2026-04-14T03:00:00.000Z",
-        "cgm": "Llavallol",
-        "tarea": "Limpieza y Desobstruccion",
-        "cant": 6,
-        "mts.": "",
-        "tipo": "Sumidero",
-        "direccion_desde": "1° de Marzo entre Mendoza y Rosales",
-        "direccion_hasta": "",
-        "": "AG863SN",
-        "distancia": "",
-        "nro._reporte": "",
-        "observaciones": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -58.4187216,
           -34.8031438
         ]
@@ -900,30 +876,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.38398109999999,
-          -34.5981803
-        ]
-      },
-      "properties": {
-        "fecha": "2026-04-21T03:00:00.000Z",
-        "cgm": "Albertina",
-        "tarea": "Limpieza y Desobstruccion",
-        "cant": 14,
-        "mts.": "",
-        "tipo": "Puente Vecinal",
-        "direccion_desde": "Aguirre e/ Bustos y O Higgins",
-        "direccion_hasta": "",
-        "": "AA065BR",
-        "distancia": "",
-        "nro._reporte": "",
-        "observaciones": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -58.466567,
           -34.737128
         ]
@@ -1434,8 +1386,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.55729879999999,
-          -34.6399165
+          -58.391867445157,
+          -34.7766651130421
         ]
       },
       "properties": {
@@ -5592,8 +5544,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.3419234,
-          -34.6655686
+          -58.4535861282213,
+          -34.7524096912472
         ]
       },
       "properties": {
@@ -7296,8 +7248,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4635094,
-          -34.747144
+          -58.4648568781085,
+          -34.7473945035129
         ]
       },
       "properties": {
@@ -7320,8 +7272,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.37403399999999,
-          -34.5994864
+          -58.4648568781085,
+          -34.7473945035129
         ]
       },
       "properties": {
@@ -7344,8 +7296,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.37403399999999,
-          -34.5994864
+          -58.4648568781085,
+          -34.7473945035129
         ]
       },
       "properties": {
@@ -7368,8 +7320,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4657744,
-          -34.7484006
+          -58.4648568781085,
+          -34.7473945035129
         ]
       },
       "properties": {
@@ -7392,8 +7344,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4657744,
-          -34.7484006
+          -58.4648568781085,
+          -34.7473945035129
         ]
       },
       "properties": {
@@ -7416,8 +7368,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4657744,
-          -34.7484006
+          -58.4648568781085,
+          -34.7473945035129
         ]
       },
       "properties": {
@@ -7440,8 +7392,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.37403399999999,
-          -34.5994864
+          -58.4648568781085,
+          -34.7473945035129
         ]
       },
       "properties": {
@@ -8184,8 +8136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4635094,
-          -34.747144
+          -58.4636805917551,
+          -34.7488434141211
         ]
       },
       "properties": {
@@ -8208,8 +8160,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4635094,
-          -34.747144
+          -58.4636805917551,
+          -34.7488434141211
         ]
       },
       "properties": {
@@ -8232,8 +8184,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4635094,
-          -34.747144
+          -58.4636805917551,
+          -34.7488434141211
         ]
       },
       "properties": {
