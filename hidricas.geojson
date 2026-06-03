@@ -126,8 +126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.51530449999999,
-          -34.658174
+          -58.4593909737694,
+          -34.7120203697461
         ]
       },
       "properties": {
@@ -137,7 +137,7 @@
         "cant": 1,
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "Figueredo 1805 Guamini & Montiel",
+        "direccion_desde": "Figueredo 1805 e/ Guamini & Montiel",
         "direccion_hasta": "",
         "": "NUF678",
         "distancia": "",
@@ -366,8 +366,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.47374360000001,
-          -34.7004893
+          -58.4667637806692,
+          -34.7464105784965
         ]
       },
       "properties": {
@@ -486,8 +486,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4737677,
-          -34.7007837
+          -58.4649843908796,
+          -34.7488439774944
         ]
       },
       "properties": {
@@ -5520,8 +5520,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.37782669999999,
-          -34.9174844
+          -58.458723610224,
+          -34.7454105072019
         ]
       },
       "properties": {
@@ -6840,8 +6840,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.489652,
-          -34.6435835
+          -58.4674221121804,
+          -34.746757404223
         ]
       },
       "properties": {
