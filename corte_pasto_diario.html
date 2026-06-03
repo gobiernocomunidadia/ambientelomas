@@ -562,15 +562,24 @@
         // --- GENERADOR DE ICONOS INTELIGENTE (PLAZAS/ESCUELAS/PREDIOS) ---
         function getCustomIcon(type, strokeColor = '#FFFFFF', isBlinking = false) {
             let bgColor, letter;
-            if (type === 'ESCUELA') {
+            if (type === 'ESCUELA' || type === 'INSTITUTO' || type === 'COLEGIO') {
                 bgColor = '#F59E0B'; 
                 letter = 'E';
+            } else if (type === 'JARDIN') {
+                bgColor = '#F59E0B'; 
+                letter = 'J'; 
+            } else if (type === 'PLAZA'|| type === 'PARQUE'){
+                bgColor = '#02BA26'; 
+                letter = 'P'; 
+            } else if (type === 'PLAZOLETA') {
+                bgColor = '#02BA26'; 
+                letter = 'P'; 
             } else if (type === 'POLIDEPORTIVO') {
                 bgColor = '#0EA5E9'; 
                 letter = 'D'; 
             } else {
                 bgColor = '#84CC16'; 
-                letter = 'P'; 
+                letter = 'O'; 
             }
             
             // Animación de Titileo/Parpadeo para elementos repetidos
