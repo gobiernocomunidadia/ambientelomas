@@ -44009,11 +44009,11 @@
       "properties": {
         "Fecha_str": "2/6/2026",
         "Inicio Recorrido": "Pedernera & Av. Adolfo Alsina",
-        "Fin del Recorrido": "Pedernera & Palacios",
+        "Fin del Recorrido": "Pedernera & Chiclana",
         "CGM": "Lomas",
         "Localidad": "Lomas de Zamora",
         "Color_Generado": "#3cb44b",
-        "Distancia": 2812.71,
+        "Distancia": 1307.01,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -44026,8 +44026,36 @@
             -34.7576455680333
           ],
           [
-            -58.38077,
-            -34.75456
+            -58.3886396793452,
+            -34.7585961648422
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "2/6/2026",
+        "Inicio Recorrido": "Pedernera & Chiclana",
+        "Fin del Recorrido": "Pedernera & Palacios",
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 1702.11,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.3886396793452,
+            -34.7585961648422
+          ],
+          [
+            -58.3807802539842,
+            -34.7544870610468
           ]
         ]
       }
