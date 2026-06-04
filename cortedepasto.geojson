@@ -45895,7 +45895,7 @@
         "CGM": "Santa Catalina",
         "Localidad": "Ingeniero Budge",
         "Color_Generado": "#3cb44b",
-        "Distancia": 9.05,
+        "Distancia": 266.37,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -45904,8 +45904,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.473769341351,
-            -34.7395271478102
+            -58.474577382188,
+            -34.7385025778652
           ],
           [
             -58.4738188072767,
