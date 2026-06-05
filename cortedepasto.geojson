@@ -46175,6 +46175,2556 @@
           -34.7965583
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Homero & Escobar",
+        "Fin del Recorrido": "Homero & Arlucea",
+        "CGM": "Albertina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 3183.29,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4638947,
+            -34.7327364
+          ],
+          [
+            -58.454786851404,
+            -34.7449378072285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Bayona & Homero",
+        "Fin del Recorrido": "Bayona & Falucho",
+        "CGM": "Albertina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 2825.69,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4576,
+            -34.7449
+          ],
+          [
+            -58.46072,
+            -34.74075
+          ],
+          [
+            -58.45869,
+            -34.73969
+          ],
+          [
+            -58.4573,
+            -34.739
+          ],
+          [
+            -58.45607,
+            -34.73835
+          ],
+          [
+            -58.45601,
+            -34.73827
+          ],
+          [
+            -58.45601,
+            -34.73823
+          ],
+          [
+            -58.45605,
+            -34.73815
+          ],
+          [
+            -58.45613,
+            -34.73802
+          ],
+          [
+            -58.45612,
+            -34.73799
+          ],
+          [
+            -58.45605,
+            -34.73794
+          ],
+          [
+            -58.4559,
+            -34.73786
+          ],
+          [
+            -58.45598,
+            -34.73777
+          ],
+          [
+            -58.45662,
+            -34.73691
+          ],
+          [
+            -58.45669,
+            -34.73679
+          ],
+          [
+            -58.45668,
+            -34.73671
+          ],
+          [
+            -58.45716,
+            -34.73605
+          ],
+          [
+            -58.4576,
+            -34.73558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Rincón & Granaderos",
+        "Fin del Recorrido": "Rincón & Gral. Levalle",
+        "CGM": "Banfield",
+        "Localidad": "Banfield",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 1504.56,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.3779,
+            -34.74453
+          ],
+          [
+            -58.37786,
+            -34.74454
+          ],
+          [
+            -58.3779,
+            -34.7445
+          ],
+          [
+            -58.38011,
+            -34.74384
+          ],
+          [
+            -58.38086,
+            -34.74361
+          ],
+          [
+            -58.38145,
+            -34.74346
+          ],
+          [
+            -58.38281,
+            -34.74302
+          ],
+          [
+            -58.38419,
+            -34.74261
+          ],
+          [
+            -58.38553,
+            -34.7422
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Campoamor & Azamor",
+        "Fin del Recorrido": "Campoamor & Necol",
+        "CGM": "Budge",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 1337.56,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4587764216668,
+            -34.7098487199766
+          ],
+          [
+            -58.4547263539502,
+            -34.7148577175876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Campana & Presidente Juan Domingo Perón",
+        "Fin del Recorrido": "Campana & Espronceda",
+        "CGM": "Budge",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 1770.62,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.44262,
+            -34.72618
+          ],
+          [
+            -58.44391,
+            -34.7246
+          ],
+          [
+            -58.44411,
+            -34.72439
+          ],
+          [
+            -58.44533,
+            -34.72282
+          ],
+          [
+            -58.44598,
+            -34.72201
+          ],
+          [
+            -58.44641,
+            -34.72145
+          ],
+          [
+            -58.44749,
+            -34.72203
+          ],
+          [
+            -58.44843,
+            -34.72245
+          ],
+          [
+            -58.44879,
+            -34.72265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Benito Pérez Galdós & Ejército de Los Andes",
+        "Fin del Recorrido": "Benito Pérez Galdós & Amberes",
+        "CGM": "Centenario",
+        "Localidad": "Villa Centenario",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 6744.89,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.43972,
+            -34.71965
+          ],
+          [
+            -58.43974,
+            -34.71962
+          ],
+          [
+            -58.43986,
+            -34.71969
+          ],
+          [
+            -58.44024,
+            -34.7199
+          ],
+          [
+            -58.44193,
+            -34.72091
+          ],
+          [
+            -58.4425,
+            -34.72121
+          ],
+          [
+            -58.44416,
+            -34.72216
+          ],
+          [
+            -58.44529,
+            -34.72276
+          ],
+          [
+            -58.44535,
+            -34.72279
+          ],
+          [
+            -58.44533,
+            -34.72282
+          ],
+          [
+            -58.44646,
+            -34.72344
+          ],
+          [
+            -58.44607,
+            -34.72396
+          ],
+          [
+            -58.44526,
+            -34.72502
+          ],
+          [
+            -58.44432,
+            -34.72624
+          ],
+          [
+            -58.44315,
+            -34.7278
+          ],
+          [
+            -58.44312,
+            -34.72785
+          ],
+          [
+            -58.44323,
+            -34.72794
+          ],
+          [
+            -58.44363,
+            -34.72824
+          ],
+          [
+            -58.44423,
+            -34.72863
+          ],
+          [
+            -58.44553,
+            -34.72927
+          ],
+          [
+            -58.44673,
+            -34.72992
+          ],
+          [
+            -58.45041,
+            -34.73184
+          ],
+          [
+            -58.45163,
+            -34.7325
+          ],
+          [
+            -58.45121,
+            -34.73308
+          ],
+          [
+            -58.45006,
+            -34.73457
+          ],
+          [
+            -58.44879,
+            -34.73622
+          ],
+          [
+            -58.44743,
+            -34.73806
+          ],
+          [
+            -58.44573,
+            -34.74026
+          ],
+          [
+            -58.4452,
+            -34.74092
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Fallieres & Pilcomayo",
+        "Fin del Recorrido": "Fallieres & Recondo",
+        "CGM": "Fiorito",
+        "Localidad": "Villa Fiorito",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 502.8,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.45195,
+            -34.71239
+          ],
+          [
+            -58.45199,
+            -34.71241
+          ],
+          [
+            -58.45155,
+            -34.713
+          ],
+          [
+            -58.45154,
+            -34.71307
+          ],
+          [
+            -58.45148,
+            -34.71309
+          ],
+          [
+            -58.45053,
+            -34.71426
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Gabriel Miró & Pilcomayo",
+        "Fin del Recorrido": "Gabriel Miró & Recondo",
+        "CGM": "Fiorito",
+        "Localidad": "Villa Fiorito",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 506.73,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.44991,
+            -34.71116
+          ],
+          [
+            -58.44838,
+            -34.71306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Núñez de Arce & Pilcomayo",
+        "Fin del Recorrido": "Núñez de Arce & Recondo",
+        "CGM": "Fiorito",
+        "Localidad": "Villa Fiorito",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 525.75,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.45094,
+            -34.71181
+          ],
+          [
+            -58.44944,
+            -34.71365
+          ],
+          [
+            -58.4494,
+            -34.7137
+          ],
+          [
+            -58.44931,
+            -34.71365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Pío Baroja & Pilcomayo",
+        "Fin del Recorrido": "Pío Baroja & Recondo",
+        "CGM": "Fiorito",
+        "Localidad": "Villa Fiorito",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 519.03,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.44898,
+            -34.71056
+          ],
+          [
+            -58.44742,
+            -34.71251
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Escobar & Tuyutí",
+        "Fin del Recorrido": "Escobar & las vías",
+        "CGM": "Lamadrid",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 316.91,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.46957190000001,
+            -34.7351161
+          ],
+          [
+            -58.4709390057324,
+            -34.7359927388017
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Bragado & Tuyutí",
+        "Fin del Recorrido": "Bragado & las vías",
+        "CGM": "Lamadrid",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 2502.84,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.47209,
+            -34.73418
+          ],
+          [
+            -58.47137,
+            -34.73444
+          ],
+          [
+            -58.46987,
+            -34.73501
+          ],
+          [
+            -58.46967,
+            -34.7351
+          ],
+          [
+            -58.46954,
+            -34.7351
+          ],
+          [
+            -58.46851,
+            -34.73458
+          ],
+          [
+            -58.46738,
+            -34.73399
+          ],
+          [
+            -58.4673,
+            -34.73411
+          ],
+          [
+            -58.46723,
+            -34.73415
+          ],
+          [
+            -58.46604,
+            -34.73574
+          ],
+          [
+            -58.46363,
+            -34.73893
+          ],
+          [
+            -58.46297,
+            -34.73981
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Cafayate & Tuyutí",
+        "Fin del Recorrido": "Cafayate & las vías",
+        "CGM": "Lamadrid",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.47209,
+            -34.73418
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "O´Higgins & Escobar",
+        "Fin del Recorrido": "O´Higgins & Tuyutí",
+        "CGM": "Lamadrid",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 1263.41,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4661,
+            -34.73356
+          ],
+          [
+            -58.46728,
+            -34.73413
+          ],
+          [
+            -58.46841,
+            -34.73472
+          ],
+          [
+            -58.46932,
+            -34.7352
+          ],
+          [
+            -58.46944,
+            -34.73524
+          ],
+          [
+            -58.46954,
+            -34.7351
+          ],
+          [
+            -58.46967,
+            -34.7351
+          ],
+          [
+            -58.46987,
+            -34.73501
+          ],
+          [
+            -58.47137,
+            -34.73444
+          ],
+          [
+            -58.47209,
+            -34.73418
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Camino de Cintura/Ruta 4, Rotonda Llavallol",
+        "Fin del Recorrido": null,
+        "CGM": "Llavallol",
+        "Localidad": "Llavallol",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4393574,
+          -34.8051463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Alvear & Pereyra Lucena",
+        "Fin del Recorrido": "Alvear & Las Heras",
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 1917.7,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4072092616044,
+            -34.7536062392985
+          ],
+          [
+            -58.41481,
+            -34.74766
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Alberti & Alsina",
+        "Fin del Recorrido": "Alberti & Nicora",
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 1505.87,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.39508,
+            -34.75409
+          ],
+          [
+            -58.38694,
+            -34.75515
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Nicora & Alberdi",
+        "Fin del Recorrido": "Nicora & Lugano",
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 13651.19,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.42996,
+            -34.79386
+          ],
+          [
+            -58.42923,
+            -34.79351
+          ],
+          [
+            -58.42826,
+            -34.79339
+          ],
+          [
+            -58.42816,
+            -34.793
+          ],
+          [
+            -58.428,
+            -34.79262
+          ],
+          [
+            -58.42774,
+            -34.79235
+          ],
+          [
+            -58.4271,
+            -34.79198
+          ],
+          [
+            -58.42546,
+            -34.79185
+          ],
+          [
+            -58.4249,
+            -34.79044
+          ],
+          [
+            -58.424,
+            -34.78807
+          ],
+          [
+            -58.42399,
+            -34.78798
+          ],
+          [
+            -58.424,
+            -34.78791
+          ],
+          [
+            -58.4239,
+            -34.78786
+          ],
+          [
+            -58.42425,
+            -34.78739
+          ],
+          [
+            -58.42332,
+            -34.78689
+          ],
+          [
+            -58.42337,
+            -34.78681
+          ],
+          [
+            -58.42234,
+            -34.78631
+          ],
+          [
+            -58.42067,
+            -34.7854
+          ],
+          [
+            -58.42056,
+            -34.78534
+          ],
+          [
+            -58.42069,
+            -34.78518
+          ],
+          [
+            -58.42084,
+            -34.78502
+          ],
+          [
+            -58.42094,
+            -34.78489
+          ],
+          [
+            -58.42082,
+            -34.78485
+          ],
+          [
+            -58.42068,
+            -34.78478
+          ],
+          [
+            -58.41944,
+            -34.78413
+          ],
+          [
+            -58.41781,
+            -34.78326
+          ],
+          [
+            -58.41734,
+            -34.78299
+          ],
+          [
+            -58.4167,
+            -34.78265
+          ],
+          [
+            -58.41432,
+            -34.78137
+          ],
+          [
+            -58.41319,
+            -34.78077
+          ],
+          [
+            -58.41209,
+            -34.78019
+          ],
+          [
+            -58.41087,
+            -34.77959
+          ],
+          [
+            -58.41021,
+            -34.77924
+          ],
+          [
+            -58.40847,
+            -34.77832
+          ],
+          [
+            -58.40728,
+            -34.77769
+          ],
+          [
+            -58.40724,
+            -34.77764
+          ],
+          [
+            -58.40689,
+            -34.77616
+          ],
+          [
+            -58.40686,
+            -34.77606
+          ],
+          [
+            -58.40683,
+            -34.77604
+          ],
+          [
+            -58.40674,
+            -34.77594
+          ],
+          [
+            -58.40547,
+            -34.77525
+          ],
+          [
+            -58.40546,
+            -34.77517
+          ],
+          [
+            -58.40538,
+            -34.77517
+          ],
+          [
+            -58.40527,
+            -34.77517
+          ],
+          [
+            -58.40492,
+            -34.77249
+          ],
+          [
+            -58.4047,
+            -34.77104
+          ],
+          [
+            -58.4017,
+            -34.76942
+          ],
+          [
+            -58.39753,
+            -34.76715
+          ],
+          [
+            -58.39744,
+            -34.76711
+          ],
+          [
+            -58.39672,
+            -34.76672
+          ],
+          [
+            -58.39672,
+            -34.76664
+          ],
+          [
+            -58.39662,
+            -34.76664
+          ],
+          [
+            -58.39652,
+            -34.76659
+          ],
+          [
+            -58.39591,
+            -34.76624
+          ],
+          [
+            -58.39485,
+            -34.76566
+          ],
+          [
+            -58.39437,
+            -34.76545
+          ],
+          [
+            -58.39373,
+            -34.76508
+          ],
+          [
+            -58.39262,
+            -34.76447
+          ],
+          [
+            -58.39208,
+            -34.76417
+          ],
+          [
+            -58.39164,
+            -34.76396
+          ],
+          [
+            -58.39134,
+            -34.7638
+          ],
+          [
+            -58.391,
+            -34.76197
+          ],
+          [
+            -58.39043,
+            -34.75957
+          ],
+          [
+            -58.39021,
+            -34.75842
+          ],
+          [
+            -58.38993,
+            -34.75727
+          ],
+          [
+            -58.38933,
+            -34.75735
+          ],
+          [
+            -58.38929,
+            -34.75709
+          ],
+          [
+            -58.38926,
+            -34.75694
+          ],
+          [
+            -58.38922,
+            -34.75688
+          ],
+          [
+            -58.38912,
+            -34.75616
+          ],
+          [
+            -58.38878,
+            -34.7562
+          ],
+          [
+            -58.38808,
+            -34.75627
+          ],
+          [
+            -58.38792,
+            -34.75625
+          ],
+          [
+            -58.38698,
+            -34.75576
+          ],
+          [
+            -58.38694,
+            -34.75515
+          ],
+          [
+            -58.38679,
+            -34.75467
+          ],
+          [
+            -58.38656,
+            -34.75255
+          ],
+          [
+            -58.38652,
+            -34.75243
+          ],
+          [
+            -58.38648,
+            -34.75237
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Plaza Lujan",
+        "Fin del Recorrido": null,
+        "CGM": "Parque Baron",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "P",
+        "Tipo_Punto": "P"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.429489129541466,
+          -34.77833997289473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Armesti & Groussac",
+        "Fin del Recorrido": "Armesti & Portugal",
+        "CGM": "San Jose",
+        "Localidad": "Temperley",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 3615.39,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.35528,
+            -34.74183
+          ],
+          [
+            -58.35708,
+            -34.7427
+          ],
+          [
+            -58.35804,
+            -34.7432
+          ],
+          [
+            -58.35855,
+            -34.74347
+          ],
+          [
+            -58.3584,
+            -34.74405
+          ],
+          [
+            -58.35826,
+            -34.74478
+          ],
+          [
+            -58.35809,
+            -34.74553
+          ],
+          [
+            -58.35787,
+            -34.74634
+          ],
+          [
+            -58.35776,
+            -34.74667
+          ],
+          [
+            -58.3576,
+            -34.74716
+          ],
+          [
+            -58.3575,
+            -34.74758
+          ],
+          [
+            -58.35736,
+            -34.74807
+          ],
+          [
+            -58.35724,
+            -34.7484
+          ],
+          [
+            -58.35708,
+            -34.74873
+          ],
+          [
+            -58.35698,
+            -34.74887
+          ],
+          [
+            -58.35653,
+            -34.74938
+          ],
+          [
+            -58.35643,
+            -34.74952
+          ],
+          [
+            -58.35638,
+            -34.74961
+          ],
+          [
+            -58.35637,
+            -34.74973
+          ],
+          [
+            -58.35643,
+            -34.75018
+          ],
+          [
+            -58.35649,
+            -34.75053
+          ],
+          [
+            -58.35653,
+            -34.75061
+          ],
+          [
+            -58.35666,
+            -34.75083
+          ],
+          [
+            -58.35685,
+            -34.75102
+          ],
+          [
+            -58.35711,
+            -34.75125
+          ],
+          [
+            -58.35715,
+            -34.75132
+          ],
+          [
+            -58.3572,
+            -34.7515
+          ],
+          [
+            -58.35731,
+            -34.75214
+          ],
+          [
+            -58.35747,
+            -34.75214
+          ],
+          [
+            -58.35748,
+            -34.75216
+          ],
+          [
+            -58.35751,
+            -34.75222
+          ],
+          [
+            -58.35783,
+            -34.7524
+          ],
+          [
+            -58.35806,
+            -34.75253
+          ],
+          [
+            -58.35956,
+            -34.75329
+          ],
+          [
+            -58.36046,
+            -34.75377
+          ],
+          [
+            -58.35992,
+            -34.75447
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Cabo Correa & Giachino",
+        "Fin del Recorrido": "Cabo Correa & Manuela Pedraza",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 538.09,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.47706,
+            -34.74122
+          ],
+          [
+            -58.47595,
+            -34.74068
+          ],
+          [
+            -58.47526,
+            -34.7403
+          ],
+          [
+            -58.47457,
+            -34.73993
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Cabo del Monte & Giachino",
+        "Fin del Recorrido": "Cabo del Monte & Manuela Pedraza",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 546.82,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.47634,
+            -34.74223
+          ],
+          [
+            -58.47455,
+            -34.74126
+          ],
+          [
+            -58.47385,
+            -34.74089
+          ],
+          [
+            -58.47386,
+            -34.74088
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Sdo. Rodriguez & Giachino",
+        "Fin del Recorrido": "Sdo. Rodriguez & Manuela Pedraza",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 548.02,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.47559,
+            -34.74319
+          ],
+          [
+            -58.47305,
+            -34.74188
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Macacha Güemes & Cabo Correa",
+        "Fin del Recorrido": "Macacha Güemes & Sdo. Rodriguez",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 513.29,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.47526,
+            -34.7403
+          ],
+          [
+            -58.47455,
+            -34.74126
+          ],
+          [
+            -58.47428,
+            -34.74159
+          ],
+          [
+            -58.47374,
+            -34.74224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Evita & Cabo Correa",
+        "Fin del Recorrido": "Evita & Sdo. Rodriguez",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 982.94,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.47377,
+            -34.73952
+          ],
+          [
+            -58.47526,
+            -34.7403
+          ],
+          [
+            -58.47595,
+            -34.74068
+          ],
+          [
+            -58.47527,
+            -34.74156
+          ],
+          [
+            -58.47446,
+            -34.74261
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Manuela Pedraza & Cabo Correa",
+        "Fin del Recorrido": "Manuela Pedraza & Cabo del Monte",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 247.93,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.47457,
+            -34.73993
+          ],
+          [
+            -58.47386,
+            -34.74088
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Rosende Grigera & Cabo Correa",
+        "Fin del Recorrido": "Rosende Grigera & Cabo del Monte",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 247.93,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.47457,
+            -34.73993
+          ],
+          [
+            -58.47386,
+            -34.74088
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Miramar & Falucho",
+        "Fin del Recorrido": "Miramar & Bernardo O’Higgins",
+        "CGM": "Santa marta",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 26297.32,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.56705,
+            -34.70178
+          ],
+          [
+            -58.56565,
+            -34.70286
+          ],
+          [
+            -58.56485,
+            -34.70346
+          ],
+          [
+            -58.56427,
+            -34.70296
+          ],
+          [
+            -58.56369,
+            -34.70243
+          ],
+          [
+            -58.56316,
+            -34.7024
+          ],
+          [
+            -58.56252,
+            -34.70236
+          ],
+          [
+            -58.56195,
+            -34.70284
+          ],
+          [
+            -58.56067,
+            -34.70379
+          ],
+          [
+            -58.56004,
+            -34.70422
+          ],
+          [
+            -58.55779,
+            -34.7059
+          ],
+          [
+            -58.55593,
+            -34.70737
+          ],
+          [
+            -58.55464,
+            -34.70832
+          ],
+          [
+            -58.55444,
+            -34.70841
+          ],
+          [
+            -58.55433,
+            -34.70844
+          ],
+          [
+            -58.55377,
+            -34.70849
+          ],
+          [
+            -58.55318,
+            -34.70854
+          ],
+          [
+            -58.55303,
+            -34.70853
+          ],
+          [
+            -58.55301,
+            -34.70855
+          ],
+          [
+            -58.55282,
+            -34.70869
+          ],
+          [
+            -58.55272,
+            -34.70875
+          ],
+          [
+            -58.5527,
+            -34.70873
+          ],
+          [
+            -58.55253,
+            -34.70854
+          ],
+          [
+            -58.55238,
+            -34.70842
+          ],
+          [
+            -58.55228,
+            -34.70835
+          ],
+          [
+            -58.55196,
+            -34.70822
+          ],
+          [
+            -58.55072,
+            -34.70771
+          ],
+          [
+            -58.55041,
+            -34.70776
+          ],
+          [
+            -58.54987,
+            -34.70782
+          ],
+          [
+            -58.54686,
+            -34.70819
+          ],
+          [
+            -58.54643,
+            -34.70824
+          ],
+          [
+            -58.5461,
+            -34.70822
+          ],
+          [
+            -58.54558,
+            -34.70803
+          ],
+          [
+            -58.54527,
+            -34.70803
+          ],
+          [
+            -58.54493,
+            -34.70807
+          ],
+          [
+            -58.54431,
+            -34.7082
+          ],
+          [
+            -58.5438,
+            -34.7083
+          ],
+          [
+            -58.54202,
+            -34.70859
+          ],
+          [
+            -58.53981,
+            -34.70897
+          ],
+          [
+            -58.53832,
+            -34.70922
+          ],
+          [
+            -58.53758,
+            -34.70936
+          ],
+          [
+            -58.53731,
+            -34.70941
+          ],
+          [
+            -58.53733,
+            -34.70956
+          ],
+          [
+            -58.53747,
+            -34.7103
+          ],
+          [
+            -58.53718,
+            -34.71035
+          ],
+          [
+            -58.53709,
+            -34.71038
+          ],
+          [
+            -58.53705,
+            -34.71041
+          ],
+          [
+            -58.53704,
+            -34.71043
+          ],
+          [
+            -58.53701,
+            -34.71058
+          ],
+          [
+            -58.53686,
+            -34.71061
+          ],
+          [
+            -58.53598,
+            -34.71073
+          ],
+          [
+            -58.53518,
+            -34.71083
+          ],
+          [
+            -58.53499,
+            -34.71083
+          ],
+          [
+            -58.5349,
+            -34.7108
+          ],
+          [
+            -58.53478,
+            -34.7107
+          ],
+          [
+            -58.53466,
+            -34.71064
+          ],
+          [
+            -58.53446,
+            -34.71063
+          ],
+          [
+            -58.53442,
+            -34.71064
+          ],
+          [
+            -58.53442,
+            -34.71067
+          ],
+          [
+            -58.53429,
+            -34.71068
+          ],
+          [
+            -58.53418,
+            -34.7107
+          ],
+          [
+            -58.53417,
+            -34.71066
+          ],
+          [
+            -58.53258,
+            -34.71085
+          ],
+          [
+            -58.53184,
+            -34.71094
+          ],
+          [
+            -58.53113,
+            -34.71103
+          ],
+          [
+            -58.531,
+            -34.71084
+          ],
+          [
+            -58.53058,
+            -34.71026
+          ],
+          [
+            -58.53025,
+            -34.70983
+          ],
+          [
+            -58.52998,
+            -34.70946
+          ],
+          [
+            -58.52957,
+            -34.70976
+          ],
+          [
+            -58.52941,
+            -34.70991
+          ],
+          [
+            -58.52923,
+            -34.71003
+          ],
+          [
+            -58.52858,
+            -34.71053
+          ],
+          [
+            -58.52825,
+            -34.71028
+          ],
+          [
+            -58.52818,
+            -34.71025
+          ],
+          [
+            -58.52811,
+            -34.71018
+          ],
+          [
+            -58.52784,
+            -34.71037
+          ],
+          [
+            -58.52665,
+            -34.71127
+          ],
+          [
+            -58.52633,
+            -34.71153
+          ],
+          [
+            -58.52619,
+            -34.71165
+          ],
+          [
+            -58.52537,
+            -34.71226
+          ],
+          [
+            -58.5247,
+            -34.71277
+          ],
+          [
+            -58.52403,
+            -34.71326
+          ],
+          [
+            -58.52239,
+            -34.7146
+          ],
+          [
+            -58.52113,
+            -34.71556
+          ],
+          [
+            -58.51979,
+            -34.71667
+          ],
+          [
+            -58.51933,
+            -34.71716
+          ],
+          [
+            -58.51913,
+            -34.7174
+          ],
+          [
+            -58.51744,
+            -34.71947
+          ],
+          [
+            -58.51711,
+            -34.71993
+          ],
+          [
+            -58.51709,
+            -34.72003
+          ],
+          [
+            -58.51689,
+            -34.72027
+          ],
+          [
+            -58.51683,
+            -34.72013
+          ],
+          [
+            -58.51691,
+            -34.71981
+          ],
+          [
+            -58.51689,
+            -34.7197
+          ],
+          [
+            -58.51684,
+            -34.71962
+          ],
+          [
+            -58.51678,
+            -34.71953
+          ],
+          [
+            -58.51673,
+            -34.7195
+          ],
+          [
+            -58.51658,
+            -34.71948
+          ],
+          [
+            -58.51636,
+            -34.71947
+          ],
+          [
+            -58.5162,
+            -34.7195
+          ],
+          [
+            -58.51591,
+            -34.7196
+          ],
+          [
+            -58.51578,
+            -34.71958
+          ],
+          [
+            -58.51549,
+            -34.71975
+          ],
+          [
+            -58.51478,
+            -34.72025
+          ],
+          [
+            -58.5148,
+            -34.72027
+          ],
+          [
+            -58.51426,
+            -34.72071
+          ],
+          [
+            -58.51269,
+            -34.7219
+          ],
+          [
+            -58.51177,
+            -34.72258
+          ],
+          [
+            -58.51119,
+            -34.723
+          ],
+          [
+            -58.50975,
+            -34.72407
+          ],
+          [
+            -58.50891,
+            -34.72477
+          ],
+          [
+            -58.50842,
+            -34.72522
+          ],
+          [
+            -58.5075,
+            -34.72615
+          ],
+          [
+            -58.50637,
+            -34.72736
+          ],
+          [
+            -58.50608,
+            -34.72762
+          ],
+          [
+            -58.50519,
+            -34.72846
+          ],
+          [
+            -58.50466,
+            -34.72901
+          ],
+          [
+            -58.50439,
+            -34.72932
+          ],
+          [
+            -58.50379,
+            -34.73006
+          ],
+          [
+            -58.50318,
+            -34.73087
+          ],
+          [
+            -58.50317,
+            -34.73092
+          ],
+          [
+            -58.50327,
+            -34.73096
+          ],
+          [
+            -58.50352,
+            -34.7311
+          ],
+          [
+            -58.50268,
+            -34.73204
+          ],
+          [
+            -58.50265,
+            -34.73218
+          ],
+          [
+            -58.5019,
+            -34.7332
+          ],
+          [
+            -58.50126,
+            -34.7341
+          ],
+          [
+            -58.5012,
+            -34.73422
+          ],
+          [
+            -58.50075,
+            -34.73482
+          ],
+          [
+            -58.50057,
+            -34.73492
+          ],
+          [
+            -58.50018,
+            -34.73542
+          ],
+          [
+            -58.50001,
+            -34.73562
+          ],
+          [
+            -58.49963,
+            -34.73617
+          ],
+          [
+            -58.49898,
+            -34.73697
+          ],
+          [
+            -58.49747,
+            -34.73897
+          ],
+          [
+            -58.49651,
+            -34.74031
+          ],
+          [
+            -58.49632,
+            -34.74056
+          ],
+          [
+            -58.49531,
+            -34.74184
+          ],
+          [
+            -58.49493,
+            -34.74238
+          ],
+          [
+            -58.4949,
+            -34.7424
+          ],
+          [
+            -58.49483,
+            -34.74236
+          ],
+          [
+            -58.4947,
+            -34.7423
+          ],
+          [
+            -58.49437,
+            -34.74214
+          ],
+          [
+            -58.49091,
+            -34.74038
+          ],
+          [
+            -58.48862,
+            -34.73921
+          ],
+          [
+            -58.48858,
+            -34.73919
+          ],
+          [
+            -58.48759,
+            -34.73934
+          ],
+          [
+            -58.48633,
+            -34.73955
+          ],
+          [
+            -58.48436,
+            -34.73984
+          ],
+          [
+            -58.48107,
+            -34.74035
+          ],
+          [
+            -58.47961,
+            -34.74057
+          ],
+          [
+            -58.47846,
+            -34.74075
+          ],
+          [
+            -58.47754,
+            -34.74087
+          ],
+          [
+            -58.4774,
+            -34.74087
+          ],
+          [
+            -58.47737,
+            -34.74086
+          ],
+          [
+            -58.47709,
+            -34.74124
+          ],
+          [
+            -58.47638,
+            -34.74225
+          ],
+          [
+            -58.47581,
+            -34.74298
+          ],
+          [
+            -58.47544,
+            -34.74346
+          ],
+          [
+            -58.47493,
+            -34.74409
+          ],
+          [
+            -58.47484,
+            -34.74424
+          ],
+          [
+            -58.47453,
+            -34.74461
+          ],
+          [
+            -58.47427,
+            -34.74496
+          ],
+          [
+            -58.47426,
+            -34.74498
+          ],
+          [
+            -58.47422,
+            -34.74503
+          ],
+          [
+            -58.47419,
+            -34.74508
+          ],
+          [
+            -58.47412,
+            -34.74517
+          ],
+          [
+            -58.474,
+            -34.74533
+          ],
+          [
+            -58.47386,
+            -34.7455
+          ],
+          [
+            -58.47373,
+            -34.74568
+          ],
+          [
+            -58.47346,
+            -34.74604
+          ],
+          [
+            -58.47327,
+            -34.7463
+          ],
+          [
+            -58.47317,
+            -34.74642
+          ],
+          [
+            -58.4722,
+            -34.74772
+          ],
+          [
+            -58.47216,
+            -34.74777
+          ],
+          [
+            -58.47213,
+            -34.74775
+          ],
+          [
+            -58.47089,
+            -34.74708
+          ],
+          [
+            -58.47085,
+            -34.74706
+          ],
+          [
+            -58.4708,
+            -34.74704
+          ],
+          [
+            -58.47072,
+            -34.74699
+          ],
+          [
+            -58.47055,
+            -34.7469
+          ],
+          [
+            -58.47015,
+            -34.74669
+          ],
+          [
+            -58.46998,
+            -34.7466
+          ],
+          [
+            -58.46989,
+            -34.74655
+          ],
+          [
+            -58.46836,
+            -34.74575
+          ],
+          [
+            -58.46729,
+            -34.74518
+          ],
+          [
+            -58.46589,
+            -34.74445
+          ],
+          [
+            -58.46538,
+            -34.74415
+          ],
+          [
+            -58.46529,
+            -34.74407
+          ],
+          [
+            -58.46518,
+            -34.74398
+          ],
+          [
+            -58.46506,
+            -34.74392
+          ],
+          [
+            -58.46481,
+            -34.74382
+          ],
+          [
+            -58.4643,
+            -34.74358
+          ],
+          [
+            -58.46353,
+            -34.74321
+          ],
+          [
+            -58.4629,
+            -34.74403
+          ],
+          [
+            -58.46228,
+            -34.74485
+          ],
+          [
+            -58.46296,
+            -34.74522
+          ],
+          [
+            -58.46303,
+            -34.74526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Plaza Carola Lorenzini",
+        "Fin del Recorrido": null,
+        "CGM": "Temperley",
+        "Localidad": "Temperley",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "P",
+        "Tipo_Punto": "P"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39000628929596,
+          -34.7678658984244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Sto Tomas & Santa María",
+        "Fin del Recorrido": "Sto Tomas & Av. Luis Puig",
+        "CGM": "Turdera",
+        "Localidad": "Turdera",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 1784.83,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.39545,
+            -34.7903
+          ],
+          [
+            -58.39548,
+            -34.79039
+          ],
+          [
+            -58.39557,
+            -34.79053
+          ],
+          [
+            -58.396,
+            -34.79001
+          ],
+          [
+            -58.39691,
+            -34.78884
+          ],
+          [
+            -58.39696,
+            -34.78877
+          ],
+          [
+            -58.39706,
+            -34.78871
+          ],
+          [
+            -58.39719,
+            -34.78869
+          ],
+          [
+            -58.39733,
+            -34.78868
+          ],
+          [
+            -58.39743,
+            -34.78864
+          ],
+          [
+            -58.3976,
+            -34.78859
+          ],
+          [
+            -58.39811,
+            -34.78847
+          ],
+          [
+            -58.39851,
+            -34.78839
+          ],
+          [
+            -58.3986,
+            -34.78838
+          ],
+          [
+            -58.39983,
+            -34.78903
+          ],
+          [
+            -58.40192,
+            -34.79016
+          ],
+          [
+            -58.4025,
+            -34.79048
+          ],
+          [
+            -58.40296,
+            -34.79069
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Sto Domingo & Soler",
+        "Fin del Recorrido": "Sto Domingo & Gral. Alvarado",
+        "CGM": "Turdera",
+        "Localidad": "Turdera",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 830.87,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.40036,
+            -34.78832
+          ],
+          [
+            -58.39928,
+            -34.78974
+          ],
+          [
+            -58.40138,
+            -34.79087
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Plaza Libertad",
+        "Fin del Recorrido": null,
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "P",
+        "Tipo_Punto": "P"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.41534730501357,
+          -34.75889333387344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "5/6/2026",
+        "Inicio Recorrido": "Plaza De Los Italianos",
+        "Fin del Recorrido": null,
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "P",
+        "Tipo_Punto": "P"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42669731417455,
+          -34.76285284576294
+        ]
+      }
     }
   ]
 }
