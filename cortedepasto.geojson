@@ -18009,7 +18009,7 @@
         "CGM": "Lomas",
         "Localidad": "Lomas de Zamora",
         "Color_Generado": "#3cb44b",
-        "Distancia": 1517.04,
+        "Distancia": 1516.7,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -18020,18 +18020,6 @@
           [
             -58.39514,
             -34.75409
-          ],
-          [
-            -58.3909,
-            -34.75468
-          ],
-          [
-            -58.38937,
-            -34.7549
-          ],
-          [
-            -58.38896,
-            -34.75495
           ],
           [
             -58.38694,
@@ -46702,12 +46690,12 @@
       "type": "Feature",
       "properties": {
         "Fecha_str": "5/6/2026",
-        "Inicio Recorrido": "Alberti & Alsina",
+        "Inicio Recorrido": "Alberti & Av. Alsina",
         "Fin del Recorrido": "Alberti & Nicora",
         "CGM": "Lomas",
         "Localidad": "Lomas de Zamora",
         "Color_Generado": "#3cb44b",
-        "Distancia": 1505.87,
+        "Distancia": 1516.7,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -46716,7 +46704,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.39508,
+            -58.39514,
             -34.75409
           ],
           [
