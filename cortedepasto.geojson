@@ -47307,7 +47307,7 @@
         "CGM": "Centenario",
         "Localidad": "Ingeniero Budge",
         "Color_Generado": "#3cb44b",
-        "Distancia": 288.88,
+        "Distancia": 165.55,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -47320,8 +47320,8 @@
             -34.7395965249365
           ],
           [
-            -58.4287893574782,
-            -34.7395524427978
+            -58.4298483760264,
+            -34.7402056085698
           ]
         ]
       }
@@ -47719,7 +47719,7 @@
         "CGM": "San Jose",
         "Localidad": "Temperley",
         "Color_Generado": "#3cb44b",
-        "Distancia": 439.9,
+        "Distancia": 440.59,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -47728,8 +47728,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.3639528190492,
-            -34.7690525497533
+            -58.3639556095833,
+            -34.769042769563
           ],
           [
             -58.3660164667954,
