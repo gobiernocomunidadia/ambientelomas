@@ -47691,7 +47691,7 @@
         "CGM": "San Jose",
         "Localidad": "Temperley",
         "Color_Generado": "#3cb44b",
-        "Distancia": 501.65,
+        "Distancia": 440.31,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -47704,8 +47704,8 @@
             -34.769042769563
           ],
           [
-            -58.3667,
-            -34.76912
+            -58.3660131127076,
+            -34.7700739645577
           ]
         ]
       }
@@ -47714,12 +47714,12 @@
       "type": "Feature",
       "properties": {
         "Fecha_str": "9/6/2026",
-        "Inicio Recorrido": "Nicaragua & Baigorria",
-        "Fin del Recorrido": "Nicaragua & Fontenla",
+        "Inicio Recorrido": "Ruben de Rosas & Baigorria",
+        "Fin del Recorrido": "Ruben de Rosas & Fontenla",
         "CGM": "San Jose",
         "Localidad": "Temperley",
         "Color_Generado": "#3cb44b",
-        "Distancia": 440.59,
+        "Distancia": 671.42,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -47728,12 +47728,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.3639556095833,
-            -34.769042769563
+            -58.3633297533255,
+            -34.7699577327815
           ],
           [
-            -58.3660164667954,
-            -34.7700719197807
+            -58.3664611495737,
+            -34.7715384098176
           ]
         ]
       }
