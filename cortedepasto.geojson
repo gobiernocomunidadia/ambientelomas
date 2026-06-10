@@ -49049,11 +49049,11 @@
       "properties": {
         "Fecha_str": "10/6/2026",
         "Inicio Recorrido": "San Basilio & Av. Hipólito Yrigoyen",
-        "Fin del Recorrido": "San Basilio & Vicente Lopez",
+        "Fin del Recorrido": "San Basilio & San Pedro",
         "CGM": "Turdera",
         "Localidad": "Turdera",
         "Color_Generado": "#3cb44b",
-        "Distancia": 1529.9,
+        "Distancia": 845.87,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -49066,8 +49066,36 @@
             -34.7860256937358
           ],
           [
+            -58.403016501731,
+            -34.7867003374035
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "10/6/2026",
+        "Inicio Recorrido": "San Basilio & Vicente Lopez",
+        "Fin del Recorrido": "San Basilio & San Pedro",
+        "CGM": "Turdera",
+        "Localidad": "Turdera",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 735.12,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
             -58.39921259999999,
             -34.7856202
+          ],
+          [
+            -58.403016501731,
+            -34.7867003374035
           ]
         ]
       }
