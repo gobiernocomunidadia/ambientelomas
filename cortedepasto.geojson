@@ -47742,7 +47742,7 @@
       "type": "Feature",
       "properties": {
         "Fecha_str": "9/6/2026",
-        "Inicio Recorrido": "Escuela Técnica N° 9",
+        "Inicio Recorrido": "Escuela de Educacion Secundaria Tecnica N°9",
         "Fin del Recorrido": null,
         "CGM": "Santa Catalina",
         "Localidad": "Ingeniero Budge",
@@ -47755,8 +47755,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.432822926435215,
-          -34.751732143422785
+          -58.47282167027489,
+          -34.74115874702595
         ]
       }
     },
