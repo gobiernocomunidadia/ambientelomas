@@ -48740,6 +48740,34 @@
       "type": "Feature",
       "properties": {
         "Fecha_str": "10/6/2026",
+        "Inicio Recorrido": "C. 1 & Quiroga",
+        "Fin del Recorrido": "C. 1 & C. 104",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 679.26,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4709160865075,
+            -34.7470359906027
+          ],
+          [
+            -58.4689973866848,
+            -34.7496520363517
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "10/6/2026",
         "Inicio Recorrido": "Rosende Grigera & Quiroga",
         "Fin del Recorrido": "Rosende Grigera & C. 104",
         "CGM": "Santa Catalina",
@@ -48824,6 +48852,34 @@
       "type": "Feature",
       "properties": {
         "Fecha_str": "10/6/2026",
+        "Inicio Recorrido": "Calle 102 & Giachino",
+        "Fin del Recorrido": "Calle 102 & Calle 2",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 577.35,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.470970165377,
+            -34.7492973005817
+          ],
+          [
+            -58.4683468089341,
+            -34.7478504115565
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "10/6/2026",
         "Inicio Recorrido": "Calle 2 & C. 101",
         "Fin del Recorrido": "Calle 2 & C. 104",
         "CGM": "Santa Catalina",
@@ -48844,6 +48900,34 @@
           [
             -58.4676378389657,
             -34.7488348550313
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "10/6/2026",
+        "Inicio Recorrido": "C. 101 & C. 2",
+        "Fin del Recorrido": "C. 3 & C. 101",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 415.45,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4687168143242,
+            -34.7473996194502
+          ],
+          [
+            -58.4667774755195,
+            -34.7464246421029
           ]
         ]
       }
