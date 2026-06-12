@@ -49388,6 +49388,34 @@
       "type": "Feature",
       "properties": {
         "Fecha_str": "11/6/2026",
+        "Inicio Recorrido": "C. Nata & Baradero",
+        "Fin del Recorrido": "Baradero & Presidente Juan Domingo Perón",
+        "CGM": "Budge",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 3111.17,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4681770711881,
+            -34.7188015407274
+          ],
+          [
+            -58.4540984868842,
+            -34.7109409832698
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "11/6/2026",
         "Inicio Recorrido": "Bolonia & Filardi",
         "Fin del Recorrido": "Bolonia & Presidente Juan Domingo Perón",
         "CGM": "Centenario",
