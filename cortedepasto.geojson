@@ -49304,12 +49304,12 @@
       "type": "Feature",
       "properties": {
         "Fecha_str": "11/6/2026",
-        "Inicio Recorrido": "Gallo & Arenales",
-        "Fin del Recorrido": "Gallo & Palacios",
+        "Inicio Recorrido": "Gallo & Gral Arenales",
+        "Fin del Recorrido": "Gallo & Lugano",
         "CGM": "Banfield",
         "Localidad": "Banfield",
         "Color_Generado": "#3cb44b",
-        "Distancia": 853.68,
+        "Distancia": 264.36,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -49318,12 +49318,40 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.38848040000001,
-            -34.7513872
+            -58.3884696711641,
+            -34.7513783848324
           ],
           [
-            -58.3840601233689,
-            -34.7501442249655
+            -58.3870641936681,
+            -34.7516604697267
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "11/6/2026",
+        "Inicio Recorrido": "Gallo & Lugano",
+        "Fin del Recorrido": "Gallo & Gral Palacios",
+        "CGM": "Banfield",
+        "Localidad": "Banfield",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 634.45,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.3870641936681,
+            -34.7516604697267
+          ],
+          [
+            -58.3841030349318,
+            -34.7501706979847
           ]
         ]
       }
@@ -49981,11 +50009,11 @@
       "properties": {
         "Fecha_str": "11/6/2026",
         "Inicio Recorrido": "Santa Maria & Hipolito Yrigoyen",
-        "Fin del Recorrido": "Santa Maria & San Mateo",
+        "Fin del Recorrido": "Santa Maria & Av Juan Bautista Vago",
         "CGM": "Turdera",
         "Localidad": "Turdera",
         "Color_Generado": "#3cb44b",
-        "Distancia": 1152.17,
+        "Distancia": 663.47,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -49996,6 +50024,34 @@
           [
             -58.4078054491153,
             -34.7863175149723
+          ],
+          [
+            -58.4113888350644,
+            -34.7858284366774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "11/6/2026",
+        "Inicio Recorrido": "Av Juan Bautista Vago & Santa Maria",
+        "Fin del Recorrido": "Santa Maria & San Mateo",
+        "CGM": "Turdera",
+        "Localidad": "Turdera",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 566.66,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4113888350644,
+            -34.7858284366774
           ],
           [
             -58.4140281739662,
