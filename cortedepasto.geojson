@@ -51033,7 +51033,7 @@
         "CGM": "Budge",
         "Localidad": "Ingeniero Budge",
         "Color_Generado": "#3cb44b",
-        "Distancia": 1674.79,
+        "Distancia": 1668.5,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -51046,8 +51046,8 @@
             -34.7128634381229
           ],
           [
-            -58.46122,
-            -34.71849
+            -58.46225917878,
+            -34.7191128328843
           ]
         ]
       }
