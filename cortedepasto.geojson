@@ -49987,20 +49987,26 @@
       "properties": {
         "Fecha_str": "11/6/2026",
         "Inicio Recorrido": "Anchorena & Av. Almte. Brown",
-        "Fin del Recorrido": null,
+        "Fin del Recorrido": "Hasta el final",
         "CGM": "Temperley",
         "Localidad": "Temperley",
         "Color_Generado": "#3cb44b",
-        "Distancia": 0,
+        "Distancia": 249.23,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
       },
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.3943598321135,
-          -34.7733262305149
+          [
+            -58.3943598321135,
+            -34.7733262305149
+          ],
+          [
+            -58.3957063200265,
+            -34.7735068833156
+          ]
         ]
       }
     },
@@ -50028,62 +50034,6 @@
           [
             -58.3951805880368,
             -34.7745423913759
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "11/6/2026",
-        "Inicio Recorrido": "Santa Maria & Hipolito Yrigoyen",
-        "Fin del Recorrido": "Santa Maria & Av Juan Bautista Vago",
-        "CGM": "Turdera",
-        "Localidad": "Turdera",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 663.47,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4078054491153,
-            -34.7863175149723
-          ],
-          [
-            -58.4113888350644,
-            -34.7858284366774
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "11/6/2026",
-        "Inicio Recorrido": "Av Juan Bautista Vago & Santa Maria",
-        "Fin del Recorrido": "Santa Maria & San Mateo",
-        "CGM": "Turdera",
-        "Localidad": "Turdera",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 566.66,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4113888350644,
-            -34.7858284366774
-          ],
-          [
-            -58.4140281739662,
-            -34.7871678142682
           ]
         ]
       }
@@ -50414,34 +50364,6 @@
       "type": "Feature",
       "properties": {
         "Fecha_str": "12/6/2026",
-        "Inicio Recorrido": "Gral. Frías & Garibaldi",
-        "Fin del Recorrido": "Gral. Frías & Molina Arrotea",
-        "CGM": "Lomas",
-        "Localidad": "Lomas de Zamora",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 3309.26,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4232190081421,
-            -34.7808354145109
-          ],
-          [
-            -58.4234781231659,
-            -34.7659564818915
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "12/6/2026",
         "Inicio Recorrido": "Los Aromos & Merlo",
         "Fin del Recorrido": "Los Aromos & Juan XXIII",
         "CGM": "Parque Baron",
@@ -50699,7 +50621,7 @@
         "CGM": "Santa Catalina",
         "Localidad": "Ingeniero Budge",
         "Color_Generado": "#3cb44b",
-        "Distancia": 158.03,
+        "Distancia": 70.45,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -50708,8 +50630,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.4689973866848,
-            -34.7496520363517
+            -58.4694492164218,
+            -34.750059533925
           ],
           [
             -58.4692511480254,
@@ -50821,6 +50743,184 @@
             -58.4131223920618,
             -34.7947729370732
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "11/6/2026",
+        "Inicio Recorrido": "Santa Maria & Hipolito Yrigoyen",
+        "Fin del Recorrido": "Santa María & Pichincha",
+        "CGM": "Turdera",
+        "Localidad": "Turdera",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 650.43,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4078724593172,
+            -34.7863291108023
+          ],
+          [
+            -58.4113819549231,
+            -34.7858326724879
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "11/6/2026",
+        "Inicio Recorrido": "San Isidro & 25 de Mayo",
+        "Fin del Recorrido": "A. Alonso & San Isidro",
+        "CGM": "Turdera",
+        "Localidad": "Turdera",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 61.35,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4139608366015,
+            -34.7857058306402
+          ],
+          [
+            -58.4141412718815,
+            -34.7854731561836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "11/6/2026",
+        "Inicio Recorrido": "A. Alonso & San Isidro",
+        "Fin del Recorrido": "A. Alonso & San Mateo",
+        "CGM": "Turdera",
+        "Localidad": "Turdera",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 222.21,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4141412718815,
+            -34.7854731561836
+          ],
+          [
+            -58.4153549534953,
+            -34.7854037345586
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "12/6/2026",
+        "Inicio Recorrido": "Gral. Frías & Oliden",
+        "Fin del Recorrido": "Gral. Frías & Molina Arrotea",
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 2144.03,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4239861715208,
+            -34.7755883005542
+          ],
+          [
+            -58.4234781231659,
+            -34.7659564818915
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "13/6/2026",
+        "Inicio Recorrido": "Comisión de Enlace de Veteranos de Guerra de Lomas de Zamora",
+        "Fin del Recorrido": null,
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4234142401939,
+          -34.7807646256332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "13/6/2026",
+        "Inicio Recorrido": "Hospital Odontológico y Oftalmológico del Municipio de Lomas",
+        "Fin del Recorrido": null,
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4250944503587,
+          -34.7457909467936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "13/6/2026",
+        "Inicio Recorrido": "Zoonosis Lomas De Zamora",
+        "Fin del Recorrido": null,
+        "CGM": "Lomas",
+        "Localidad": "Lomas de Zamora",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4251850772741,
+          -34.7451117562395
         ]
       }
     }
