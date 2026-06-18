@@ -3469,7 +3469,7 @@
         "CGM": "Santa Catalina",
         "Localidad": "Llavallol",
         "Color_Generado": "#3cb44b",
-        "Distancia": null,
+        "Distancia": 267.4,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -3478,8 +3478,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            null,
-            -58.47526713461838
+            -58.47526713461838,
+            -34.7402954080727
           ],
           [
             -58.4760773189216,
@@ -23921,7 +23921,7 @@
         "CGM": "Lomas",
         "Localidad": "Lomas de Zamora",
         "Color_Generado": "#3cb44b",
-        "Distancia": null,
+        "Distancia": 1657.31,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -23930,7 +23930,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            null,
+            -58.39615845289723,
             -34.7600085206692
           ],
           [
