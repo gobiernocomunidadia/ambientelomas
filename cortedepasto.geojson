@@ -51253,11 +51253,11 @@
       "properties": {
         "Fecha_str": "16/6/2026",
         "Inicio Recorrido": "Laprida & Alvear",
-        "Fin del Recorrido": "Laprida & Alberto Gómez",
+        "Fin del Recorrido": "Laprida & Arturo Toscanini",
         "CGM": "Lomas",
         "Localidad": "Lomas de Zamora",
         "Color_Generado": "#3cb44b",
-        "Distancia": 3789.67,
+        "Distancia": 4405.37,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -51270,8 +51270,8 @@
             -34.7595863146053
           ],
           [
-            -58.42889,
-            -34.76269
+            -58.4322680729274,
+            -34.7562817332358
           ]
         ]
       }
@@ -51357,7 +51357,7 @@
         "CGM": "San Jose",
         "Localidad": "Temperley",
         "Color_Generado": "#3cb44b",
-        "Distancia": 1028.14,
+        "Distancia": 239.82,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -51366,12 +51366,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.35852,
-            -34.76255
+            -58.3545591637272,
+            -34.7610560175695
           ],
           [
-            -58.35347,
-            -34.76051
+            -58.3534457071411,
+            -34.7604849425023
           ]
         ]
       }
@@ -52041,8 +52041,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4339015775853,
-          -34.7077154452825
+          -58.4459434019231,
+          -34.6964339887361
         ]
       }
     },
