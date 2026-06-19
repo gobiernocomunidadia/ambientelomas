@@ -52301,7 +52301,7 @@
         "CGM": "Santa Catalina",
         "Localidad": "Ingeniero Budge",
         "Color_Generado": "#3cb44b",
-        "Distancia": 379.53,
+        "Distancia": 100.94,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -52310,8 +52310,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.465316838813,
-            -34.7440519330798
+            -58.4646088498401,
+            -34.7456918295974
           ],
           [
             -58.4641366678978,
@@ -52385,7 +52385,7 @@
         "CGM": "Santa Catalina",
         "Localidad": "Ingeniero Budge",
         "Color_Generado": "#3cb44b",
-        "Distancia": 399.49,
+        "Distancia": 421.71,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -52398,8 +52398,8 @@
             -34.7509865231581
           ],
           [
-            -58.4611657052942,
-            -34.7494409652337
+            -58.461707510063,
+            -34.7496657646449
           ]
         ]
       }
@@ -52862,202 +52862,6 @@
       "type": "Feature",
       "properties": {
         "Fecha_str": "18/6/2026",
-        "Inicio Recorrido": "C. Unión & Córdoba",
-        "Fin del Recorrido": "C. Unión & C. 112",
-        "CGM": "Santa Catalina",
-        "Localidad": "Ingeniero Budge",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 400.07,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4611325565704,
-            -34.7494223246447
-          ],
-          [
-            -58.4600352990888,
-            -34.7509790813284
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "18/6/2026",
-        "Inicio Recorrido": "Neuquén & Córdoba",
-        "Fin del Recorrido": "Neuquén & C. 112",
-        "CGM": "Santa Catalina",
-        "Localidad": "Ingeniero Budge",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 381.16,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4622469414835,
-            -34.749960019707
-          ],
-          [
-            -58.4611393223265,
-            -34.7514123826409
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "18/6/2026",
-        "Inicio Recorrido": "San Martín & Córdoba",
-        "Fin del Recorrido": "San Martín & C. 112",
-        "CGM": "Santa Catalina",
-        "Localidad": "Ingeniero Budge",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 396.59,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4617234776353,
-            -34.7496545839084
-          ],
-          [
-            -58.4605779263155,
-            -34.7511692850455
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "18/6/2026",
-        "Inicio Recorrido": "Calle 111 & C.109",
-        "Fin del Recorrido": "Calle 111 & donde termina",
-        "CGM": "Santa Catalina",
-        "Localidad": "Ingeniero Budge",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 521.68,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4651475629693,
-            -34.7506926719851
-          ],
-          [
-            -58.4622966616545,
-            -34.7505666559087
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "18/6/2026",
-        "Inicio Recorrido": "Tucumán & C.109",
-        "Fin del Recorrido": "Tucumán & C. 111",
-        "CGM": "Santa Catalina",
-        "Localidad": "Ingeniero Budge",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 219.92,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4639690616796,
-            -34.7501407873007
-          ],
-          [
-            -58.4633014556124,
-            -34.7509635865211
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "18/6/2026",
-        "Inicio Recorrido": "Cordoba & San Martín",
-        "Fin del Recorrido": "Cordoba & Tucumán",
-        "CGM": "Santa Catalina",
-        "Localidad": "Ingeniero Budge",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 125.05,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4617234776353,
-            -34.7496545839084
-          ],
-          [
-            -58.4622772872138,
-            -34.7499849531917
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "18/6/2026",
-        "Inicio Recorrido": "Calle 112 & C. Unión",
-        "Fin del Recorrido": "Calle 112 & donde termina",
-        "CGM": "Santa Catalina",
-        "Localidad": "Ingeniero Budge",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 333.53,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4600317031696,
-            -34.7509822864082
-          ],
-          [
-            -58.4618069283938,
-            -34.7513313501886
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "18/6/2026",
         "Inicio Recorrido": "Lisandro de la Torre & Presidente Juan Domingo Perón",
         "Fin del Recorrido": "Lisandro de la Torre & Falucho",
         "CGM": "Santa marta",
@@ -53106,34 +52910,6 @@
           [
             -58.3783162281631,
             -34.7699093862354
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Fecha_str": "18/6/2026",
-        "Inicio Recorrido": "Avenida Luis Puig & Santa Maria",
-        "Fin del Recorrido": "Avenida Luis Puig & Fray Mamerto Esquiu",
-        "CGM": "Turdera",
-        "Localidad": "Turdera",
-        "Color_Generado": "#3cb44b",
-        "Distancia": 1553.36,
-        "Area": 0,
-        "marker-symbol": "O",
-        "Tipo_Punto": "O"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -58.4023961993796,
-            -34.7875125248152
-          ],
-          [
-            -58.4035818,
-            -34.7944292
           ]
         ]
       }
