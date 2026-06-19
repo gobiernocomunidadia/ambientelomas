@@ -52889,6 +52889,56 @@
     {
       "type": "Feature",
       "properties": {
+        "Fecha_str": "19/06/2026",
+        "Inicio Recorrido": "Barrio San Sebastian",
+        "Fin del Recorrido": null,
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.459566734798294,
+              -34.751661685792854
+            ],
+            [
+              -58.45848312237772,
+              -34.75322195043783
+            ],
+            [
+              -58.46140136572819,
+              -34.75276357066228
+            ],
+            [
+              -58.46028556680007,
+              -34.75417396184199
+            ],
+            [
+              -58.460897110443376,
+              -34.75255200990775
+            ],
+            [
+              -58.46106877181693,
+              -34.75226111298534
+            ],
+            [
+              -58.459566734798294,
+              -34.751661685792854
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Fecha_str": "18/6/2026",
         "Inicio Recorrido": "Av. Eva Perón & Anatole France",
         "Fin del Recorrido": "Av. Eva Perón & Av. Cabred",
