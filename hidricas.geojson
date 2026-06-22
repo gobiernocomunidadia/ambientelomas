@@ -4522,6 +4522,66 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.444019444470925,
+              -34.71689669426575
+            ],
+            [
+              -58.444714391614326,
+              -34.71599076186437
+            ],
+            [
+              -58.44365417438139,
+              -34.71541053521824
+            ],
+            [
+              -58.443304518982664,
+              -34.71584479643277
+            ],
+            [
+              -58.44226139308891,
+              -34.715339231201476
+            ],
+            [
+              -58.44156683616602,
+              -34.716160204941836
+            ],
+            [
+              -58.44271471905934,
+              -34.7168360266965
+            ],
+            [
+              -58.44297963391864,
+              -34.71638860868742
+            ],
+            [
+              -58.444019444470925,
+              -34.71689669426575
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-02-06T03:00:00.000Z",
+        "cgm": "Fiorito",
+        "tarea": "Limpieza y Desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Barrio Martin Fierro",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Point",
         "coordinates": [
           -58.4597883,
@@ -54418,6 +54478,66 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.444019444470925,
+              -34.71689669426575
+            ],
+            [
+              -58.444714391614326,
+              -34.71599076186437
+            ],
+            [
+              -58.44365417438139,
+              -34.71541053521824
+            ],
+            [
+              -58.443304518982664,
+              -34.71584479643277
+            ],
+            [
+              -58.44226139308891,
+              -34.715339231201476
+            ],
+            [
+              -58.44156683616602,
+              -34.716160204941836
+            ],
+            [
+              -58.44271471905934,
+              -34.7168360266965
+            ],
+            [
+              -58.44297963391864,
+              -34.71638860868742
+            ],
+            [
+              -58.444019444470925,
+              -34.71689669426575
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-18T03:00:00.000Z",
+        "cgm": "FIORITO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Barrio Martin Fierro",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Point",
         "coordinates": [
           -58.3893775,
@@ -55416,6 +55536,318 @@
         "mts.": "",
         "tipo": "Sumidero",
         "direccion_desde": "Figueredo & Claudio de Alas ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4104877,
+          -34.7941291
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "TURDERA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "San Rafael & Santa Lucia",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4254763,
+          -34.7508943
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyra Lucena & Donizetti ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4203372,
+          -34.757761
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyra Lucena & Massenett",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4225386,
+          -34.751324
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyra Lucena & Vetere",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4211683,
+          -34.7515249
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyra Lucena & Belelli ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4197174,
+          -34.7517426
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyr Lucena & Santa fe",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.41832170000001,
+          -34.7519596
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyra Lucena & Estrada",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4170918,
+          -34.7521485
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyra Lucena & Payro ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4158504,
+          -34.75232829999999
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyra Lucena & Mentruyt",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4144681,
+          -34.75256359999999
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyra Lucena & Baliña ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40132250000001,
+          -34.7544527
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Pereyra Lucena & Hipolito Yrigoyen",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.45684980000001,
+          -34.7160751
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "BUDGE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Necol & Montiel ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46037699999999,
+          -34.7214927
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "BUDGE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Ayolas & Machado",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
