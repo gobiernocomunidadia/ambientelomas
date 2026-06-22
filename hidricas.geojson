@@ -54822,6 +54822,462 @@
         "nro._reporte": "",
         "observaciones": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3595635,
+          -34.7604562
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Eva Peron & Chicago",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3595635,
+          -34.7604562
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Eva Peron & Chicago",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3575047,
+          -34.7594476
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Eva Peron & Otawwa",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3557311,
+          -34.7585815
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Eva Peron & Suecia",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39143929999999,
+          -34.7703888
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "TEMPERLEY",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Esmeralda & Colon",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39143929999999,
+          -34.7703888
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "TEMPERLEY",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Esmeralda & Colon",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3925174,
+          -34.7710538
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "TEMPERLEY",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Esmerala & Solis",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3910712,
+          -34.7730137
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "TEMPERLEY",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Solis & 14 de Julio",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3962568,
+          -34.7667615
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "TEMPERLEY",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Almirante Brown 2600",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39086039999999,
+          -34.7673314
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "TEMPERLEY",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Juncal 901",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4353269,
+          -34.7061827
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-20T03:00:00.000Z",
+        "cgm": "FIORITO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Recondo & Darwin ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43677839999999,
+          -34.7097113
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-20T03:00:00.000Z",
+        "cgm": "FIORITO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Murature & Quesada",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44083930000001,
+          -34.7284943
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-20T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Camino Pte Peron & Amberes. ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4299016,
+          -34.7478284
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-20T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Lisando latorre & Las Tropas",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43324889999999,
+          -34.7439261
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-20T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Anibal Ponce & Las Tropas",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4370733,
+          -34.7453146
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-20T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Anibal Ponce & Namuncura",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4342199,
+          -34.7427783
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-20T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Cid Guidi de Franc & Las Tropas",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.441179,
+          -34.7166202
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-20T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Sarmiento entre Unamuno & Perez Galdos",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.441179,
+          -34.7166202
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-20T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Sarmiento entre Unamuno & Perez Galdos",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
     }
   ]
 }
