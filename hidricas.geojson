@@ -4524,30 +4524,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4302476,
-          -34.76118230000001
-        ]
-      },
-      "properties": {
-        "fecha": "2026-02-06T03:00:00.000Z",
-        "cgm": "Fiorito",
-        "tarea": "Limpieza y Desobstruccion",
-        "cant": "",
-        "mts.": "",
-        "tipo": "Conducto",
-        "direccion_desde": "Barrio Martin Fierro",
-        "direccion_hasta": "",
-        "": "",
-        "distancia": "",
-        "nro._reporte": "",
-        "observaciones": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -58.4597883,
           -34.752861
         ]
@@ -54432,30 +54408,6 @@
         "mts.": "",
         "tipo": "Sumidero",
         "direccion_desde": "Polonia & Antartida",
-        "direccion_hasta": "",
-        "": "",
-        "distancia": "",
-        "nro._reporte": "",
-        "observaciones": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.4302476,
-          -34.76118230000001
-        ]
-      },
-      "properties": {
-        "fecha": "2026-06-18T03:00:00.000Z",
-        "cgm": "FIORITO",
-        "tarea": "Limpieza y desobstruccion",
-        "cant": "",
-        "mts.": "",
-        "tipo": "Camara",
-        "direccion_desde": "Barrio Martin Fierro",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
