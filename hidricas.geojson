@@ -55854,6 +55854,216 @@
         "nro._reporte": "",
         "observaciones": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.41312199999999,
+          -34.7947775
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "TURDERA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Patricios & Frias",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39924049999999,
+          -34.7917307
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "TURDERA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Riego Nuñez & San Raimundo",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.488789,
+          -34.7353711
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Posadas & Calle 19",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.467308,
+            -34.7451519
+          ],
+          [
+            -58.4430952,
+            -34.7603356
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Sub Oficial de Rosas & Agustin Magaldi",
+        "direccion_hasta": "Sub Oficial de Rosas & Homero Manzi ",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3545366,
+          -34.7561759
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Costa Rica entre Eva Peron & El Mirasol ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3545366,
+          -34.7561759
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Costa Rica entre Eva Peron & El Mirasol ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.350116,
+            -34.7596661
+          ],
+          [
+            -58.3545366,
+            -34.7561759
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Costa Rica & Benteveo ",
+        "direccion_hasta": "Costa Rica & El Mirasol",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.350116,
+            -34.7596661
+          ],
+          [
+            -58.3545366,
+            -34.7561759
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Costa Rica & Benteveo ",
+        "direccion_hasta": "Costa Rica & El Mirasol",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
     }
   ]
 }
