@@ -54623,6 +54623,62 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "22/6/2026",
+        "Inicio Recorrido": "Reconquista & Gral. Frias",
+        "Fin del Recorrido": "Reconquista & San Rafael",
+        "CGM": "Turdera",
+        "Localidad": "Turdera",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 837.3,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4139377634491,
+            -34.7937207982091
+          ],
+          [
+            -58.4101012237159,
+            -34.7916595888864
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "22/6/2026",
+        "Inicio Recorrido": "Reconquista & San Rafael",
+        "Fin del Recorrido": "Reconquista & Av. Luis Puig",
+        "CGM": "Turdera",
+        "Localidad": "Turdera",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 1255.75,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4101012237159,
+            -34.7916595888864
+          ],
+          [
+            -58.403289978043,
+            -34.7924315972994
+          ]
+        ]
+      }
     }
   ]
 }
