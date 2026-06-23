@@ -54780,6 +54780,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -58.4116629,
+          -34.7628525
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-19T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Garay entre el Chaja & el Condor",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -58.4302476,
           -34.76118230000001
         ]
@@ -56008,6 +56032,30 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4116629,
+          -34.7628525
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Garay entre el Chaja & el Condor",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -56059,6 +56107,222 @@
         "tipo": "Camara",
         "direccion_desde": "Costa Rica & Benteveo ",
         "direccion_hasta": "Costa Rica & El Mirasol",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42864480000001,
+          -34.8066211
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Santos Vega entre Tupac Amaru & Juana Azurduy",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42714480000001,
+          -34.7430053
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": " Larroque 2360",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4251538,
+          -34.741533
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-22T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": " Larroque & 12 de Octubre",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.41988620000001,
+          -34.7420063
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-23T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Larroque & Belelli",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4227254,
+          -34.7417631
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-23T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Larroque & Gutierrez",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4280519,
+          -34.7616902
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-23T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Gorriti & Fernando Moreno",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4309838,
+          -34.7234891
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-23T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Loria & Filardi ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.418485,
+          -34.7421386
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-23T03:00:00.000Z",
+        "cgm": "BANFIELD",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Larroque & Santa Fe",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4151672,
+          -34.7425756
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-23T03:00:00.000Z",
+        "cgm": "BANFIELD",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Larroque & Payro",
+        "direccion_hasta": "",
         "": "",
         "distancia": "",
         "nro._reporte": "",
