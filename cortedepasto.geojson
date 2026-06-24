@@ -53735,11 +53735,11 @@
       "properties": {
         "Fecha_str": "19/6/2026",
         "Inicio Recorrido": "Av. Eva Perón & De los Eucaliptus",
-        "Fin del Recorrido": "Av. Eva Perón & Av. Almte. Brown",
+        "Fin del Recorrido": "Av. Eva Perón & Norma Fontenla",
         "CGM": "San Jose",
         "Localidad": "Temperley",
         "Color_Generado": "#3cb44b",
-        "Distancia": 6302.88,
+        "Distancia": 1752.82,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -53750,6 +53750,34 @@
           [
             -58.3624681164339,
             -34.7618123454556
+          ],
+          [
+            -58.3706641921293,
+            -34.7659094735795
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "19/6/2026",
+        "Inicio Recorrido": "Av. Eva Perón & Norma Fontenla",
+        "Fin del Recorrido": "Av. Eva Perón & Av. Almte. Brown",
+        "CGM": "Temperley",
+        "Localidad": "Temperley",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 4550.65,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.3706641921293,
+            -34.7659094735795
           ],
           [
             -58.3915411060126,
