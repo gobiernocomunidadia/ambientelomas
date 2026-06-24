@@ -5616,8 +5616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4510497000052,
-          -34.7555346058847
+          -58.4510497,
+          -34.7557109
         ]
       },
       "properties": {
@@ -10086,30 +10086,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4340708,
-          -34.7709565
-        ]
-      },
-      "properties": {
-        "fecha": "2026-03-06T03:00:00.000Z",
-        "cgm": "Albertina",
-        "tarea": "Limpieza y Desobstruccion",
-        "cant": 5,
-        "mts.": "",
-        "tipo": "Sumidero",
-        "direccion_desde": "calle Agustín Magaldi y Cabo Casares",
-        "direccion_hasta": "",
-        "": "",
-        "distancia": "",
-        "nro._reporte": "",
-        "observaciones": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -58.4064345,
           -34.7362919
         ]
@@ -10470,8 +10446,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4426575,
-          -34.7073212
+          -58.4494455,
+          -34.7421866
         ]
       },
       "properties": {
@@ -11502,8 +11478,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4573618,
-          -34.7528344
+          -58.4491114,
+          -34.763931
         ]
       },
       "properties": {
@@ -17406,8 +17382,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.447861,
-          -34.754069
+          -58.44781829999999,
+          -34.754051
         ]
       },
       "properties": {
@@ -17622,8 +17598,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4292259,
-          -34.7965057
+          -58.4129034,
+          -34.7491856
         ]
       },
       "properties": {
@@ -28566,7 +28542,7 @@
       },
       "properties": {
         "fecha": "2026-05-18T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
@@ -28590,7 +28566,7 @@
       },
       "properties": {
         "fecha": "2026-04-04T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Banfield",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 8,
         "mts.": "",
@@ -30168,7 +30144,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.44215,
+          -58.4421603,
           -34.763397
         ]
       },
@@ -32100,8 +32076,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4659526,
-          -34.7229113
+          -58.4494,
+          -34.74406
         ]
       },
       "properties": {
@@ -32796,8 +32772,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.467358,
-          -34.714662
+          -58.46597999999999,
+          -34.72973
         ]
       },
       "properties": {
@@ -32820,8 +32796,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.466207,
-          -34.729504
+          -58.46597999999999,
+          -34.72973
         ]
       },
       "properties": {
@@ -33288,8 +33264,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.469981,
-          -34.722443
+          -58.47000269999999,
+          -34.7224429
         ]
       },
       "properties": {
@@ -44550,8 +44526,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.45376,
-          -34.756196
+          -58.45374890000001,
+          -34.7560199
         ]
       },
       "properties": {
@@ -44622,7 +44598,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.45329,
+          -58.45327939999999,
           -34.756879
         ]
       },
@@ -46050,8 +46026,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4243522,
-          -34.7707493
+          -58.45822720050147,
+          -34.7401674708789
         ]
       },
       "properties": {
@@ -46074,8 +46050,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4243522,
-          -34.7707493
+          -58.45822720050147,
+          -34.7401674708789
         ]
       },
       "properties": {
@@ -52512,7 +52488,7 @@
       },
       "properties": {
         "fecha": "2026-06-13T03:00:00.000Z",
-        "cgm": "BANFIELD",
+        "cgm": "Albertina",
         "tarea": "Limpieza y desobstruccion",
         "cant": "",
         "mts.": "",
