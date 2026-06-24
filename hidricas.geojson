@@ -52482,13 +52482,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4302476,
-          -34.76118230000001
+          -58.412168740531,
+          -34.7373228908506
         ]
       },
       "properties": {
         "fecha": "2026-06-13T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Banfield",
         "tarea": "Limpieza y desobstruccion",
         "cant": "",
         "mts.": "",
