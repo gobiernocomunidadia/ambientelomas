@@ -893,7 +893,7 @@
         "cant": 4,
         "mts.": "",
         "tipo": "Camara",
-        "direccion_desde": "Aguirre e Iparraguirre",
+        "direccion_desde": "Aguirre & Iparraguirre",
         "direccion_hasta": "",
         "": "AA065BR",
         "distancia": "",
@@ -958,10 +958,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.467168,
-          -34.737455
+          [
+            -58.4665739852694,
+            -34.7371203370248
+          ],
+          [
+            -58.4676338103597,
+            -34.7376800132612
+          ]
         ]
       },
       "properties": {
@@ -971,8 +977,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Zanja",
-        "direccion_desde": "Aguirre e/ Iparraguirre y Terrada",
-        "direccion_hasta": "",
+        "direccion_desde": "Aguirre & Iparraguirre",
+        "direccion_hasta": "Aguirre & Terrada",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -1042,10 +1048,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.466535,
-          -34.737137
+          [
+            -58.4665739852694,
+            -34.7371203370248
+          ],
+          [
+            -58.4676338103597,
+            -34.7376800132612
+          ]
         ]
       },
       "properties": {
@@ -1055,8 +1067,8 @@
         "cant": 3,
         "mts.": "",
         "tipo": "Caño Cemento",
-        "direccion_desde": "Aguirre e/ Iparraguirre y Terrada",
-        "direccion_hasta": "",
+        "direccion_desde": "Aguirre & Iparraguirre",
+        "direccion_hasta": "Aguirre & Terrada",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -1066,10 +1078,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.466546,
-          -34.737137
+          [
+            -58.4665739852694,
+            -34.7371203370248
+          ],
+          [
+            -58.4676338103597,
+            -34.7376800132612
+          ]
         ]
       },
       "properties": {
@@ -1079,32 +1097,8 @@
         "cant": 10,
         "mts.": "",
         "tipo": "Caño Cemento",
-        "direccion_desde": "Aguirre e/ Iparraguirre y Terrada",
-        "direccion_hasta": "",
-        "": "HST169",
-        "distancia": "",
-        "nro._reporte": "",
-        "observaciones": "Colocacion de 10 caños de 400, para puentes vecinales"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.4292259,
-          -34.7965057
-        ]
-      },
-      "properties": {
-        "fecha": "2026-04-24T03:00:00.000Z",
-        "cgm": "Albertina",
-        "tarea": "Zanjeo",
-        "cant": 1,
-        "mts.": "",
-        "tipo": "Zanja",
-        "direccion_desde": "Aguirre e/ Iparraguirre y Terrada",
-        "direccion_hasta": "",
+        "direccion_desde": "Aguirre & Iparraguirre",
+        "direccion_hasta": "Aguirre & Terrada",
         "": "HST169",
         "distancia": "",
         "nro._reporte": "",
@@ -1117,12 +1111,42 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.4665616901447,
-            -34.7371328114051
+            -58.4665739852694,
+            -34.7371203370248
           ],
           [
-            -58.4676602451913,
-            -34.7376640936417
+            -58.4676338103597,
+            -34.7376800132612
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-04-24T03:00:00.000Z",
+        "cgm": "Albertina",
+        "tarea": "Zanjeo",
+        "cant": 1,
+        "mts.": "",
+        "tipo": "Zanja",
+        "direccion_desde": "Aguirre & Iparraguirre",
+        "direccion_hasta": "Aguirre & Terrada",
+        "": "HST169",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4665739852694,
+            -34.7371203370248
+          ],
+          [
+            -58.4676338103597,
+            -34.7376800132612
           ]
         ]
       },
@@ -4068,8 +4092,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.455062,
-          -34.738932
+          -58.4550402443419,
+          -34.7388883298169
         ]
       },
       "properties": {
@@ -4092,8 +4116,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4426575,
-          -34.7073212
+          -58.4550402443419,
+          -34.7388883298169
         ]
       },
       "properties": {
@@ -5616,13 +5640,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4510497,
-          -34.7557109
+          -58.4510437974588,
+          -34.7557405087899
         ]
       },
       "properties": {
         "fecha": "2026-05-27T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -5640,13 +5664,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4535861282213,
-          -34.7524096912472
+          -58.4535646712969,
+          -34.7523832455723
         ]
       },
       "properties": {
         "fecha": "2026-05-25T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -11476,10 +11500,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.4491114,
-          -34.763931
+          [
+            -58.4625661988503,
+            -34.7459135689949
+          ],
+          [
+            -58.460677930827,
+            -34.7449526613885
+          ]
         ]
       },
       "properties": {
@@ -11489,8 +11519,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Zanja",
-        "direccion_desde": "calle Bidazoa desde O'Higgins hasta Iparraguirre",
-        "direccion_hasta": "",
+        "direccion_desde": "Bidazoa & O'Higgins ",
+        "direccion_hasta": "Bidazoa & Iparraguirre",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -17358,8 +17388,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.44781829999999,
-          -34.754051
+          -58.4478144607298,
+          -34.7540568807536
         ]
       },
       "properties": {
@@ -17369,7 +17399,7 @@
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Homero y Urunday",
+        "direccion_desde": "Homero & Urunday",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -17382,8 +17412,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.44781829999999,
-          -34.754051
+          -58.4478144607298,
+          -34.7540568807536
         ]
       },
       "properties": {
@@ -17393,7 +17423,7 @@
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Homero y Urunday",
+        "direccion_desde": "Homero & Urunday",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -18604,10 +18634,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.43983000000001,
-          -34.7387
+          [
+            -58.4485018449022,
+            -34.7274679858641
+          ],
+          [
+            -58.4473002336876,
+            -34.7269300724459
+          ]
         ]
       },
       "properties": {
@@ -18617,8 +18653,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "calle La Haya e/ Guamini y Montiel",
-        "direccion_hasta": "",
+        "direccion_desde": "La Haya & Guamini",
+        "direccion_hasta": "La Haya & Montiel",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -18628,10 +18664,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.43983000000001,
-          -34.7387
+          [
+            -58.4485018449022,
+            -34.7274679858641
+          ],
+          [
+            -58.4473002336876,
+            -34.7269300724459
+          ]
         ]
       },
       "properties": {
@@ -18641,8 +18683,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Zanja",
-        "direccion_desde": "calle La Haya e/ Guamini y Montiel",
-        "direccion_hasta": "",
+        "direccion_desde": "La Haya & Guamini",
+        "direccion_hasta": "La Haya & Montiel",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -30096,8 +30138,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4302476,
-          -34.76118230000001
+          -58.4573268135574,
+          -34.7432229250594
         ]
       },
       "properties": {
@@ -30107,7 +30149,7 @@
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Euskadi & Bidasoa",
+        "direccion_desde": "Euskadi & Bidazoa",
         "direccion_hasta": "",
         "": "AF262DV- CONTRATADO",
         "distancia": "",
@@ -30144,8 +30186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4421603,
-          -34.763397
+          -58.442149571856,
+          -34.7633793177763
         ]
       },
       "properties": {
@@ -30155,7 +30197,7 @@
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Euskadi y Santa Monica",
+        "direccion_desde": "Euskadi & Santa Monica",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -32772,13 +32814,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.46597999999999,
-          -34.72973
+          -58.4660121889645,
+          -34.729659406572
         ]
       },
       "properties": {
         "fecha": "2026-01-05T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -32796,13 +32838,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.46597999999999,
-          -34.72973
+          -58.4660121889645,
+          -34.729659406572
         ]
       },
       "properties": {
         "fecha": "2026-05-15T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -33264,18 +33306,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.47000269999999,
-          -34.7224429
+          -58.4699919734922,
+          -34.7223722994705
         ]
       },
       "properties": {
         "fecha": "2026-03-21T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Int. Tavano y Campana",
+        "direccion_desde": "Int. Tavano & Campana",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -38884,21 +38926,27 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.4309838,
-          -34.7234891
+          [
+            -58.4344332515434,
+            -34.7241643207392
+          ],
+          [
+            -58.4315552454488,
+            -34.7227449924124
+          ]
         ]
       },
       "properties": {
         "fecha": "2026-05-04T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Centenario",
         "tarea": "Zanjeo y Limpieza",
         "cant": 1,
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "Napoles entre Unamuno y Filardi",
-        "direccion_hasta": "",
+        "direccion_desde": "Napoles & Unamuno",
+        "direccion_hasta": "Napoles & Filardi",
         "": "HST169",
         "distancia": "",
         "nro._reporte": "",
@@ -38910,13 +38958,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.47114639999999,
-          -34.7181937
+          -58.4711142132575,
+          -34.7182024638692
         ]
       },
       "properties": {
         "fecha": "2026-05-22T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -38934,13 +38982,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.47016910000001,
-          -34.7172813
+          -58.4701905579132,
+          -34.7172812462726
         ]
       },
       "properties": {
         "fecha": "2026-05-22T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Lamadrid",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -44526,13 +44574,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.45374890000001,
-          -34.7560199
+          -58.4538883744977,
+          -34.7560551073763
         ]
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 16,
         "mts.": "",
@@ -44572,10 +44620,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.4129034,
-          -34.7491856
+          [
+            -58.4694753351114,
+            -34.7352747482204
+          ],
+          [
+            -58.4676512756267,
+            -34.7376993577756
+          ]
         ]
       },
       "properties": {
@@ -44585,8 +44639,8 @@
         "cant": 1,
         "mts.": "",
         "tipo": "Zanja",
-        "direccion_desde": "Terrada entre escobar y aguirre",
-        "direccion_hasta": "",
+        "direccion_desde": "Terrada & Escobar ",
+        "direccion_hasta": "Terrada & Aguirre",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -44596,21 +44650,27 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.45327939999999,
-          -34.756879
+          [
+            -58.4533075807814,
+            -34.756886452105
+          ],
+          [
+            -58.4541015402968,
+            -34.7557934311525
+          ]
         ]
       },
       "properties": {
         "fecha": "2026-04-16T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 18,
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "Terrada entre Urunday y Pampero",
-        "direccion_hasta": "",
+        "direccion_desde": "Terrada & Urunday",
+        "direccion_hasta": "Terrada & Pampero",
         "": "OLL491",
         "distancia": "",
         "nro._reporte": "",
@@ -44622,8 +44682,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.467568,
-          -34.737661
+          -58.4676512756267,
+          -34.7376993577756
         ]
       },
       "properties": {
@@ -44633,7 +44693,7 @@
         "cant": 1,
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "Terrada y Aguirre",
+        "direccion_desde": "Terrada & Aguirre",
         "direccion_hasta": "",
         "": "HUF678",
         "distancia": "",
@@ -44646,8 +44706,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.46953971634255,
-          -34.73491328387423
+          -58.4694753351114,
+          -34.7352747482204
         ]
       },
       "properties": {
@@ -44657,7 +44717,7 @@
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Terrada y Escobar",
+        "direccion_desde": "Terrada & Escobar ",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
