@@ -907,12 +907,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.4292455,
-            -34.7600556
+            -58.465407142134,
+            -34.7365588621291
           ],
           [
-            -58.4491114,
-            -34.763931
+            -58.4685077887232,
+            -34.7380312869564
           ]
         ]
       },
@@ -923,7 +923,7 @@
         "cant": 14,
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "Aguirre & Bustos y O Higgins",
+        "direccion_desde": "Aguirre & Bustos",
         "direccion_hasta": "Aguirre & O'Higgins",
         "": "AA065BR",
         "distancia": "",
@@ -18562,10 +18562,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.446669,
-          -34.726665
+          [
+            -58.4460128051919,
+            -34.7263039633636
+          ],
+          [
+            -58.4472787759909,
+            -34.7269300717651
+          ]
         ]
       },
       "properties": {
@@ -18575,8 +18581,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "calle La Haya e/ Campoamor y Guamini",
-        "direccion_hasta": "",
+        "direccion_desde": "La Haya & Campoamor ",
+        "direccion_hasta": "La Haya & Guamini",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -18586,10 +18592,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.446744,
-          -34.726665
+          [
+            -58.4460128051919,
+            -34.7263039633636
+          ],
+          [
+            -58.4472787759909,
+            -34.7269300717651
+          ]
         ]
       },
       "properties": {
@@ -18599,8 +18611,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Zanja",
-        "direccion_desde": "calle La Haya e/ Campoamor y Guamini",
-        "direccion_hasta": "",
+        "direccion_desde": "La Haya & Campoamor ",
+        "direccion_hasta": "La Haya & Guamini",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -18610,10 +18622,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.4430936,
-          -34.7244901
+          [
+            -58.4460128051919,
+            -34.7263039633636
+          ],
+          [
+            -58.4472787759909,
+            -34.7269300717651
+          ]
         ]
       },
       "properties": {
@@ -18623,8 +18641,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "calle La Haya e/ Campoamor y Guamini",
-        "direccion_hasta": "",
+        "direccion_desde": "La Haya & Campoamor ",
+        "direccion_hasta": "La Haya & Guamini",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -48943,12 +48961,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.4549108,
-            -34.7261265
+            -58.4416042284947,
+            -34.7365917795528
           ],
           [
-            -58.4415935,
-            -34.7365742
+            -58.4452949485009,
+            -34.7385491097185
           ]
         ]
       },
@@ -48959,8 +48977,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Puente vecinal",
-        "direccion_desde": "Montiel & Ricardo Palma",
-        "direccion_hasta": "Montiel & Rawson",
+        "direccion_desde": "Montiel & Rawson",
+        "direccion_hasta": "Rawson & Ricardo Palma",
         "": "",
         "distancia": "",
         "nro._reporte": "",
