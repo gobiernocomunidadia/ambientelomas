@@ -858,8 +858,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4590153,
-          -34.7471661
+          -58.4665739852694,
+          -34.7371203370248
         ]
       },
       "properties": {
@@ -869,7 +869,7 @@
         "cant": 8,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Aguirre e Iparraguirre",
+        "direccion_desde": "Aguirre & Iparraguirre",
         "direccion_hasta": "",
         "": "AA065BR",
         "distancia": "",
@@ -882,8 +882,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4590153,
-          -34.7471661
+          -58.4665739852694,
+          -34.7371203370248
         ]
       },
       "properties": {
@@ -17394,7 +17394,7 @@
       },
       "properties": {
         "fecha": "2026-01-13T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -17418,7 +17418,7 @@
       },
       "properties": {
         "fecha": "2026-02-18T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
@@ -17628,8 +17628,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4129034,
-          -34.7491856
+          -58.4665739852694,
+          -34.7371203370248
         ]
       },
       "properties": {
@@ -17639,7 +17639,7 @@
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Iparraguirre y Aguirre",
+        "direccion_desde": "Aguirre & Iparraguirre",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -18694,10 +18694,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.44789,
-          -34.727195
+          [
+            -58.4485125726672,
+            -34.7275032569793
+          ],
+          [
+            -58.4472787756042,
+            -34.7269388894892
+          ]
         ]
       },
       "properties": {
@@ -18707,8 +18713,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "calle La Haya e/ Montiel y Guamini",
-        "direccion_hasta": "",
+        "direccion_desde": "La Haya & Montiel",
+        "direccion_hasta": "La Haya & Guamini",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -18718,10 +18724,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.4445852,
-          -34.7304355
+          [
+            -58.4485125726672,
+            -34.7275032569793
+          ],
+          [
+            -58.4472787756042,
+            -34.7269388894892
+          ]
         ]
       },
       "properties": {
@@ -18731,8 +18743,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Conducto",
-        "direccion_desde": "calle La Haya e/ Montiel y Guamini",
-        "direccion_hasta": "",
+        "direccion_desde": "La Haya & Montiel",
+        "direccion_hasta": "La Haya & Guamini",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -18742,10 +18754,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.448513,
-          -34.727547
+          [
+            -58.4485125726672,
+            -34.7275032569793
+          ],
+          [
+            -58.4472787756042,
+            -34.7269388894892
+          ]
         ]
       },
       "properties": {
@@ -18755,8 +18773,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "calle La Haya e/ Montiel y Guamini",
-        "direccion_hasta": "",
+        "direccion_desde": "La Haya & Montiel",
+        "direccion_hasta": "La Haya & Guamini",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -18766,10 +18784,16 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.343163,
-          -34.752156
+          [
+            -58.4485125726672,
+            -34.7275032569793
+          ],
+          [
+            -58.4472787756042,
+            -34.7269388894892
+          ]
         ]
       },
       "properties": {
@@ -18779,8 +18803,8 @@
         "cant": "",
         "mts.": "",
         "tipo": "Zanja",
-        "direccion_desde": "calle La Haya e/ Montiel y Guamini",
-        "direccion_hasta": "",
+        "direccion_desde": "La Haya & Montiel",
+        "direccion_hasta": "La Haya & Guamini",
         "": "",
         "distancia": "",
         "nro._reporte": "",
@@ -30192,7 +30216,7 @@
       },
       "properties": {
         "fecha": "2026-03-28T03:00:00.000Z",
-        "cgm": "Albertina",
+        "cgm": "Parque Baron",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
