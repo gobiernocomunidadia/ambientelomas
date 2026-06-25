@@ -4140,8 +4140,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.446155,
-          -34.6909302
+          -58.3659334059172,
+          -34.7481842202938
         ]
       },
       "properties": {
@@ -4164,8 +4164,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.446155,
-          -34.6909302
+          -58.3659334059172,
+          -34.7481842202938
         ]
       },
       "properties": {
@@ -13356,8 +13356,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4426575,
-          -34.7073212
+          -58.39371005955,
+          -34.7455542514881
         ]
       },
       "properties": {
@@ -13367,7 +13367,7 @@
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Chacabuco y Alsina",
+        "direccion_desde": "Chacabuco & Alsina",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -25746,8 +25746,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.40388,
-          -34.766314
+          -58.3979713878101,
+          -34.7376319791338
         ]
       },
       "properties": {
@@ -25757,7 +25757,7 @@
         "cant": 4,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Tomás Godoy Cruz y Av. Hipólito Yrigoyen",
+        "direccion_desde": "Tomás Godoy Cruz & Av. Hipólito Yrigoyen",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -31140,7 +31140,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Banfield",
+        "cgm": "Santa Catalina",
         "tarea": "Corte de Pasto y Zanjeo",
         "cant": 1,
         "mts.": 400,
@@ -32664,8 +32664,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.470164,
-          -34.736638
+          -58.3958476403189,
+          -34.7467040963266
         ]
       },
       "properties": {
@@ -40908,8 +40908,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.382308,
-          -34.748131
+          -58.3823076726736,
+          -34.7480956900895
         ]
       },
       "properties": {
@@ -40919,7 +40919,7 @@
         "cant": 4,
         "mts.": "",
         "tipo": "Camara",
-        "direccion_desde": "Peña y Capdevila",
+        "direccion_desde": "Peña & Capdevila",
         "direccion_hasta": "",
         "": "AF451EH",
         "distancia": "SGR",
@@ -40932,8 +40932,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.40087,
-          -34.75928
+          -58.3823076726736,
+          -34.7480956900895
         ]
       },
       "properties": {
@@ -40943,7 +40943,7 @@
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Peña&Capdevila",
+        "direccion_desde": "Peña & Capdevila",
         "direccion_hasta": "",
         "": "AA411YY",
         "distancia": "",
@@ -50820,8 +50820,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4302476,
-          -34.76118230000001
+          -58.3888467331667,
+          -34.7537406517907
         ]
       },
       "properties": {
@@ -50844,8 +50844,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.3913354,
-          -34.7570799
+          -58.3894982143694,
+          -34.7476162983909
         ]
       },
       "properties": {
@@ -50855,7 +50855,7 @@
         "cant": "",
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Gaston & Viamonte",
+        "direccion_desde": "Gascon & Viamonte",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -51144,13 +51144,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.3839643,
-          -34.7599447
+          -58.3839204073574,
+          -34.7599440230896
         ]
       },
       "properties": {
         "fecha": "2026-06-10T03:00:00.000Z",
-        "cgm": "BANFIELD",
+        "cgm": "Temperley",
         "tarea": "Limpieza a mano",
         "cant": "",
         "mts.": "",
