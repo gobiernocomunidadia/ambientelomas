@@ -24114,8 +24114,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.48191,
-          -34.73302
+          -58.4818925910522,
+          -34.7330125615452
         ]
       },
       "properties": {
@@ -24125,7 +24125,7 @@
         "cant": "",
         "mts.": "",
         "tipo": "Conducto Vecinal",
-        "direccion_desde": "calle Saladillo y Av. Medrano",
+        "direccion_desde": "Saladillo & Av. Medrano",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -46176,8 +46176,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4559479,
-          -34.7248471
+          -58.4559605483725,
+          -34.7248623575271
         ]
       },
       "properties": {
