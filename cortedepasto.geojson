@@ -56519,7 +56519,7 @@
         "CGM": "Fiorito",
         "Localidad": "Villa Fiorito",
         "Color_Generado": "#3cb44b",
-        "Distancia": 540.01,
+        "Distancia": 668.81,
         "Area": 0,
         "marker-symbol": "O",
         "Tipo_Punto": "O"
@@ -56528,8 +56528,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.4412025967801,
-            -34.7133541616055
+            -58.4406259826771,
+            -34.7138132747059
           ],
           [
             -58.4419043209183,
