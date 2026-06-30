@@ -3618,12 +3618,12 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Azamor y Conesa",
+        "direccion_desde": "Azamor & Conesa",
         "direccion_hasta": "",
         "": "AA065BR",
         "distancia": "",
@@ -3642,12 +3642,12 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
         "tipo": "Camara",
-        "direccion_desde": "Azamor y Conesa",
+        "direccion_desde": "Azamor & Conesa",
         "direccion_hasta": "",
         "": "AA065BR",
         "distancia": "",
@@ -3972,8 +3972,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.45345709999999,
-          -34.7105712
+          -58.4534785601659,
+          -34.7105005900125
         ]
       },
       "properties": {
@@ -3983,7 +3983,7 @@
         "cant": 4,
         "mts.": "",
         "tipo": "Cruce de Calle",
-        "direccion_desde": "Baradero y Falleres",
+        "direccion_desde": "Baradero & Falleres",
         "direccion_hasta": "",
         "": "AA065BR",
         "distancia": "",
@@ -3996,8 +3996,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.453446,
-          -34.710571
+          -58.4534785601659,
+          -34.7105005900125
         ]
       },
       "properties": {
@@ -4007,7 +4007,7 @@
         "cant": 4,
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "Baradero y Falleres",
+        "direccion_desde": "Baradero & Falleres",
         "direccion_hasta": "",
         "": "AA065BR",
         "distancia": "",
@@ -4026,12 +4026,12 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 2,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Baradero y Larrazabal",
+        "direccion_desde": "Baradero & Larrazabal",
         "direccion_hasta": "",
         "": "AA065BR",
         "distancia": "",
@@ -4050,12 +4050,12 @@
       },
       "properties": {
         "fecha": "2026-05-06T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 1,
         "mts.": "",
         "tipo": "Camara",
-        "direccion_desde": "Baradero y Larrazabal",
+        "direccion_desde": "Baradero & Larrazabal",
         "direccion_hasta": "",
         "": "AA065BR",
         "distancia": "",
@@ -5640,8 +5640,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4510437974588,
-          -34.7557405087899
+          -58.4510497020912,
+          -34.7556491427765
         ]
       },
       "properties": {
@@ -5856,18 +5856,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4510497000052,
-          -34.7555346058847
+          -58.4510497020912,
+          -34.7556491427765
         ]
       },
       "properties": {
         "fecha": "2026-03-25T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Bustos y Urunday",
+        "direccion_desde": "Bustos & Urunday",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -5880,18 +5880,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4510497000052,
-          -34.7555346058847
+          -58.4510497020912,
+          -34.7556491427765
         ]
       },
       "properties": {
         "fecha": "2026-04-22T03:00:00.000Z",
-        "cgm": "Parque Baron",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Bustos y Urunday",
+        "direccion_desde": "Bustos & Urunday",
         "direccion_hasta": "",
         "": "PMM561",
         "distancia": "SGR",
@@ -5902,21 +5902,27 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          -58.446535,
-          -34.741445
+          [
+            -58.4510389729415,
+            -34.7556579572704
+          ],
+          [
+            -58.4469886,
+            -34.7408936
+          ]
         ]
       },
       "properties": {
         "fecha": "2026-04-18T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 8,
         "mts.": "",
         "tipo": "Puente Vecinal",
-        "direccion_desde": "C. de Alas e/ M.Rodriguez y Cap. Sarmiento",
-        "direccion_hasta": "",
+        "direccion_desde": "C. de Alas & M.Rodriguez ",
+        "direccion_hasta": "C. de Alas & Cap. Sarmiento",
         "": "OLL491",
         "distancia": "",
         "nro._reporte": "",
@@ -11244,12 +11250,12 @@
       },
       "properties": {
         "fecha": "2026-02-05T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Azamor y Milan",
+        "direccion_desde": "Azamor & Milan",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -16428,8 +16434,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.458121,
-          -34.730891
+          -58.4581422298698,
+          -34.7308691939464
         ]
       },
       "properties": {
@@ -16439,7 +16445,7 @@
         "cant": 4,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Ginebra y Andres Bello",
+        "direccion_desde": "Ginebra & Andres Bello",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -16452,8 +16458,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.452835,
-          -34.737721
+          -58.4581422298698,
+          -34.7308691939464
         ]
       },
       "properties": {
@@ -16463,7 +16469,7 @@
         "cant": 4,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Ginebra y Andres Bello",
+        "direccion_desde": "Ginebra & Andres Bello",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -16476,8 +16482,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4474292,
-          -34.7334773
+          -58.4519192304207,
+          -34.7276405575116
         ]
       },
       "properties": {
@@ -16487,7 +16493,7 @@
         "cant": 8,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Ginebra y Espronceda",
+        "direccion_desde": "Ginebra & Espronceda",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -19146,8 +19152,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4282797998964,
-          -34.7417879620019
+          -58.4301862426318,
+          -34.742600763079
         ]
       },
       "properties": {
@@ -19157,7 +19163,7 @@
         "cant": 4,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Larroque y Colectora de Camino Pte Peron",
+        "direccion_desde": "Larroque & Colectora de Camino Pte Peron",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -21546,18 +21552,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.451784,
-          -34.730064
+          -58.4517949622651,
+          -34.7299407670498
         ]
       },
       "properties": {
         "fecha": "2026-01-15T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Ostende y Ricardo Palma",
+        "direccion_desde": "Ostende & Ricardo Palma",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -21834,8 +21840,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.448676,
-          -34.734138
+          -58.4486543718625,
+          -34.734112011636
         ]
       },
       "properties": {
@@ -21845,7 +21851,7 @@
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Paris y Ricardo Palma",
+        "direccion_desde": "Paris & Ricardo Palma",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -22872,12 +22878,12 @@
       },
       "properties": {
         "fecha": "2026-03-19T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "calle Quesada y AZamor",
+        "direccion_desde": "Quesada & Azamor",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -28482,18 +28488,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.443857,
-          -34.726915
+          -58.4438246007179,
+          -34.7268798102236
         ]
       },
       "properties": {
         "fecha": "2026-04-11T03:00:00.000Z",
-        "cgm": "Budge",
+        "cgm": "Albertina",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 5,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Corinto y Cosquin",
+        "direccion_desde": "Corinto & Cosquin",
         "direccion_hasta": "",
         "": "AA065BR",
         "distancia": "",
@@ -28578,8 +28584,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.439247,
-          -34.732779
+          -58.4393379492492,
+          -34.7327203596234
         ]
       },
       "properties": {
@@ -35136,8 +35142,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.469527,
-          -34.719421
+          -58.4695397866487,
+          -34.7194215124649
         ]
       },
       "properties": {
@@ -35147,7 +35153,7 @@
         "cant": 1,
         "mts.": "",
         "tipo": "Zanja",
-        "direccion_desde": "Lavarden y Brizuela (Bruselas)",
+        "direccion_desde": "Lavarden & Bruselas",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -35160,8 +35166,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.469305537892424,
-          -34.71949743992288
+          -58.4695397866487,
+          -34.7194215124649
         ]
       },
       "properties": {
@@ -35171,7 +35177,7 @@
         "cant": 4,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Lavarden y Bruselas",
+        "direccion_desde": "Lavarden & Bruselas",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -42228,8 +42234,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.437721,
-          -34.734563
+          -58.4378179880075,
+          -34.7345194421321
         ]
       },
       "properties": {
@@ -42354,7 +42360,7 @@
       },
       "properties": {
         "fecha": "2026-05-21T03:00:00.000Z",
-        "cgm": "Budge ",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 7,
         "mts.": "",
@@ -42378,7 +42384,7 @@
       },
       "properties": {
         "fecha": "2026-04-10T03:00:00.000Z",
-        "cgm": "Budge ",
+        "cgm": "Fiorito",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 4,
         "mts.": "",
@@ -45222,18 +45228,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4510497000052,
-          -34.7555346058847
+          -58.4510497020912,
+          -34.7556491427765
         ]
       },
       "properties": {
         "fecha": "2026-04-25T03:00:00.000Z",
-        "cgm": "Budge ",
+        "cgm": "Santa Marta",
         "tarea": "Limpieza y Desobstruccion",
         "cant": 6,
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Urunday y Bustos",
+        "direccion_desde": "Bustos & Urunday",
         "direccion_hasta": "",
         "": "AA411YY",
         "distancia": "",
@@ -46513,8 +46519,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -58.4559479,
-            -34.7248471
+            -58.4556757715654,
+            -34.7243741275488
           ],
           [
             -58.4768146,
@@ -48288,13 +48294,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.4461682,
-          -34.7374002
+          -58.4461682023738,
+          -34.7373296124368
         ]
       },
       "properties": {
         "fecha": "2026-06-04T03:00:00.000Z",
-        "cgm": "BUDGE",
+        "cgm": "Albertina",
         "tarea": "Limpieza y desobstruccion",
         "cant": "",
         "mts.": "",
@@ -50832,8 +50838,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.388860967463,
-          -34.7537518456099
+          -58.3888537545236,
+          -34.7537603329242
         ]
       },
       "properties": {
@@ -50843,7 +50849,7 @@
         "cant": "",
         "mts.": "",
         "tipo": "Sumidero",
-        "direccion_desde": "Arenales & Pinto",
+        "direccion_desde": "Arenales & General Pintos",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
@@ -58704,30 +58710,6 @@
         "mts.": "",
         "tipo": "Camara",
         "direccion_desde": "Rofriguez Peña & Santa Fe",
-        "direccion_hasta": "",
-        "": "",
-        "distancia": "",
-        "nro._reporte": "",
-        "observaciones": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.4797818,
-          -34.7447967
-        ]
-      },
-      "properties": {
-        "fecha": "2026-06-29T03:00:00.000Z",
-        "cgm": "BANFIELD",
-        "tarea": "Limpieza a mano",
-        "cant": "",
-        "mts.": "",
-        "tipo": "Camara",
-        "direccion_desde": "French & Santa Fe",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
