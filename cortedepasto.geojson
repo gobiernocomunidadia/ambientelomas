@@ -58929,6 +58929,112 @@
           -34.78475397155153
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "29/6/2026",
+        "Inicio Recorrido": "Padre Carlos Mujica & Cabo del Monte",
+        "Fin del Recorrido": "Padre Carlos Mujica & Cabo Correa",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 255.75,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4701639576809,
+            -34.738980866583
+          ],
+          [
+            -58.4709225084007,
+            -34.7380144296086
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "29/6/2026",
+        "Inicio Recorrido": "Quiroga & las vias",
+        "Fin del Recorrido": "Quiroga & Padre Carlos Mujica",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 254.79,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.464749281148,
+            -34.7437929753383
+          ],
+          [
+            -58.4659311421361,
+            -34.7444008656646
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "29/6/2026",
+        "Inicio Recorrido": "Padre Carlos Mujica & Quiroga",
+        "Fin del Recorrido": "Padre Carlos Mujica & Soldado Zelarrayan",
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 643.99,
+        "Area": 0,
+        "marker-symbol": "O",
+        "Tipo_Punto": "O"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4659311421361,
+            -34.7444008656646
+          ],
+          [
+            -58.4678167066133,
+            -34.7419544505439
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Fecha_str": "29/6/2026",
+        "Inicio Recorrido": "Plaza Malvinas Argentinas",
+        "Fin del Recorrido": null,
+        "CGM": "Santa Catalina",
+        "Localidad": "Ingeniero Budge",
+        "Color_Generado": "#3cb44b",
+        "Distancia": 0,
+        "Area": 0,
+        "marker-symbol": "P",
+        "Tipo_Punto": "P"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46865494862932,
+          -34.74096684034142
+        ]
+      }
     }
   ]
 }
