@@ -58722,6 +58722,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -58.4181055958107,
+          -34.7395503306135
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-29T03:00:00.000Z",
+        "cgm": "BANFIELD",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "French & Santa Fe",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -58.41830449999999,
           -34.7408295
         ]
@@ -59172,6 +59196,498 @@
         "mts.": "",
         "tipo": "Sumidero",
         "direccion_desde": "Eva Peron & Zuviria",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4456969,
+          -34.6990095
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "BUDGE",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Reano",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4419869,
+          -34.7510956
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Felipe Castro 2562",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.35837739999999,
+          -34.7548267
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Suecia & El Tala",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4566974,
+          -34.7087116
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "BUDGE",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Azamor",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4554848,
+          -34.7098969
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "BUDGE",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Figueredo",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4515348,
+          -34.714853
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "BUDGE",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Recondo",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44743949999999,
+          -34.7200653
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "BUDGE",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Cañuelas",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4302476,
+          -34.76118230000001
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "ALBERTINA",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Itati",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4413819,
+          -34.7277547
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "ALBERTINA",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Napoles",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44083930000001,
+          -34.7284943
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "ALBERTINA",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Amberes",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4400188,
+          -34.7295596
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "ALBERTINA",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Paris",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43833339999999,
+          -34.73176249999999
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "ALBERTINA",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Marsella",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4295188,
+            -34.8070917
+          ],
+          [
+            -58.4287929,
+            -34.8080522
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Colocacion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Caño Plastico",
+        "direccion_desde": "Juana Azurduy & Santos Vega",
+        "direccion_hasta": "Juana Azurduy & 1 de Marzo",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4295188,
+          -34.8070917
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Juana Azurduy & Santos Vega",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3547358,
+          -34.749655
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "SAN JOSE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Las Casuarinas & El Portugal",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4715904,
+          -34.738384
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Homero Manzi & Cabo Correa",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.47228089999999,
+          -34.7387365
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Cabo Correa & Agustin Magaldi",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.4768713,
+            -34.7382728
+          ],
+          [
+            -58.4767525,
+            -34.7396535
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Macacha Guemes & Cabo Caseres",
+        "direccion_hasta": "Macacha Guemes & Evita",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.47152479999999,
+          -34.7396975
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Nivelado de Suelo",
+        "cant": "",
+        "mts.": "",
+        "tipo": "",
+        "direccion_desde": "Agustin Magaldi entre Cabo del Monte & Cabo Correa",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4731888,
+          -34.7363075
+        ]
+      },
+      "properties": {
+        "fecha": "2026-06-30T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Nivelado de Suelo",
+        "cant": "",
+        "mts.": "",
+        "tipo": "",
+        "direccion_desde": "Homero Manzi & Cabo Caseres",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
