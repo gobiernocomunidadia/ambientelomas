@@ -61020,8 +61020,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.395657,
-          -34.8080352
+          -58.4298407711719,
+          -34.733306982905
         ]
       },
       "properties": {
@@ -61164,6 +61164,54 @@
         "mts.": "",
         "tipo": "Sumidero",
         "direccion_desde": "Eva Peron & Benteveo",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4737724,
+          -34.7395244
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-03T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Cabo Correa & Ramon Carrillo ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4665693,
+          -34.7503038
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-03T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Calle 107 & Calle 2(Obrero)",
         "direccion_hasta": "",
         "": "",
         "distancia": "",
