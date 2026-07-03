@@ -60150,6 +60150,606 @@
         "nro._reporte": "",
         "observaciones": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4679335,
+          -34.7249552
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "PARQUE BARON",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Tavano",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4386486,
+          -34.7651689
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "PARQUE BARON",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Voltaire",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4186456,
+          -34.7793835
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "TEMPERLEY",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Hospital Esteves",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.448275,
+          -34.7634809
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "PARQUE BARON",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Terrada",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4341578,
+          -34.7543804
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "PARQUE BARON",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Los Alomos ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4393664,
+          -34.7705732
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "PARQUE BARON",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Calcagno",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4374245,
+          -34.7720173
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "PARQUE BARON",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Santa Teresita",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4493738,
+          -34.7118019
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Itati & Gabriel Miro",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42629530000001,
+          -34.7245414
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Plumerillo & Barcelona",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43136099999999,
+          -34.7179744
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Plumerillo & Bucarest",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.427051,
+          -34.7235797
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Plumerillo & Paris",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.430423,
+          -34.7599672
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Colombres",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4328648,
+          -34.7562267
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Laprida",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4326902,
+          -34.7491734
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Chopin",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43018859999999,
+          -34.7476564
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Presidente Peron & Las Tropas",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4362138,
+          -34.7550927
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Calle 101 entre 1& 2 (Obrero)",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.464231,
+          -34.738152
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "ALBERTINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Terrada desde Ramallo hasta Zuloaga",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.464231,
+          -34.738152
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "ALBERTINA",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Terrada desde Ramallo hasta Zuloaga",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4419086,
+          -34.7209393
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "FIORITO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Ejercito de los Andes & Gabriel Miro",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4408177,
+          -34.7202714
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "FIORITO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Ejercito de los Andes & Pio Baroja",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4213888,
+          -34.8081144
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Cuyo & Pareta",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4213888,
+          -34.8081144
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Cuyo & Pareta",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.420533,
+          -34.8058824
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Rauch & Melber",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42262649999999,
+          -34.7633485
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Hector Flores Barrio el Campanario(monoblocks 8 9 12 13) ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4753453,
+          -34.7465505
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-02T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Nivelado de Suelo",
+        "cant": "",
+        "mts.": "",
+        "tipo": "",
+        "direccion_desde": "Thomas edison desde Pasaje Santiago hasta Quiroga",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
     }
   ]
 }
