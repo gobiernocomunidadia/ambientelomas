@@ -63594,6 +63594,582 @@
         "nro._reporte": "",
         "observaciones": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4099138,
+          -34.7594033
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Carlos Croce",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.41731619999999,
+          -34.7583421
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Mentruyt",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4184555,
+          -34.8099887
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Rauch entre Sastre & Silva",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4238521,
+          -34.7574376
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Dicepolo",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4231808,
+          -34.7575285
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Catamarca",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4215855,
+          -34.757747
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Santa Fe",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4224906,
+          -34.7576225
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Belelli",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42455879999999,
+          -34.7573427
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Corrientes",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4302476,
+          -34.76118230000001
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Barbieri & Mayor Olivera",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4256822,
+          -34.7571768
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Rodriguez",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4269578,
+          -34.7570115
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Donizetti",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43010219999999,
+          -34.7320984
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Capitan Sarmiento entre Benito Perez Galdos & Pio Baroja",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4289236,
+          -34.7567434
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Laprida & Jose Verdi",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4324262,
+          -34.7332833
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Sarmiento entre Gabriel Miro & Pio Baroja",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4324262,
+          -34.7332833
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Sarmiento entre Gabriel Miro & Pio Baroja",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4546842,
+          -34.7529751
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Iparraguirre & Valparaisso",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4546842,
+          -34.7529751
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Iparraguirre & Valparaisso",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46077349999999,
+          -34.7073324
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "BUDGE",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Reaño & Campoamor",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43975,
+          -34.7457925
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Gaona & Franklin",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43975,
+          -34.7457925
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Camara",
+        "direccion_desde": "Gaona & Franklin",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4430482,
+          -34.7437421
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Jose Ingenieros & Luis Vernet",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42865189999999,
+          -34.7898412
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Olleros & Nestor de la Peña",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43443559999999,
+          -34.7966236
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "LLAVALLOL",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Aristobulo del Valle & Santa Catalina",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44510589999999,
+          -34.7433054
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-14T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Gabriela Mistral & Trelles",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
     }
   ]
 }
