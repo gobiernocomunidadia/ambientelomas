@@ -10116,6 +10116,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -58.3839638,
+          -34.7665762
+        ]
+      },
+      "properties": {
+        "fecha": "2026-03-06T03:00:00.000Z",
+        "cgm": "Albertina",
+        "tarea": "Limpieza y Desobstruccion",
+        "cant": 5,
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "calle Agustín Magaldi y Cabo Casares",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -58.4064345,
           -34.7362919
         ]
@@ -64555,6 +64579,228 @@
         "tipo": "Sumidero",
         "direccion_desde": "Capitan Jacinto Yaben & Olimpo",
         "direccion_hasta": "Capitan Jacinto Yaben & Avenida 102",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4474292,
+          -34.7334773
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-15T03:00:00.000Z",
+        "cgm": "ALBERTINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Amberes entre Saladillo & Espronceda",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3965561,
+          -34.7892802
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-15T03:00:00.000Z",
+        "cgm": "TURDERA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Santa Ana & Vicente Lopez",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.36986209999999,
+          -34.7497271
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-15T03:00:00.000Z",
+        "cgm": "BANFIELD",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Guardia Nacional 850",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4118179,
+          -34.7341983
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-15T03:00:00.000Z",
+        "cgm": "BANFIELD",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Araoz & Mentruyt",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42669429999999,
+          -34.7558057
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-15T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Boedo & Donizetti ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.42867150000001,
+          -34.7555248
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-15T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Boedo & Verdi",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4307851,
+          -34.7552432
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-15T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Boedo & Manuel de Falla",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3987712,
+          -34.7867746
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-15T03:00:00.000Z",
+        "cgm": "TURDERA",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "",
+        "direccion_desde": "Parque Finky",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -58.48161219999999,
+            -34.7421171
+          ],
+          [
+            -58.48106989999999,
+            -34.740351
+          ]
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-15T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "San Manco & Miatello ",
+        "direccion_hasta": "San Manco & Yaben",
         "": "",
         "distancia": "",
         "nro._reporte": "",
