@@ -65238,6 +65238,462 @@
         "nro._reporte": "",
         "observaciones": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4313264,
+          -34.7327032
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-16T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Sarmiento entre Pio Baroja & Nuñez de Arce",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40419199999999,
+          -34.766626
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Hipolito Yrigoyen 9511",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4041171,
+          -34.7674859
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Hipolito Yrigoyen & Ramon Falcon",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40426369999999,
+          -34.7687525
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Hipolito Yrigoyen & Molina Arrotea",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4405383,
+          -34.7025341
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "FIORITO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Pilar & Larrazabal",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4482332,
+          -34.7182657
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "FIORITO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Morazan & Bermejo ",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4471538,
+          -34.7477324
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "SANTA MARTA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Florencio Sanchez 1687",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4781041,
+          -34.7251144
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "LAMADRID",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Newton & Pergamino",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4769099,
+          -34.726708
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "LAMADRID",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Newton & Oran",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4727273,
+          -34.73226440000001
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "LAMADRID",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Newton & Epecuen",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3959068,
+          -34.7262948
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Hipolito Yrigoyen  6123",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40537879999999,
+          -34.775724
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "LOMAS",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Hipolito Yrigoyen & Dorrego",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4302476,
+          -34.76118230000001
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Calle 106 entre 2 & 3(Obrero)",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4653265,
+          -34.7483495
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Calle 105 & Calle 3(Obrero)",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4302476,
+          -34.76118230000001
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Calle 107 entre 2&3(Obrero)",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3979554,
+          -34.7376378
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "BANFIELD",
+        "tarea": "Limpieza a mano",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Hipolito Yrigoyen & Godoy Cruz",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4767525,
+          -34.7396535
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Zanjeo y limpieza",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Puente vecinal",
+        "direccion_desde": "Evita entre Sub Oficial de Rosa & Cabo Caseres",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4687321,
+          -34.7473906
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "SANTA CATALINA",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Conducto",
+        "direccion_desde": "Calle 101 & Calle 2(Obrero)",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43302199999999,
+          -34.7394624
+        ]
+      },
+      "properties": {
+        "fecha": "2026-07-17T03:00:00.000Z",
+        "cgm": "CENTENARIO",
+        "tarea": "Limpieza y desobstruccion",
+        "cant": "",
+        "mts.": "",
+        "tipo": "Sumidero",
+        "direccion_desde": "Colectora & Mayor Olivero",
+        "direccion_hasta": "",
+        "": "",
+        "distancia": "",
+        "nro._reporte": "",
+        "observaciones": ""
+      }
     }
   ]
 }
